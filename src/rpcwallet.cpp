@@ -373,7 +373,7 @@ Value verifymessage(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 3)
         throw runtime_error(
-            "verifymessage <litecoinaddress> <signature> <message>\n"
+            "verifymessage <worldcoinaddress> <signature> <message>\n"
             "Verify a signed message");
 
     string strAddress  = params[0].get_str();
@@ -749,7 +749,7 @@ static CScript _createmultisig(const Array& params)
     {
         const std::string& ks = keys[i].get_str();
 
-        // Case 1: Litecoin address and we have full public key:
+        // Case 1: Worldcoin address and we have full public key:
         CBitcoinAddress address(ks);
         if (pwalletMain && address.IsValid())
         {

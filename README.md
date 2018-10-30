@@ -3,7 +3,7 @@ Worldcoin integration/staging tree
 
 http://www.worldcoinalliance.net
 Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 Litecoin Developers
+Copyright (c) 2011-2014 Worldcoin Developers
 Copyright (c) 2011-2018 Worldcoin Developers
 
 What is Worldcoin?

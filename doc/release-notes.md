@@ -1,9 +1,9 @@
 0.8.7.5 changes
 =============
-- openssl-1.0.1k or older versions patched for CVE-2014-8275 broke compatibility with Bitcoin and Litecoin.
-  This update patches Litecoin to maintain compatibility with CVE-2014-8275 patched openssl.
-- If you are running v0.8.7.4 as distributed by litecoin.org you do not need to upgrade.
-  The binaries distributed on litecoin.org contain their own copy of openssl so they are unaffected by this issue.
+- openssl-1.0.1k or older versions patched for CVE-2014-8275 broke compatibility with Bitcoin and Worldcoin.
+  This update patches Worldcoin to maintain compatibility with CVE-2014-8275 patched openssl.
+- If you are running v0.8.7.4 as distributed by worldcoin.org you do not need to upgrade.
+  The binaries distributed on worldcoin.org contain their own copy of openssl so they are unaffected by this issue.
 
 0.8.7.4 changes
 =============
@@ -37,7 +37,7 @@
 - Cleanup of SSE2 scrypt detection.
 
 - Minor fixes:
-  - s/Bitcoin/Litecoin/ in the Coin Control example
+  - s/Bitcoin/Worldcoin/ in the Coin Control example
   - Fix custom build on MacOS X 10.9
   - Fix QT5 custom build
   - Update Debian build instructions
@@ -56,7 +56,7 @@
 
 - Peers older than protocol version 70002 are disconnected.  0.8.3.7 is the oldest compatible client.
 
-- Internal miner added back to Litecoin.  setgenerate now works, although it is generally a bad idea as it is significantly slower than external CPU miners.
+- Internal miner added back to Worldcoin.  setgenerate now works, although it is generally a bad idea as it is significantly slower than external CPU miners.
 
 - New RPC commands: getbestblockhash and verifychain
 

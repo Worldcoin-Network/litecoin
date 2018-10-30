@@ -2,7 +2,7 @@ Worldcoin 0.8.x BETA
 ====================
 
 Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 Litecoin Developers
+Copyright (c) 2011-2014 Worldcoin Developers
 Copyright (c) 2011-2018 Worldcoin Developers
 
 Distributed under the MIT/X11 software license, see the accompanying
