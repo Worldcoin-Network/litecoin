@@ -1,9 +1,9 @@
 Worldcoin integration/staging tree
 ================================
 
-http://www.worldcoinalliance.net
-Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 Worldcoin Developers
+https://worldcoin.network
+Copyright (c) 2009-2014 Bitcoin Developers, 
+Copyright (c) 2011-2014 Litecoin Developers, 
 Copyright (c) 2011-2018 Worldcoin Developers
 
 What is Worldcoin?
@@ -18,7 +18,7 @@ Worldcoin is an improved version of Bitcoin using Scrypt as a proof-of-work algo
 
 
 For more information, as well as an immediately usable, binary version of
-the Worldcoin client software, see http://www.worldcoinalliance.net.
+the Worldcoin client software, see https://worldcoin.network
 
 License
 -------
@@ -45,7 +45,7 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/Worldcoin/Worldcoin/tags) are created
+completely stable. [Tags](https://github.com/Worldcoin-Network/worldcoin/tags) are created
 regularly to indicate new official, stable release versions of Worldcoin.
 
 Testing
