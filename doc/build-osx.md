@@ -1,185 +1,219 @@
-Mac OS X worldcoind build instructions
+macOS Build Instructions and Notes
 ====================================
-
-Authors
--------
-
-* Laszlo Hanyecz <solar@heliacal.net>
-* Douglas Huff <dhuff@jrbobdobbs.org>
-* Colin Dean <cad@cad.cx>
-* Gavin Andresen <gavinandresen@gmail.com>
-
-License
--------
-
-Copyright (c) 2009-2012 Bitcoin Developers
-
-Distributed under the MIT/X11 software license, see the accompanying
-file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in
-the OpenSSL Toolkit (http://www.openssl.org/).
-
-This product includes cryptographic software written by
-Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.
-
-Notes
------
-
-See `doc/readme-qt.rst` for instructions on building Worldcoin-Qt, the
-graphical user interface.
-
-Tested on OS X 10.5 through 10.8 on Intel processors only. PPC is not
-supported because it is big-endian.
-
-All of the commands should be executed in a Terminal application. The
-built-in one is located in `/Applications/Utilities`.
+The commands in this guide should be executed in a Terminal application.
+The built-in one is located in `/Applications/Utilities/Terminal.app`.
 
 Preparation
 -----------
+Install the macOS command line tools:
 
-You need to install XCode with all the options checked so that the compiler
-and everything is available in /usr not just /Developer. XCode should be
-available on your OS X installation media, but if not, you can get the
-current version from https://developer.apple.com/xcode/. If you install
-Xcode 4.3 or later, you'll need to install its command line tools. This can
-be done in `Xcode > Preferences > Downloads > Components` and generally must
-be re-done or updated every time Xcode is updated.
+`xcode-select --install`
 
-There's an assumption that you already have `git` installed, as well. If
-not, it's the path of least resistance to install [Github for Mac](https://mac.github.com/)
-(OS X 10.7+) or
-[Git for OS X](https://code.google.com/p/git-osx-installer/). It is also
-available via Homebrew or MacPorts.
+When the popup appears, click `Install`.
 
-You will also need to install [Homebrew](http://mxcl.github.io/homebrew/)
-or [MacPorts](https://www.macports.org/) in order to install library
-dependencies. It's largely a religious decision which to choose, but, as of
-December 2012, MacPorts is a little easier because you can just install the
-dependencies immediately - no other work required. If you're unsure, read
-the instructions through first in order to assess what you want to do.
-Homebrew is a little more popular among those newer to OS X.
+Then install [Homebrew](https://brew.sh).
 
-The installation of the actual dependencies is covered in the Instructions
-sections below.
-
-Instructions: MacPorts
+Dependencies
 ----------------------
 
-### Install dependencies
+    brew install automake berkeley-db4 libtool boost miniupnpc openssl pkg-config protobuf python qt libevent qrencode
 
-Installing the dependencies using MacPorts is very straightforward.
+See [dependencies.md](dependencies.md) for a complete overview.
 
-    sudo port install boost db48@+no_java openssl miniupnpc
+If you want to build the disk image with `make deploy` (.dmg / optional), you need RSVG:
 
-### Building `worldcoind`
+    brew install librsvg
 
-1. Clone the github tree to get the source code and go into the directory.
+Berkeley DB
+-----------
+It is recommended to use Berkeley DB 4.8. If you have to build it yourself,
+you can use [the installation script included in contrib/](/contrib/install_db4.sh)
+like so:
 
-        git clone git@github.com:worldcoin-project/worldcoin.git worldcoin
-        cd worldcoin
+```shell
+./contrib/install_db4.sh .
+```
 
-2.  Build worldcoind:
+from the root of the repository.
 
-        cd src
-        make -f makefile.osx
+**Note**: You only need Berkeley DB if the wallet is enabled (see [*Disable-wallet mode*](/doc/build-osx.md#disable-wallet-mode)).
 
-3.  It is a good idea to build and run the unit tests, too:
-
-        make -f makefile.osx test
-
-Instructions: HomeBrew
-----------------------
-
-#### Install dependencies using Homebrew
-
-        brew install boost miniupnpc openssl berkeley-db4
-
-Note: After you have installed the dependencies, you should check that the Brew installed version of OpenSSL is the one available for compilation. You can check this by typing
-
-        openssl version
-
-into Terminal. You should see OpenSSL 1.0.1e 11 Feb 2013.
-
-If not, you can ensure that the Brew OpenSSL is correctly linked by running
-
-        brew link openssl --force
-
-Rerunning "openssl version" should now return the correct version.
-
-### Building `worldcoind`
-
-1. Clone the github tree to get the source code and go into the directory.
-
-        git clone git@github.com:worldcoin-project/worldcoin.git worldcoin
-        cd worldcoin
-
-2.  Modify source in order to pick up the `openssl` library.
-
-    Edit `makefile.osx` to account for library location differences. There's a
-    diff in `contrib/homebrew/makefile.osx.patch` that shows what you need to
-    change, or you can just patch by doing
-
-        patch -p1 < contrib/homebrew/makefile.osx.patch
-
-3.  Build worldcoind:
-
-        cd src
-        make -f makefile.osx
-
-4.  It is a good idea to build and run the unit tests, too:
-
-        make -f makefile.osx test
-
-Creating a release build
+Build Worldcoin Core
 ------------------------
 
-A worldcoind binary is not included in the Worldcoin-Qt.app bundle. You can ignore
-this section if you are building `worldcoind` for your own use.
+1. Clone the Worldcoin Core source code:
 
-If you are building `litecond` for others, your build machine should be set up
-as follows for maximum compatibility:
+        git clone https://github.com/Worldcoin-Network/worldcoin
+        cd worldcoin
 
-All dependencies should be compiled with these flags:
+2.  Build Worldcoin Core:
 
-    -mmacosx-version-min=10.5 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk
+    Configure and build the headless Worldcoin Core binaries as well as the GUI (if Qt is found).
 
-For MacPorts, that means editing your macports.conf and setting
-`macosx_deployment_target` and `build_arch`:
+    You can disable the GUI build by passing `--without-gui` to configure.
 
-    macosx_deployment_target=10.5
-    build_arch=i386
+        ./autogen.sh
+        ./configure
+        make
 
-... and then uninstalling and re-installing, or simply rebuilding, all ports.
+3.  It is recommended to build and run the unit tests:
 
-As of December 2012, the `boost` port does not obey `macosx_deployment_target`.
-Download `http://gavinandresen-bitcoin.s3.amazonaws.com/boost_macports_fix.zip`
-for a fix. Some ports also seem to obey either `build_arch` or
-`macosx_deployment_target`, but not both at the same time. For example, building
-on an OS X 10.6 64-bit machine fails. Official release builds of Worldcoin-Qt are
-compiled on an OS X 10.6 32-bit machine to workaround that problem.
+        make check
 
-Once dependencies are compiled, creating `Worldcoin-Qt.app` is easy:
+4.  You can also create a .dmg that contains the .app bundle (optional):
 
-    make -f Makefile.osx RELEASE=1
+        make deploy
+
+5.  Installation into user directories (optional):
+
+        make install
+
+    or
+
+        cd ~/worldcoin/src
+        cp worldcoind /usr/local/bin/
+        cp worldcoin-cli /usr/local/bin/
+
+Disable-wallet mode
+--------------------
+When the intention is to run only a P2P node without a wallet, Worldcoin Core may be compiled in
+disable-wallet mode with:
+
+    ./configure --disable-wallet
+
+In this case there is no dependency on Berkeley DB 4.8.
+
+Mining is also possible in disable-wallet mode using the `getblocktemplate` RPC call.
 
 Running
 -------
 
-It's now available at `./worldcoind`, provided that you are still in the `src`
-directory. We have to first create the RPC configuration file, though.
+Worldcoin Core is now available at `./src/worldcoind`
 
-Run `./worldcoind` to get the filename where it should be put, or just try these
-commands:
+Before running, you may create an empty configuration file:
 
-    echo -e "rpcuser=worldcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Worldcoin/worldcoin.conf"
+    mkdir -p "/Users/${USER}/Library/Application Support/Worldcoin"
+
+    touch "/Users/${USER}/Library/Application Support/Worldcoin/worldcoin.conf"
+
     chmod 600 "/Users/${USER}/Library/Application Support/Worldcoin/worldcoin.conf"
 
-When next you run it, it will start downloading the blockchain, but it won't
-output anything while it's doing this. This process may take several hours.
+The first time you run worldcoind, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
+
+You can monitor the download process by looking at the debug.log file:
+
+    tail -f $HOME/Library/Application\ Support/Worldcoin/debug.log
 
 Other commands:
+-------
 
-    ./worldcoind --help  # for a list of command-line options.
-    ./worldcoind -daemon # to start the worldcoin daemon.
-    ./worldcoind help    # When the daemon is running, to get a list of RPC commands
+    ./src/worldcoind -daemon # Starts the worldcoin daemon.
+    ./src/worldcoin-cli --help # Outputs a list of command-line options.
+    ./src/worldcoin-cli help # Outputs a list of RPC commands when the daemon is running.
+
+Notes
+-----
+
+* Tested on OS X 10.10 Yosemite through macOS 10.13 High Sierra on 64-bit Intel processors only.
+
+* Building with downloaded Qt binaries is not officially supported. See the notes in [#7714](https://github.com/bitcoin/bitcoin/issues/7714)
+
+Deterministic macOS DMG Notes
+-----------------------------
+
+Working macOS DMGs are created in Linux by combining a recent clang,
+the Apple binutils (ld, ar, etc) and DMG authoring tools.
+
+Apple uses clang extensively for development and has upstreamed the necessary
+functionality so that a vanilla clang can take advantage. It supports the use
+of -F, -target, -mmacosx-version-min, and --sysroot, which are all necessary
+when building for macOS.
+
+Apple's version of binutils (called cctools) contains lots of functionality
+missing in the FSF's binutils. In addition to extra linker options for
+frameworks and sysroots, several other tools are needed as well such as
+install_name_tool, lipo, and nmedit. These do not build under linux, so they
+have been patched to do so. The work here was used as a starting point:
+[mingwandroid/toolchain4](https://github.com/mingwandroid/toolchain4).
+
+In order to build a working toolchain, the following source packages are needed
+from Apple: cctools, dyld, and ld64.
+
+These tools inject timestamps by default, which produce non-deterministic
+binaries. The ZERO_AR_DATE environment variable is used to disable that.
+
+This version of cctools has been patched to use the current version of clang's
+headers and its libLTO.so rather than those from llvmgcc, as it was
+originally done in toolchain4.
+
+To complicate things further, all builds must target an Apple SDK. These SDKs
+are free to download, but not redistributable.
+To obtain it, register for a developer account, then download the [Xcode 7.3.1 dmg](https://developer.apple.com/devcenter/download.action?path=/Developer_Tools/Xcode_7.3.1/Xcode_7.3.1.dmg).
+
+This file is several gigabytes in size, but only a single directory inside is
+needed:
+```
+Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk
+```
+
+Unfortunately, the usual linux tools (7zip, hpmount, loopback mount) are incapable of opening this file.
+To create a tarball suitable for Gitian input, there are two options:
+
+Using macOS, you can mount the dmg, and then create it with:
+```
+  $ hdiutil attach Xcode_7.3.1.dmg
+  $ tar -C /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/ -czf MacOSX10.11.sdk.tar.gz MacOSX10.11.sdk
+```
+
+Alternatively, you can use 7zip and SleuthKit to extract the files one by one.
+The script contrib/macdeploy/extract-osx-sdk.sh automates this. First ensure
+the dmg file is in the current directory, and then run the script. You may wish
+to delete the intermediate 5.hfs file and MacOSX10.11.sdk (the directory) when
+you've confirmed the extraction succeeded.
+
+```bash
+apt-get install p7zip-full sleuthkit
+contrib/macdeploy/extract-osx-sdk.sh
+rm -rf 5.hfs MacOSX10.11.sdk
+```
+
+The Gitian descriptors build 2 sets of files: Linux tools, then Apple binaries
+which are created using these tools. The build process has been designed to
+avoid including the SDK's files in Gitian's outputs. All interim tarballs are
+fully deterministic and may be freely redistributed.
+
+genisoimage is used to create the initial DMG. It is not deterministic as-is,
+so it has been patched. A system genisoimage will work fine, but it will not
+be deterministic because the file-order will change between invocations.
+The patch can be seen here:  [theuni/osx-cross-depends](https://raw.githubusercontent.com/theuni/osx-cross-depends/master/patches/cdrtools/genisoimage.diff).
+No effort was made to fix this cleanly, so it likely leaks memory badly. But
+it's only used for a single invocation, so that's no real concern.
+
+genisoimage cannot compress DMGs, so afterwards, the 'dmg' tool from the
+libdmg-hfsplus project is used to compress it. There are several bugs in this
+tool and its maintainer has seemingly abandoned the project. It has been forked
+and is available (with fixes) here: [theuni/libdmg-hfsplus](https://github.com/theuni/libdmg-hfsplus).
+
+The 'dmg' tool has the ability to create DMGs from scratch as well, but this
+functionality is broken. Only the compression feature is currently used.
+Ideally, the creation could be fixed and genisoimage would no longer be necessary.
+
+Background images and other features can be added to DMG files by inserting a
+.DS_Store before creation. This is generated by the script
+contrib/macdeploy/custom_dsstore.py.
+
+As of OS X 10.9 Mavericks, using an Apple-blessed key to sign binaries is a
+requirement in order to satisfy the new Gatekeeper requirements. Because this
+private key cannot be shared, we'll have to be a bit creative in order for the
+build process to remain somewhat deterministic. Here's how it works:
+
+- Builders use Gitian to create an unsigned release. This outputs an unsigned
+  dmg which users may choose to bless and run. It also outputs an unsigned app
+  structure in the form of a tarball, which also contains all of the tools
+  that have been previously (deterministically) built in order to create a
+  final dmg.
+- The Apple keyholder uses this unsigned app to create a detached signature,
+  using the script that is also included there. Detached signatures are available from this [repository](https://github.com/bitcoin-core/bitcoin-detached-sigs).
+- Builders feed the unsigned app + detached signature back into Gitian. It
+  uses the pre-built tools to recombine the pieces into a deterministic dmg.
+

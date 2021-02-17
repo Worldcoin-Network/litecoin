@@ -1,2917 +1,3716 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja" version="2.0">
-<defaultcodec>UTF-8</defaultcodec>
-<context>
-    <name>AboutDialog</name>
-    <message>
-        <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Worldcoin</source>
-        <translation>Worldcoinについて</translation>
-    </message>
-    <message>
-        <location line="+39"/>
-        <source>&lt;b&gt;Worldcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Worldcoin&lt;/b&gt; バージョン</translation>
-    </message>
-    <message>
-        <location line="+57"/>
-        <source>
-This is experimental software.
-
-Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
-
-This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../aboutdialog.cpp" line="+14"/>
-        <source>Copyright</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>The Worldcoin developers</source>
-        <translation type="unfinished"/>
-    </message>
-</context>
+<TS language="ja" version="2.1">
 <context>
     <name>AddressBookPage</name>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>Address Book</source>
-        <translation>アドレス帳</translation>
+        <source>Right-click to edit address or label</source>
+        <translation>右クリックでアドレスまたはラベルを編集</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Double-click to edit address or label</source>
-        <translation>アドレスまたはラベルを編集するにはダブルクリック</translation>
-    </message>
-    <message>
-        <location line="+27"/>
         <source>Create a new address</source>
-        <translation>新規アドレスの作成</translation>
+        <translation>新しいアドレスを作成</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <source>&amp;New</source>
+        <translation>新規(&amp;N)</translation>
+    </message>
+    <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>現在選択されているアドレスをシステムのクリップボードにコピーする</translation>
+        <translation>現在選択されているアドレスをシステムのクリップボードにコピー</translation>
     </message>
     <message>
-        <location line="-11"/>
-        <source>&amp;New Address</source>
-        <translation type="unfinished"/>
+        <source>&amp;Copy</source>
+        <translation>コピー(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Worldcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation type="unfinished"/>
+        <source>C&amp;lose</source>
+        <translation>閉じる(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../forms/addressbookpage.ui" line="+14"/>
-        <source>&amp;Copy Address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Show &amp;QR Code</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Sign a message to prove you own a Worldcoin address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Sign &amp;Message</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+25"/>
         <source>Delete the currently selected address from the list</source>
-        <translation type="unfinished"/>
+        <translation>選択されたアドレスを一覧から削除</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <source>Enter address or label to search</source>
+        <translation>検索したいアドレスまたはラベルを入力</translation>
+    </message>
+    <message>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished"/>
+        <translation>このタブのデータをファイルにエクスポート</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Export</source>
-        <translation type="unfinished"/>
+        <translation>エクスポート (&amp;E)</translation>
     </message>
     <message>
-        <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Worldcoin address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Verify Message</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+14"/>
         <source>&amp;Delete</source>
         <translation>削除(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../addressbookpage.cpp" line="-5"/>
+        <source>Choose the address to send coins to</source>
+        <translation>コインを送りたいアドレスを選択</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>コインを受け取りたいアドレスを選択</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>選択(&amp;C)</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>送金先アドレス</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>受取用アドレス</translation>
+    </message>
+    <message>
         <source>These are your Worldcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation type="unfinished"/>
+        <translation>これらは、あなたが知っている支払い送り先の Worldcoin アドレスです。コインを送る前に、必ず金額と送金先アドレスを確認してください。</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <source>These are your Worldcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>これらは支払いを受け取るための、あなたの Worldcoin アドレスです。トランザクションごとに新しい受け取り用アドレスを作成することが推奨されます。</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Address</source>
+        <translation>アドレスをコピー(&amp;C)</translation>
+    </message>
+    <message>
         <source>Copy &amp;Label</source>
-        <translation type="unfinished"/>
+        <translation>ラベルをコピー(&amp;L)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>&amp;Edit</source>
-        <translation type="unfinished"/>
+        <translation>編集(&amp;E)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Send &amp;Coins</source>
-        <translation type="unfinished"/>
+        <source>Export Address List</source>
+        <translation>アドレス帳をエクスポート</translation>
     </message>
     <message>
-        <location line="+260"/>
-        <source>Export Address Book Data</source>
-        <translation>アドレス帳データをエクスポートする</translation>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
-        <translation>CSVファイル (*.csv)</translation>
+        <translation>テキスト CSV (*.csv)</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Error exporting</source>
-        <translation>エクスポートエラー</translation>
+        <source>Exporting Failed</source>
+        <translation>エクスポートに失敗しました</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>%1のファイルに書き込めませんでした。</translation>
+        <source>There was an error trying to save the address list to %1. Please try again.</source>
+        <translation>トランザクション履歴を %1 へ保存する際にエラーが発生しました。再試行してください。</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
-        <location filename="../addresstablemodel.cpp" line="+144"/>
         <source>Label</source>
         <translation>ラベル</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Address</source>
         <translation>アドレス</translation>
     </message>
     <message>
-        <location line="+36"/>
         <source>(no label)</source>
-        <translation>（ラベル無し）</translation>
+        <translation>(ラベル無し)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
-        <location filename="../forms/askpassphrasedialog.ui" line="+26"/>
         <source>Passphrase Dialog</source>
-        <translation type="unfinished"/>
+        <translation>パスフレーズ ダイアログ</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Enter passphrase</source>
         <translation>パスフレーズを入力</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>New passphrase</source>
         <translation>新しいパスフレーズ</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Repeat new passphrase</source>
         <translation>新しいパスフレーズをもう一度</translation>
     </message>
     <message>
-        <location filename="../askpassphrasedialog.cpp" line="+33"/>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>ウォレットの新しいパスフレーズを入力してください。&lt;br/&gt;&lt;b&gt;8個以上の単語か10個以上のランダムな文字&lt;/b&gt;を使ってください。</translation>
+        <source>Show password</source>
+        <translation>パスワードを表示</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>ウォレットの新しいパスフレーズを入力してください。&lt;br/&gt;&lt;b&gt;10文字以上のランダムな文字&lt;/b&gt;で構成されたものか、&lt;b&gt;8単語以上の単語&lt;/b&gt;で構成されたパスフレーズを使用してください。</translation>
+    </message>
+    <message>
         <source>Encrypt wallet</source>
-        <translation>ウォレットを暗号化する</translation>
+        <translation>ウォレットを暗号化</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>この操作はウォレットをアンロックするためにパスフレーズが必要です。</translation>
+        <translation>この操作を続行するには、パスフレーズを入力してウォレットをアンロックする必要があります。</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Unlock wallet</source>
-        <translation>ウォレットをアンロックする</translation>
+        <translation>ウォレットをアンロック</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>この操作はウォレットの暗号化解除のためにパスフレーズが必要です。</translation>
+        <translation>この操作を続行するには、パスフレーズを入力してウォレットの暗号化を解除する必要があります。</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Decrypt wallet</source>
-        <translation>ウォレットの暗号化を解除する</translation>
+        <translation>ウォレットの暗号化を解除</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Change passphrase</source>
         <translation>パスフレーズの変更</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>新旧両方のパスフレーズを入力してください。</translation>
+        <source>Enter the old passphrase and new passphrase to the wallet.</source>
+        <translation>ウォレットの古いパスフレーズおよび新しいパスフレーズを入力してください。</translation>
     </message>
     <message>
-        <location line="+46"/>
         <source>Confirm wallet encryption</source>
-        <translation>ウォレットの暗号化を確認する</translation>
+        <translation>ウォレットの暗号化の承諾</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR WORLDCOINS&lt;/b&gt;!</source>
-        <translation type="unfinished"/>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
+        <translation>警告: もしもあなたのウォレットを暗号化してパスフレーズを忘れてしまったら、&lt;b&gt;あなたの Worldcoin はすべて失われます&lt;/b&gt;！</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation type="unfinished"/>
+        <translation>本当にウォレットを暗号化しますか?</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+100"/>
-        <location line="+24"/>
-        <source>Warning: The Caps Lock key is on!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-130"/>
-        <location line="+58"/>
         <source>Wallet encrypted</source>
-        <translation>ウォレットは暗号化されました</translation>
+        <translation>ウォレットの暗号化の完了</translation>
     </message>
     <message>
-        <location line="-56"/>
-        <source>Worldcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your worldcoins from being stolen by malware infecting your computer.</source>
-        <translation type="unfinished"/>
+        <source>Your wallet is now encrypted. Remember that encrypting your wallet cannot fully protect your worldcoins from being stolen by malware infecting your computer.</source>
+        <translation>ウォレットの暗号化処理が完了しました。ウォレットを暗号化しても、コンピュータに感染したマルウェアなどによる Worldcoin の盗難を完全に防ぐことはできないことにご注意ください。</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <location line="+7"/>
-        <location line="+42"/>
-        <location line="+6"/>
+        <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
+        <translation>重要: 今までに作成されたウォレット ファイルのバックアップは、暗号化された新しいウォレット ファイルに置き換える必要があります。セキュリティ上の理由により、暗号化された新しいウォレットを使い始めると、暗号化されていないウォレット ファイルのバックアップはすぐに使えなくなります。</translation>
+    </message>
+    <message>
         <source>Wallet encryption failed</source>
-        <translation>ウォレットの暗号化に失敗しました</translation>
+        <translation>ウォレットの暗号化に失敗</translation>
     </message>
     <message>
-        <location line="-54"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>内部エラーによりウォレットの暗号化が失敗しました。ウォレットは暗号化されませんでした。</translation>
+        <translation>内部エラーによりウォレットの暗号化に失敗しました。ウォレットは暗号化されませんでした。</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <location line="+48"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>パスフレーズが同じではありません。</translation>
+        <translation>入力されたパスフレーズが一致しません。</translation>
     </message>
     <message>
-        <location line="-37"/>
         <source>Wallet unlock failed</source>
-        <translation>ウォレットのアンロックに失敗しました</translation>
+        <translation>ウォレットのアンロックに失敗</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+11"/>
-        <location line="+19"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>ウォレットの暗号化解除のパスフレーズが正しくありません。</translation>
     </message>
     <message>
-        <location line="-20"/>
         <source>Wallet decryption failed</source>
-        <translation>ウォレットの暗号化解除に失敗しました</translation>
+        <translation>ウォレットの暗号化解除に失敗</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation type="unfinished"/>
+        <translation>ウォレットのパスフレーズが正常に変更されました。</translation>
+    </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>警告: Caps Lock キーがオンになっています！</translation>
+    </message>
+</context>
+<context>
+    <name>BanTableModel</name>
+    <message>
+        <source>IP/Netmask</source>
+        <translation>IPアドレス/ネットマスク</translation>
+    </message>
+    <message>
+        <source>Banned Until</source>
+        <translation>Ban 解除予定時刻</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <location filename="../bitcoingui.cpp" line="+233"/>
         <source>Sign &amp;message...</source>
-        <translation type="unfinished"/>
+        <translation>メッセージの署名...(&amp;m)</translation>
     </message>
     <message>
-        <location line="+280"/>
         <source>Synchronizing with network...</source>
-        <translation>ネットワークに同期中……</translation>
+        <translation>ネットワークに同期中...</translation>
     </message>
     <message>
-        <location line="-349"/>
         <source>&amp;Overview</source>
         <translation>概要(&amp;O)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show general overview of wallet</source>
         <translation>ウォレットの概要を見る</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>&amp;Transactions</source>
         <translation>取引(&amp;T)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Browse transaction history</source>
-        <translation>取引履歴を閲覧</translation>
+        <translation>取引履歴を見る</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Edit the list of stored addresses and labels</source>
-        <translation>保存されたアドレスとラベルのリストを編集</translation>
-    </message>
-    <message>
-        <location line="-14"/>
-        <source>Show the list of addresses for receiving payments</source>
-        <translation>支払い受け取り用アドレスのリストを見る</translation>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>E&amp;xit</source>
-        <translation type="unfinished"/>
+        <translation>終了(&amp;E)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Quit application</source>
-        <translation>アプリケーションを終了</translation>
+        <translation>アプリケーションを終了する</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Show information about Worldcoin</source>
-        <translation>Worldcoinに関する情報を見る</translation>
+        <source>&amp;About %1</source>
+        <translation>%1 について(&amp;A)</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>Show information about %1</source>
+        <translation>%1 の情報を表示する</translation>
+    </message>
+    <message>
         <source>About &amp;Qt</source>
-        <translation type="unfinished"/>
+        <translation>Qt について(&amp;Q)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show information about Qt</source>
-        <translation type="unfinished"/>
+        <translation>Qt の情報を表示する</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Options...</source>
-        <translation>オプション(&amp;O)</translation>
+        <translation>オプション...(&amp;O)</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <source>Modify configuration options for %1</source>
+        <translation>%1 の設定を変更する</translation>
+    </message>
+    <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation type="unfinished"/>
+        <translation>ウォレットの暗号化(&amp;E)...</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Backup Wallet...</source>
-        <translation type="unfinished"/>
+        <translation>ウォレットのバックアップ(&amp;B)...</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>&amp;Change Passphrase...</source>
-        <translation type="unfinished"/>
+        <translation>パスフレーズの変更(&amp;C)...</translation>
     </message>
     <message>
-        <location line="+285"/>
-        <source>Importing blocks from disk...</source>
-        <translation type="unfinished"/>
+        <source>Open &amp;URI...</source>
+        <translation>URI を開く(&amp;U)...</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Wallet:</source>
+        <translation>ウォレット:</translation>
+    </message>
+    <message>
+        <source>Click to disable network activity.</source>
+        <translation>クリックするとネットワーク活動を無効化します。</translation>
+    </message>
+    <message>
+        <source>Network activity disabled.</source>
+        <translation>ネットワーク活動は無効化されました。</translation>
+    </message>
+    <message>
+        <source>Click to enable network activity again.</source>
+        <translation>クリックするとネットワーク活動を再び有効化します。</translation>
+    </message>
+    <message>
+        <source>Syncing Headers (%1%)...</source>
+        <translation>ヘッダを同期中 (%1%)...</translation>
+    </message>
+    <message>
         <source>Reindexing blocks on disk...</source>
-        <translation type="unfinished"/>
+        <translation>ディスク上のブロックを再インデックス中...</translation>
     </message>
     <message>
-        <location line="-347"/>
+        <source>Proxy is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
+        <translation>プロキシは&lt;b&gt;有効&lt;/b&gt;: %1</translation>
+    </message>
+    <message>
         <source>Send coins to a Worldcoin address</source>
-        <translation type="unfinished"/>
+        <translation>Worldcoin アドレスにコインを送る</translation>
     </message>
     <message>
-        <location line="+49"/>
-        <source>Modify configuration options for Worldcoin</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+9"/>
         <source>Backup wallet to another location</source>
-        <translation type="unfinished"/>
+        <translation>ウォレットを他の場所にバックアップする</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>ウォレット暗号化用パスフレーズの変更</translation>
+        <translation>ウォレット暗号化用パスフレーズを変更する</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Debug window</source>
-        <translation type="unfinished"/>
+        <translation>デバッグ ウインドウ(&amp;D)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Open debugging and diagnostic console</source>
-        <translation type="unfinished"/>
+        <translation>デバッグ・診断コンソールを開く</translation>
     </message>
     <message>
-        <location line="-4"/>
         <source>&amp;Verify message...</source>
-        <translation type="unfinished"/>
+        <translation>メッセージの検証(&amp;V)...</translation>
     </message>
     <message>
-        <location line="-165"/>
-        <location line="+530"/>
         <source>Worldcoin</source>
-        <translation type="unfinished"/>
+        <translation>Worldcoin</translation>
     </message>
     <message>
-        <location line="-530"/>
-        <source>Wallet</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+101"/>
         <source>&amp;Send</source>
-        <translation type="unfinished"/>
+        <translation>送金(&amp;S)</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Receive</source>
-        <translation type="unfinished"/>
+        <translation>受取(&amp;R)</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>&amp;Addresses</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>&amp;About Worldcoin</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+9"/>
         <source>&amp;Show / Hide</source>
-        <translation type="unfinished"/>
+        <translation>表示 / 非表示(&amp;S)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show or hide the main Window</source>
-        <translation type="unfinished"/>
+        <translation>メイン ウインドウを表示または非表示する</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation type="unfinished"/>
+        <translation>ウォレットの秘密鍵を暗号化する</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Sign messages with your Worldcoin addresses to prove you own them</source>
-        <translation type="unfinished"/>
+        <translation>Worldcoin アドレスでメッセージに署名して、アドレスを所有していることを証明する</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Worldcoin addresses</source>
-        <translation type="unfinished"/>
+        <translation>メッセージを検証して、指定された Worldcoin アドレスで署名されたことを確認する</translation>
     </message>
     <message>
-        <location line="+28"/>
         <source>&amp;File</source>
         <translation>ファイル(&amp;F)</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Settings</source>
         <translation>設定(&amp;S)</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>&amp;Help</source>
         <translation>ヘルプ(&amp;H)</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Tabs toolbar</source>
         <translation>タブツールバー</translation>
     </message>
     <message>
-        <location line="+17"/>
-        <location line="+10"/>
-        <source>[testnet]</source>
-        <translation>[testnet]</translation>
+        <source>Request payments (generates QR codes and worldcoin: URIs)</source>
+        <translation>支払いをリクエストする (QRコードと worldcoin: URIを生成する)&lt;</translation>
     </message>
     <message>
-        <location line="+47"/>
-        <source>Worldcoin client</source>
-        <translation type="unfinished"/>
+        <source>Show the list of used sending addresses and labels</source>
+        <translation>送金したことがあるアドレスとラベルの一覧を表示する</translation>
+    </message>
+    <message>
+        <source>Show the list of used receiving addresses and labels</source>
+        <translation>受け取ったことがあるアドレスとラベルの一覧を表示する</translation>
+    </message>
+    <message>
+        <source>Open a worldcoin: URI or payment request</source>
+        <translation>worldcoin: URIや支払いリクエストを開く</translation>
+    </message>
+    <message>
+        <source>&amp;Command-line options</source>
+        <translation>コマンドラインオプション(&amp;C)</translation>
     </message>
     <message numerus="yes">
-        <location line="+141"/>
         <source>%n active connection(s) to Worldcoin network</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
+        <translation><numerusform>Worldcoin ネットワークへのアクティブな接続は %n 個</numerusform></translation>
     </message>
     <message>
-        <location line="+22"/>
-        <source>No block source available...</source>
-        <translation type="unfinished"/>
+        <source>Indexing blocks on disk...</source>
+        <translation>ディスク上のブロックをインデックス中...</translation>
     </message>
     <message>
-        <location line="+12"/>
-        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Processed %1 blocks of transaction history.</source>
-        <translation type="unfinished"/>
+        <source>Processing blocks on disk...</source>
+        <translation>ディスク上のブロックを処理中...</translation>
     </message>
     <message numerus="yes">
-        <location line="+20"/>
-        <source>%n hour(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n day(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <location line="+4"/>
-        <source>%n week(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
+        <source>Processed %n block(s) of transaction history.</source>
+        <translation><numerusform>%n ブロックの取引履歴を処理済み。</numerusform></translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>%1 behind</source>
-        <translation type="unfinished"/>
+        <translation>%1 遅延</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Last received block was generated %1 ago.</source>
-        <translation type="unfinished"/>
+        <translation>最後に受信したブロックは %1 前に生成。</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Transactions after this will not yet be visible.</source>
-        <translation type="unfinished"/>
+        <translation>これより後の取引はまだ表示されていません。</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation>エラー</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Warning</source>
-        <translation type="unfinished"/>
+        <translation>警告</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Information</source>
-        <translation type="unfinished"/>
+        <translation>情報</translation>
     </message>
     <message>
-        <location line="+70"/>
-        <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-140"/>
         <source>Up to date</source>
-        <translation>バージョンは最新です</translation>
+        <translation>ブロックは最新</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <source>&amp;Sending addresses</source>
+        <translation>送金先アドレス一覧(&amp;S)...</translation>
+    </message>
+    <message>
+        <source>&amp;Receiving addresses</source>
+        <translation>受取用アドレス一覧(&amp;R)...</translation>
+    </message>
+    <message>
+        <source>Open Wallet</source>
+        <translation>ウォレットを開く</translation>
+    </message>
+    <message>
+        <source>Open a wallet</source>
+        <translation>ウォレットを開く</translation>
+    </message>
+    <message>
+        <source>Close Wallet...</source>
+        <translation>ウォレットを閉じる</translation>
+    </message>
+    <message>
+        <source>Close wallet</source>
+        <translation>ウォレットを閉じる</translation>
+    </message>
+    <message>
+        <source>Show the %1 help message to get a list with possible Worldcoin command-line options</source>
+        <translation>%1 のヘルプ メッセージを表示して、使用可能な XPChain のコマンドライン オプションの一覧を見る。</translation>
+    </message>
+    <message>
+        <source>default wallet</source>
+        <translation>デフォルトウォレット</translation>
+    </message>
+    <message>
+        <source>Opening Wallet &lt;b&gt;%1&lt;/b&gt;...</source>
+        <translation>ウォレット &lt;b&gt;%1&lt;/b&gt;を開いています...</translation>
+    </message>
+    <message>
+        <source>Open Wallet Failed</source>
+        <translation>ウォレットを開くことに失敗しました</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>ウインドウ (&amp;W)</translation>
+    </message>
+    <message>
+        <source>Minimize</source>
+        <translation>最小化</translation>
+    </message>
+    <message>
+        <source>Zoom</source>
+        <translation>拡大／縮小</translation>
+    </message>
+    <message>
+        <source>Restore</source>
+        <translation>元に戻す</translation>
+    </message>
+    <message>
+        <source>Main Window</source>
+        <translation>メインウィンドウ</translation>
+    </message>
+    <message>
+        <source>%1 client</source>
+        <translation>%1 クライアント</translation>
+    </message>
+    <message>
+        <source>Connecting to peers...</source>
+        <translation>ピアに接続中...</translation>
+    </message>
+    <message>
         <source>Catching up...</source>
-        <translation type="unfinished"/>
+        <translation>遅延取戻し中...</translation>
     </message>
     <message>
-        <location line="+113"/>
-        <source>Confirm transaction fee</source>
-        <translation type="unfinished"/>
+        <source>Date: %1
+</source>
+        <translation>日付: %1
+</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <source>Amount: %1
+</source>
+        <translation>金額: %1
+</translation>
+    </message>
+    <message>
+        <source>Wallet: %1
+</source>
+        <translation>ウォレット: %1
+</translation>
+    </message>
+    <message>
+        <source>Type: %1
+</source>
+        <translation>種別: %1
+</translation>
+    </message>
+    <message>
+        <source>Label: %1
+</source>
+        <translation>ラベル: %1
+</translation>
+    </message>
+    <message>
+        <source>Address: %1
+</source>
+        <translation>アドレス: %1
+</translation>
+    </message>
+    <message>
         <source>Sent transaction</source>
         <translation>送金取引</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Incoming transaction</source>
-        <translation>着金取引</translation>
+        <translation>入金取引</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Date: %1
-Amount: %2
-Type: %3
-Address: %4
-</source>
-        <translation type="unfinished"/>
+        <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
+        <translation>HD鍵生成は&lt;b&gt;有効&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+33"/>
-        <location line="+23"/>
-        <source>URI handling</source>
-        <translation type="unfinished"/>
+        <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
+        <translation>HD鍵生成は&lt;b&gt;無効&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="-23"/>
-        <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Worldcoin address or malformed URI parameters.</source>
-        <translation type="unfinished"/>
+        <source>Private key &lt;b&gt;disabled&lt;/b&gt;</source>
+        <translation>秘密鍵は&lt;b&gt;無効&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+17"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>ウォレットは&lt;b&gt;暗号化され、アンロックされています&lt;/b&gt;</translation>
+        <translation>ウォレットは&lt;b&gt;暗号化済み&lt;/b&gt;・&lt;b&gt;アンロック状態&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>ウォレットは&lt;b&gt;暗号化され、ロックされています&lt;/b&gt;</translation>
+        <translation>ウォレットは&lt;b&gt;暗号化済み&lt;/b&gt;・&lt;b&gt;ロック状態&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../bitcoin.cpp" line="+111"/>
         <source>A fatal error occurred. Worldcoin can no longer continue safely and will quit.</source>
-        <translation type="unfinished"/>
+        <translation>致命的なエラーが発生しました。Worldcoin を安全に動作し続けることができないため終了します。</translation>
     </message>
 </context>
 <context>
-    <name>ClientModel</name>
+    <name>CoinControlDialog</name>
     <message>
-        <location filename="../clientmodel.cpp" line="+104"/>
-        <source>Network Alert</source>
-        <translation type="unfinished"/>
+        <source>Coin Selection</source>
+        <translation>コインの選択</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>選択数:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>バイト数:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>金額:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>手数料:</translation>
+    </message>
+    <message>
+        <source>Dust:</source>
+        <translation>ダスト：</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>手数料差引後金額:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>お釣り:</translation>
+    </message>
+    <message>
+        <source>(un)select all</source>
+        <translation>全て選択/選択解除</translation>
+    </message>
+    <message>
+        <source>Tree mode</source>
+        <translation>ツリーモード</translation>
+    </message>
+    <message>
+        <source>List mode</source>
+        <translation>リストモード</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>金額</translation>
+    </message>
+    <message>
+        <source>Received with label</source>
+        <translation>対応するラベル</translation>
+    </message>
+    <message>
+        <source>Received with address</source>
+        <translation>対応するアドレス</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>日時</translation>
+    </message>
+    <message>
+        <source>Confirmations</source>
+        <translation>検証数</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>検証済み</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>アドレスをコピー</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>ラベルをコピー</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>金額をコピー</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>取引 ID をコピー</translation>
+    </message>
+    <message>
+        <source>Lock unspent</source>
+        <translation>未使用トランザクションをロック</translation>
+    </message>
+    <message>
+        <source>Unlock unspent</source>
+        <translation>未使用トランザクションのロックを解除</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>選択数をコピー</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>手数料をコピーす</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>手数料差引後金額をコピー</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>バイト数をコピー</translation>
+    </message>
+    <message>
+        <source>Copy dust</source>
+        <translation>ダストをコピー</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>お釣りをコピー</translation>
+    </message>
+    <message>
+        <source>(%1 locked)</source>
+        <translation>(ロック済み %1個)</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>はい</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>いいえ</translation>
+    </message>
+    <message>
+        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
+        <translation>受取額が現在のダスト閾値を下回るアドレスがひとつでもあると、このラベルが赤くなります。</translation>
+    </message>
+    <message>
+        <source>Can vary +/- %1 satoshi(s) per input.</source>
+        <translation>ひとつの入力につき %1 satoshi 前後ずれることがあります。</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(ラベル無し)</translation>
+    </message>
+    <message>
+        <source>change from %1 (%2)</source>
+        <translation>%1 (%2) からのおつり</translation>
+    </message>
+    <message>
+        <source>(change)</source>
+        <translation>(おつり)</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
-        <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
-        <translation>アドレスの編集</translation>
+        <translation>アドレスを編集</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Label</source>
         <translation>ラベル(&amp;L)</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The label associated with this address book entry</source>
-        <translation>このアドレス帳の入った事と関係のレーベル</translation>
+        <source>The label associated with this address list entry</source>
+        <translation>このアドレス帳項目のラベル</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
+        <translation>このアドレス帳項目のアドレス。アドレスは送金先アドレスの場合のみ編集することができます。</translation>
+    </message>
+    <message>
         <source>&amp;Address</source>
-        <translation>&amp;アドレス</translation>
+        <translation>アドレス(&amp;A)</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>The address associated with this address book entry. This can only be modified for sending addresses.</source>
-        <translation>アドレス帳の入った事の関係のアドレスです。これは遅れるのアドレスのためだけに編集出来ます。</translation>
-    </message>
-    <message>
-        <location filename="../editaddressdialog.cpp" line="+21"/>
-        <source>New receiving address</source>
-        <translation>新しいの受け入れのアドレス</translation>
-    </message>
-    <message>
-        <location line="+4"/>
         <source>New sending address</source>
-        <translation>新しいの送るのアドレス</translation>
+        <translation>新しい送金先アドレス</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Edit receiving address</source>
-        <translation>受け入れのアドレスを編集する</translation>
+        <translation>受取用アドレスを編集</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Edit sending address</source>
-        <translation>送るのアドレスを編集する</translation>
+        <translation>送金先アドレスを編集</translation>
     </message>
     <message>
-        <location line="+76"/>
-        <source>The entered address &quot;%1&quot; is already in the address book.</source>
-        <translation>入ったのアドレス「%1」はもうアドレス帳にあります。</translation>
+        <source>The entered address "%1" is not a valid Worldcoin address.</source>
+        <translation>入力されたアドレス "%1" は無効な Worldcoin アドレスです。</translation>
     </message>
     <message>
-        <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Worldcoin address.</source>
-        <translation type="unfinished"/>
+        <source>Address "%1" already exists as a receiving address with label "%2" and so cannot be added as a sending address.</source>
+        <translation>アドレス "%1" は既に受取用アドレスにラベル "%2" として存在するので、送金先アドレスとしては追加できません。</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <source>The entered address "%1" is already in the address book with label "%2".</source>
+        <translation>入力されたアドレス "%1" は既にラベル "%2" としてアドレス帳に存在します｡</translation>
+    </message>
+    <message>
         <source>Could not unlock wallet.</source>
-        <translation>財布をアンロックするのは出来ませんでした。</translation>
+        <translation>ウォレットをアンロックできませんでした。</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>New key generation failed.</source>
-        <translation>新しいのキーの生成は失敗しました。</translation>
+        <translation>新しい鍵の生成に失敗しました。</translation>
     </message>
 </context>
 <context>
-    <name>GUIUtil::HelpMessageBox</name>
+    <name>FreespaceChecker</name>
     <message>
-        <location filename="../guiutil.cpp" line="+424"/>
-        <location line="+12"/>
-        <source>Worldcoin-Qt</source>
-        <translation type="unfinished"/>
+        <source>A new data directory will be created.</source>
+        <translation>新しいデータ ディレクトリが作成されます。</translation>
     </message>
     <message>
-        <location line="-12"/>
+        <source>name</source>
+        <translation>ディレクトリ名</translation>
+    </message>
+    <message>
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation>ディレクトリが既に存在します。新しいディレクトリを作りたい場合は %1 と追記してください。</translation>
+    </message>
+    <message>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>パスが存在しますがディレクトリではありません。</translation>
+    </message>
+    <message>
+        <source>Cannot create data directory here.</source>
+        <translation>ここにデータ ディレクトリを作成することはできません。</translation>
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
         <source>version</source>
-        <translation type="unfinished"/>
+        <translation>バージョン</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Usage:</source>
-        <translation type="unfinished"/>
+        <source>(%1-bit)</source>
+        <translation>(%1 ビット)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>command-line options</source>
-        <translation type="unfinished"/>
+        <source>About %1</source>
+        <translation>%1 について</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>UI options</source>
-        <translation type="unfinished"/>
+        <source>Command-line options</source>
+        <translation>コマンドライン オプション</translation>
+    </message>
+</context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>ようこそ</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
-        <translation type="unfinished"/>
+        <source>Welcome to %1.</source>
+        <translation>%1 へようこそ。</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Start minimized</source>
-        <translation type="unfinished"/>
+        <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
+        <translation>これはプログラムの最初の起動です。%1 がデータを保存する場所を選択してください。</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Show splash screen on startup (default: 1)</source>
-        <translation type="unfinished"/>
+        <source>When you click OK, %1 will begin to download and process the full %4 block chain (%2GB) starting with the earliest transactions in %3 when %4 initially launched.</source>
+        <translation>OKをクリックすると、%1 は %4 がリリースされた%3年最初の取引からの完全な %4 ブロックチェーン（%2GB）のダウンロードおよび処理を開始します。</translation>
+    </message>
+    <message>
+        <source>This initial synchronisation is very demanding, and may expose hardware problems with your computer that had previously gone unnoticed. Each time you run %1, it will continue downloading where it left off.</source>
+        <translation>この初回同期には多大なリソースを消費し、あなたのコンピュータでこれまで見つからなかったハードウェア上の問題が発生する場合があります。%1 を実行する度に、中断された時点からダウンロードを再開します。</translation>
+    </message>
+    <message>
+        <source>If you have chosen to limit block chain storage (pruning), the historical data must still be downloaded and processed, but will be deleted afterward to keep your disk usage low.</source>
+        <translation>ブロックチェーンの保存容量に制限を設けること（剪定）を選択した場合にも、過去のデータのダウンロードおよび処理が必要になります。しかし、これらのデータはディスク使用量を低く抑えるために、後で削除されます。</translation>
+    </message>
+    <message>
+        <source>Use the default data directory</source>
+        <translation>デフォルトのデータ ディレクトリを使用</translation>
+    </message>
+    <message>
+        <source>Use a custom data directory:</source>
+        <translation>カスタム データ ディレクトリを使用:</translation>
+    </message>
+    <message>
+        <source>Worldcoin</source>
+        <translation>Worldcoin</translation>
+    </message>
+    <message>
+        <source>At least %1 GB of data will be stored in this directory, and it will grow over time.</source>
+        <translation>最低でも%1 GBのデータをこのディレクトリに保存する必要があります。またこのデータは時間とともに増加していきます。</translation>
+    </message>
+    <message>
+        <source>Approximately %1 GB of data will be stored in this directory.</source>
+        <translation>約%1 GBのデータがこのディレクトリに保存されます。</translation>
+    </message>
+    <message>
+        <source>%1 will download and store a copy of the Worldcoin block chain.</source>
+        <translation>%1 は Worldcoin ブロックチェーンのコピーをダウンロードし保存します。</translation>
+    </message>
+    <message>
+        <source>The wallet will also be stored in this directory.</source>
+        <translation>ウォレットもこのディレクトリに保存されます。</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" cannot be created.</source>
+        <translation>エラー: 指定のデータディレクトリ "%1" を作成できません。</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>エラー</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n GB of free space available</source>
+        <translation><numerusform>利用可能な空き容量 %n GB</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>(of %n GB needed)</source>
+        <translation><numerusform>(%n GB必要)</numerusform></translation>
+    </message>
+</context>
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>フォーム</translation>
+    </message>
+    <message>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the worldcoin network, as detailed below.</source>
+        <translation>最近の取引がまだ表示されていない可能性があります。そのため、ウォレットの残高が正しく表示されていないかもしれません。この情報は、ウォレットが Worldcoin ネットワークへの同期が完了すると正確なものとなります。詳細は下記を参照してください。</translation>
+    </message>
+    <message>
+        <source>Attempting to spend worldcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>まだ表示されていない取引が関係する Worldcoin を使用しようとすると、ネットワークから認証を受けられません。</translation>
+    </message>
+    <message>
+        <source>Number of blocks left</source>
+        <translation>残りのブロック数</translation>
+    </message>
+    <message>
+        <source>Unknown...</source>
+        <translation>不明...</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>最終ブロックの日時</translation>
+    </message>
+    <message>
+        <source>Progress</source>
+        <translation>進捗</translation>
+    </message>
+    <message>
+        <source>Progress increase per hour</source>
+        <translation>一時間あたりの進捗増加</translation>
+    </message>
+    <message>
+        <source>calculating...</source>
+        <translation>計算中...</translation>
+    </message>
+    <message>
+        <source>Estimated time left until synced</source>
+        <translation>同期完了までの推定残り時間</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>隠す</translation>
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>URIを開く</translation>
+    </message>
+    <message>
+        <source>Open payment request from URI or file</source>
+        <translation>URIまたはファイルから支払いリクエストを開く</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    <message>
+        <source>Select payment request file</source>
+        <translation>支払いリクエストファイルを選択</translation>
+    </message>
+    <message>
+        <source>Select payment request file to open</source>
+        <translation>支払いリクエストファイルを選択</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
-        <location filename="../forms/optionsdialog.ui" line="+14"/>
         <source>Options</source>
-        <translation>オプションズ</translation>
+        <translation>設定</translation>
     </message>
     <message>
-        <location line="+16"/>
         <source>&amp;Main</source>
-        <translation type="unfinished"/>
+        <translation>メイン(&amp;M)</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
-        <translation type="unfinished"/>
+        <source>Automatically start %1 after logging in to the system.</source>
+        <translation>システムにログインした際、自動的に %1 を起動する。</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <source>Pay transaction &amp;fee</source>
-        <translation type="unfinished"/>
+        <source>&amp;Start %1 on system login</source>
+        <translation>システムのログイン時に %1 を起動(&amp;S)</translation>
     </message>
     <message>
-        <location line="+31"/>
-        <source>Automatically start Worldcoin after logging in to the system.</source>
-        <translation type="unfinished"/>
+        <source>Size of &amp;database cache</source>
+        <translation>データベースキャッシュのサイズ(&amp;D)</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Start Worldcoin on system login</source>
-        <translation type="unfinished"/>
+        <source>Number of script &amp;verification threads</source>
+        <translation>スクリプト検証用スレッド数(&amp;V)</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>プロキシのIPアドレス (例 IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Shows if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
+        <translation>指定されたデフォルト SOCKS5 プロキシが、このネットワークタイプ経由でピアに接続しているかどうか。</translation>
+    </message>
+    <message>
+        <source>Use separate SOCKS&amp;5 proxy to reach peers via Tor hidden services:</source>
+        <translation>Tor秘匿サービス経由でピアに接続するために専用の SOCKS5 プロキシを利用する(&amp;5):</translation>
+    </message>
+    <message>
+        <source>Hide the icon from the system tray.</source>
+        <translation>システムトレイのアイコンを隠す</translation>
+    </message>
+    <message>
+        <source>&amp;Hide tray icon</source>
+        <translation>トレイアイコンを隠す(&amp;H)</translation>
+    </message>
+    <message>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
+        <translation>ウィンドウが閉じられたとき、アプリケーションを終了するのではなく最小化します。このオプションが有効の場合、メニューから終了が選択されたときのみアプリケーションが終了します。</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>取引タブのコンテキストメニュー項目に表示する、サードパーティURL（例: ブロックエクスプローラ）。URL中の %s は取引のハッシュ値に置き換えられます。半角垂直バー | で区切ることで、複数のURLを指定できます。</translation>
+    </message>
+    <message>
+        <source>Open the %1 configuration file from the working directory.</source>
+        <translation>作業ディレクトリ内の %1 の設定ファイルを開く。</translation>
+    </message>
+    <message>
+        <source>Open Configuration File</source>
+        <translation>設定ファイルを開く</translation>
+    </message>
+    <message>
         <source>Reset all client options to default.</source>
-        <translation type="unfinished"/>
+        <translation>全ての設定を初期値に戻す。</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Reset Options</source>
-        <translation type="unfinished"/>
+        <translation>オプションをリセット(&amp;R)</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>&amp;Network</source>
-        <translation type="unfinished"/>
+        <translation>ネットワーク(&amp;N)</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <source>Disables some advanced features but all blocks will still be fully validated. Reverting this setting requires re-downloading the entire blockchain. Actual disk usage may be somewhat higher.</source>
+        <translation>いくつかの高度な機能は無効になりますが、全てのブロックが完全に検証されることは変わりません。この設定を元に戻すには、ブロックチェーン全体を再ダウンロードする必要があります。実際のディスク使用量は若干多くなる場合があります。</translation>
+    </message>
+    <message>
+        <source>Prune &amp;block storage to</source>
+        <translation>ブロックの保存容量を次の値までに剪定する(&amp;amp;B):</translation>
+    </message>
+    <message>
+        <source>GB</source>
+        <translation>GB</translation>
+    </message>
+    <message>
+        <source>Reverting this setting requires re-downloading the entire blockchain.</source>
+        <translation>この設定を元に戻すには、ブロック チェーン全体を再ダウンロードする必要があります。</translation>
+    </message>
+    <message>
+        <source>MiB</source>
+        <translation>MiB</translation>
+    </message>
+    <message>
+        <source>(0 = auto, &lt;0 = leave that many cores free)</source>
+        <translation>(0 = 自動、0以上 = 指定した数のコアを解放する)</translation>
+    </message>
+    <message>
+        <source>W&amp;allet</source>
+        <translation>ウォレット(&amp;A)</translation>
+    </message>
+    <message>
+        <source>Expert</source>
+        <translation>上級者向け機能</translation>
+    </message>
+    <message>
+        <source>Enable coin &amp;control features</source>
+        <translation>コインコントロール機能を有効化する(&amp;C)</translation>
+    </message>
+    <message>
+        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
+        <translation>未承認のお釣りを使用しない場合、取引が最低1回検証されるまではその取引のお釣りは利用できなくなります。これは残高の計算方法にも影響します。</translation>
+    </message>
+    <message>
+        <source>&amp;Spend unconfirmed change</source>
+        <translation>未検証のお釣りを使用する(&amp;S)</translation>
+    </message>
+    <message>
         <source>Automatically open the Worldcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation type="unfinished"/>
+        <translation>自動的にルーター上の Worldcoin クライアントのポートを開放します。あなたのルーターが UPnP に対応していて、それが有効になっている場合のみ動作します。</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Map port using &amp;UPnP</source>
-        <translation type="unfinished"/>
+        <translation>UPnP を使ってポートを割り当てる(&amp;U)</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Connect to the Worldcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation type="unfinished"/>
+        <source>Accept connections from outside.</source>
+        <translation>外部からの接続を許可する。</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Connect through SOCKS proxy:</source>
-        <translation type="unfinished"/>
+        <source>Allow incomin&amp;g connections</source>
+        <translation>外部からの接続を許可する(&amp;G)</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <source>Connect to the Worldcoin network through a SOCKS5 proxy.</source>
+        <translation>SOCKS5 プロキシ経由で Worldcoin ネットワークに接続する。</translation>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
+        <translation>SOCKS5 プロキシ経由で接続する（デフォルトプロキシ）(&amp;C):</translation>
+    </message>
+    <message>
         <source>Proxy &amp;IP:</source>
-        <translation type="unfinished"/>
+        <translation>プロキシ IP(&amp;I):</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>IP address of the proxy (e.g. 127.0.0.1)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"/>
+        <translation>ポート(&amp;P):</translation>
     </message>
     <message>
-        <location line="+19"/>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation type="unfinished"/>
+        <translation>プロキシのポート番号（例: 9050）</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>SOCKS &amp;Version:</source>
-        <translation type="unfinished"/>
+        <source>Used for reaching peers via:</source>
+        <translation>ピアへの接続手段:</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>SOCKS version of the proxy (e.g. 5)</source>
-        <translation type="unfinished"/>
+        <source>IPv4</source>
+        <translation>IPv4</translation>
     </message>
     <message>
-        <location line="+36"/>
+        <source>IPv6</source>
+        <translation>IPv6</translation>
+    </message>
+    <message>
+        <source>Tor</source>
+        <translation>Tor</translation>
+    </message>
+    <message>
+        <source>Connect to the Worldcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Tor秘匿サービスを利用するため、専用の SOCKS5 プロキシ経由で Worldcoin ネットワークに接続する。</translation>
+    </message>
+    <message>
         <source>&amp;Window</source>
-        <translation type="unfinished"/>
+        <translation>ウインドウ(&amp;W)</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation type="unfinished"/>
+        <translation>ウインドウを最小化したあとトレイ アイコンのみ表示する。</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation type="unfinished"/>
+        <translation>タスクバーではなくトレイに最小化(&amp;M)</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
         <source>M&amp;inimize on close</source>
-        <translation type="unfinished"/>
+        <translation>閉じるときに最小化(&amp;I)</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>&amp;Display</source>
-        <translation type="unfinished"/>
+        <translation>表示(&amp;D)</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>User Interface &amp;language:</source>
-        <translation type="unfinished"/>
+        <translation>ユーザインターフェースの言語(&amp;L):</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Worldcoin.</source>
-        <translation type="unfinished"/>
+        <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
+        <translation>ユーザーインターフェイスの言語を設定できます。設定を反映するには %1 の再起動が必要です。</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>&amp;Unit to show amounts in:</source>
-        <translation type="unfinished"/>
+        <translation>金額の表示単位(&amp;U):</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation type="unfinished"/>
+        <translation>インターフェイスや送金時に使用する単位を選択する。</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>Whether to show Worldcoin addresses in the transaction list or not.</source>
-        <translation type="unfinished"/>
+        <source>Whether to show coin control features or not.</source>
+        <translation>コインコントロール機能を表示するかどうか。</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>&amp;Display addresses in transaction list</source>
-        <translation type="unfinished"/>
+        <source>&amp;Third party transaction URLs</source>
+        <translation>サードパーティの取引確認URL(&amp;T)</translation>
     </message>
     <message>
-        <location line="+71"/>
+        <source>Options set in this dialog are overridden by the command line or in the configuration file:</source>
+        <translation>このダイアログで指定したオプションは、コマンドラインや設定ファイルの内容でオーバーライドされます:</translation>
+    </message>
+    <message>
         <source>&amp;OK</source>
-        <translation type="unfinished"/>
+        <translation>&amp;OK</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"/>
+        <translation>キャンセル(&amp;C)</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>&amp;Apply</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../optionsdialog.cpp" line="+53"/>
         <source>default</source>
-        <translation type="unfinished"/>
+        <translation>初期値</translation>
     </message>
     <message>
-        <location line="+130"/>
+        <source>none</source>
+        <translation>なし</translation>
+    </message>
+    <message>
         <source>Confirm options reset</source>
-        <translation type="unfinished"/>
+        <translation>設定リセットの確認</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Some settings may require a client restart to take effect.</source>
-        <translation type="unfinished"/>
+        <source>Client restart required to activate changes.</source>
+        <translation>変更を有効化するにはクライアントを再起動する必要があります。</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Do you want to proceed?</source>
-        <translation type="unfinished"/>
+        <source>Client will be shut down. Do you want to proceed?</source>
+        <translation>クライアントを終了します。よろしいですか？</translation>
     </message>
     <message>
-        <location line="+42"/>
-        <location line="+9"/>
-        <source>Warning</source>
-        <translation type="unfinished"/>
+        <source>Configuration options</source>
+        <translation>設定オプション</translation>
     </message>
     <message>
-        <location line="-9"/>
-        <location line="+9"/>
-        <source>This setting will take effect after restarting Worldcoin.</source>
-        <translation type="unfinished"/>
+        <source>The configuration file is used to specify advanced user options which override GUI settings. Additionally, any command-line options will override this configuration file.</source>
+        <translation>設定ファイルは、GUIでの設定を上書きする高度なユーザーオプションを指定するためのものです。また、コマンドラインオプションはこの設定ファイルの内容も上書きします</translation>
     </message>
     <message>
-        <location line="+29"/>
+        <source>Error</source>
+        <translation>エラー</translation>
+    </message>
+    <message>
+        <source>The configuration file could not be opened.</source>
+        <translation>設定ファイルを開くことができませんでした。</translation>
+    </message>
+    <message>
+        <source>This change would require a client restart.</source>
+        <translation>この変更はクライアントの再起動が必要です。</translation>
+    </message>
+    <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation type="unfinished"/>
+        <translation>プロキシアドレスが無効です。</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
-        <location filename="../forms/overviewpage.ui" line="+14"/>
         <source>Form</source>
         <translation>フォーム</translation>
     </message>
     <message>
-        <location line="+50"/>
-        <location line="+166"/>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Worldcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation type="unfinished"/>
+        <translation>表示されている情報は古い可能性があります。ウォレットは接続確立後に Worldcoin ネットワークと自動的に同期しますが、同期処理はまだ完了していません。</translation>
     </message>
     <message>
-        <location line="-124"/>
-        <source>Balance:</source>
-        <translation>残高：</translation>
+        <source>Watch-only:</source>
+        <translation>ウォッチ限定:</translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>Unconfirmed:</source>
-        <translation>未確認：</translation>
+        <source>Available:</source>
+        <translation>利用可能:</translation>
     </message>
     <message>
-        <location line="-78"/>
-        <source>Wallet</source>
-        <translation type="unfinished"/>
+        <source>Your current spendable balance</source>
+        <translation>送金可能な残高</translation>
     </message>
     <message>
-        <location line="+107"/>
+        <source>Pending:</source>
+        <translation>検証待ち:</translation>
+    </message>
+    <message>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+        <translation>取引が未承認で残高に反映されていない総額</translation>
+    </message>
+    <message>
         <source>Immature:</source>
-        <translation type="unfinished"/>
+        <translation>未成熟:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Mined balance that has not yet matured</source>
-        <translation type="unfinished"/>
+        <translation>採掘された未成熟な残高</translation>
     </message>
     <message>
-        <location line="+46"/>
-        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
-        <translation>&lt;b&gt;最近の取引&lt;/b&gt;</translation>
+        <source>Balances</source>
+        <translation>残高</translation>
     </message>
     <message>
-        <location line="-101"/>
-        <source>Your current balance</source>
-        <translation>今の残高</translation>
+        <source>Total:</source>
+        <translation>合計:</translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</source>
-        <translation type="unfinished"/>
+        <source>Your current total balance</source>
+        <translation>現在の残高の総計</translation>
     </message>
     <message>
-        <location filename="../overviewpage.cpp" line="+116"/>
-        <location line="+1"/>
-        <source>out of sync</source>
-        <translation type="unfinished"/>
+        <source>Your current balance in watch-only addresses</source>
+        <translation>ウォッチ限定アドレス内の現在の残高</translation>
+    </message>
+    <message>
+        <source>Spendable:</source>
+        <translation>送金可能:</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>最近の取引</translation>
+    </message>
+    <message>
+        <source>Unconfirmed transactions to watch-only addresses</source>
+        <translation>ウォッチ限定アドレスの未承認取引</translation>
+    </message>
+    <message>
+        <source>Mined balance in watch-only addresses that has not yet matured</source>
+        <translation>ウォッチ限定アドレスで採掘された未成熟な残高</translation>
+    </message>
+    <message>
+        <source>Current total balance in watch-only addresses</source>
+        <translation>ウォッチ限定アドレスの現在の残高の総計</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
-        <location filename="../paymentserver.cpp" line="+107"/>
+        <source>Payment request error</source>
+        <translation>支払いリクエスト エラー</translation>
+    </message>
+    <message>
         <source>Cannot start worldcoin: click-to-pay handler</source>
-        <translation type="unfinished"/>
+        <translation>Worldcoin を起動できません: click-to-pay handler</translation>
+    </message>
+    <message>
+        <source>URI handling</source>
+        <translation>URIの処理</translation>
+    </message>
+    <message>
+        <source>'worldcoin://' is not a valid URI. Use 'worldcoin:' instead.</source>
+        <translation>'worldcoin://' は正しいURIではありません｡ 'worldcoin:'を使用してください｡</translation>
+    </message>
+    <message>
+        <source>You are using a BIP70 URL which will be unsupported in the future.</source>
+        <translation>将来サポートされなくなる予定のBIP70形式のURLをお使いです。</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>支払いリクエストの取得先URLが無効です: %1</translation>
+    </message>
+    <message>
+        <source>Cannot process payment request because BIP70 support was not compiled in.</source>
+        <translation>BIP70のサポートが組み込まれていないため、支払いリクエストを処理することができません。</translation>
+    </message>
+    <message>
+        <source>Invalid payment address %1</source>
+        <translation>支払い先アドレス「 %1 」は無効です</translation>
+    </message>
+    <message>
+        <source>URI cannot be parsed! This can be caused by an invalid Worldcoin address or malformed URI parameters.</source>
+        <translation>URIを解析できませんでした！ Worldcoin アドレスが無効であるか、URIパラメーターが不正な形式である可能性があります。</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>支払いリクエストファイルの処理</translation>
+    </message>
+    <message>
+        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
+        <translation>支払いリクエストファイルを読み込めませんでした！ 無効な支払いリクエストファイルである可能性があります。</translation>
+    </message>
+    <message>
+        <source>Payment request rejected</source>
+        <translation>支払いリクエストの拒否</translation>
+    </message>
+    <message>
+        <source>Payment request network doesn't match client network.</source>
+        <translation>支払いリクエストのネットワークが現在のクライアントのネットワークと一致しません。</translation>
+    </message>
+    <message>
+        <source>Payment request expired.</source>
+        <translation>支払いリクエストが期限切れです。</translation>
+    </message>
+    <message>
+        <source>Payment request is not initialized.</source>
+        <translation>支払いリクエストが初期化されていません。</translation>
+    </message>
+    <message>
+        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
+        <translation>カスタム支払いスクリプトに対する、未検証支払いリクエストはサポートされていません。</translation>
+    </message>
+    <message>
+        <source>Invalid payment request.</source>
+        <translation>無効な支払いリクエストです。</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>リクエストされた支払い額 %1 は小さすぎます（ダストとみなされてしまいます)。</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>%1 からのお釣り</translation>
+    </message>
+    <message>
+        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
+        <translation>支払いリクエスト %1 は大きすぎます（サイズ: %2バイト / 最大処理可能サイズ: %3バイト）。</translation>
+    </message>
+    <message>
+        <source>Error communicating with %1: %2</source>
+        <translation>%1 との通信時にエラーが発生しました: %2</translation>
+    </message>
+    <message>
+        <source>Payment request cannot be parsed!</source>
+        <translation>支払いリクエストを解析できませんでした！</translation>
+    </message>
+    <message>
+        <source>Bad response from server %1</source>
+        <translation>%1 サーバーの応答が無効でした</translation>
+    </message>
+    <message>
+        <source>Network request error</source>
+        <translation>ネットワーク リクエストエラー</translation>
+    </message>
+    <message>
+        <source>Payment acknowledged</source>
+        <translation>支払いは承認されました</translation>
     </message>
 </context>
 <context>
-    <name>QRCodeDialog</name>
+    <name>PeerTableModel</name>
     <message>
-        <location filename="../forms/qrcodedialog.ui" line="+14"/>
-        <source>QR Code Dialog</source>
-        <translation type="unfinished"/>
+        <source>User Agent</source>
+        <translation>ユーザーエージェント</translation>
     </message>
     <message>
-        <location line="+59"/>
-        <source>Request Payment</source>
-        <translation type="unfinished"/>
+        <source>Node/Service</source>
+        <translation>ノード/サービス</translation>
     </message>
     <message>
-        <location line="+56"/>
-        <source>Amount:</source>
-        <translation type="unfinished"/>
+        <source>NodeId</source>
+        <translation>ノードID</translation>
     </message>
     <message>
-        <location line="-44"/>
-        <source>Label:</source>
-        <translation type="unfinished"/>
+        <source>Ping</source>
+        <translation>Ping</translation>
     </message>
     <message>
-        <location line="+19"/>
-        <source>Message:</source>
-        <translation type="unfinished"/>
+        <source>Sent</source>
+        <translation>送信</translation>
     </message>
     <message>
-        <location line="+71"/>
-        <source>&amp;Save As...</source>
-        <translation type="unfinished"/>
+        <source>Received</source>
+        <translation>受信</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Amount</source>
+        <translation>金額</translation>
     </message>
     <message>
-        <location filename="../qrcodedialog.cpp" line="+62"/>
-        <source>Error encoding URI into QR Code.</source>
-        <translation type="unfinished"/>
+        <source>Enter a Worldcoin address (e.g. %1)</source>
+        <translation>Worldcoin アドレスを入力してください (例: %1)</translation>
     </message>
     <message>
-        <location line="+40"/>
-        <source>The entered amount is invalid, please check.</source>
-        <translation type="unfinished"/>
+        <source>%1 d</source>
+        <translation>%1日</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation type="unfinished"/>
+        <source>%1 h</source>
+        <translation>%1時間</translation>
     </message>
     <message>
-        <location line="+25"/>
+        <source>%1 m</source>
+        <translation>%1分</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1秒</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>なし</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1ミリ秒</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n second(s)</source>
+        <translation><numerusform>%n 秒</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n minute(s)</source>
+        <translation><numerusform>%n分</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n時間</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n日</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n週間</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 %2</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n年</numerusform></translation>
+    </message>
+    <message>
+        <source>%1 B</source>
+        <translation>%1 B</translation>
+    </message>
+    <message>
+        <source>%1 KB</source>
+        <translation>%1 KB</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 MB</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
+    </message>
+    <message>
+        <source>%1 didn't yet exit safely...</source>
+        <translation>%1 はまだ安全に終了していません...</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>不明</translation>
+    </message>
+</context>
+<context>
+    <name>QObject::QObject</name>
+    <message>
+        <source>Error parsing command line arguments: %1.</source>
+        <translation>コマンドライン引数の解析時にエラーが発生しました: %1</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>エラー: 指定されたデータ ディレクトリ "%1" は存在しません。</translation>
+    </message>
+    <message>
+        <source>Error: Cannot parse configuration file: %1.</source>
+        <translation>エラー: 設定ファイルが読み込めません: %1</translation>
+    </message>
+    <message>
+        <source>Error: %1</source>
+        <translation>エラー: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QRImageWidget</name>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>画像を保存(&amp;S)</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Image</source>
+        <translation>画像をコピー(&amp;C)</translation>
+    </message>
+    <message>
         <source>Save QR Code</source>
-        <translation type="unfinished"/>
+        <translation>QRコードの保存</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>PNG Images (*.png)</source>
-        <translation type="unfinished"/>
+        <source>PNG Image (*.png)</source>
+        <translation>PNG画像 (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
-        <location filename="../forms/rpcconsole.ui" line="+46"/>
-        <source>Client name</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+10"/>
-        <location line="+23"/>
-        <location line="+26"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location line="+36"/>
-        <location line="+53"/>
-        <location line="+23"/>
-        <location line="+23"/>
-        <location filename="../rpcconsole.cpp" line="+339"/>
         <source>N/A</source>
-        <translation type="unfinished"/>
+        <translation>N/A</translation>
     </message>
     <message>
-        <location line="-217"/>
         <source>Client version</source>
-        <translation type="unfinished"/>
+        <translation>クライアントのバージョン</translation>
     </message>
     <message>
-        <location line="-45"/>
         <source>&amp;Information</source>
-        <translation type="unfinished"/>
+        <translation>情報(&amp;I)</translation>
     </message>
     <message>
-        <location line="+68"/>
-        <source>Using OpenSSL version</source>
-        <translation type="unfinished"/>
+        <source>Debug window</source>
+        <translation>デバッグ ウインドウ</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <source>General</source>
+        <translation>全般</translation>
+    </message>
+    <message>
+        <source>Using BerkeleyDB version</source>
+        <translation>使用している BerkleyDB のバージョン</translation>
+    </message>
+    <message>
+        <source>Datadir</source>
+        <translation>データ ディレクトリ</translation>
+    </message>
+    <message>
+        <source>To specify a non-default location of the data directory use the '%1' option.</source>
+        <translation>データディレクトリを初期値以外にするには '%1' オプションを使用します。</translation>
+    </message>
+    <message>
+        <source>Blocksdir</source>
+        <translation>ブロックディレクトリ</translation>
+    </message>
+    <message>
+        <source>To specify a non-default location of the blocks directory use the '%1' option.</source>
+        <translation>ブロックディレクトリを初期値以外にするには '%1' オプションを使用します。</translation>
+    </message>
+    <message>
         <source>Startup time</source>
-        <translation type="unfinished"/>
+        <translation>起動日時</translation>
     </message>
     <message>
-        <location line="+29"/>
         <source>Network</source>
-        <translation type="unfinished"/>
+        <translation>ネットワーク</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <source>Name</source>
+        <translation>名前</translation>
+    </message>
+    <message>
         <source>Number of connections</source>
-        <translation type="unfinished"/>
+        <translation>接続数</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>On testnet</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Block chain</source>
-        <translation type="unfinished"/>
+        <translation>ブロック チェーン</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Current number of blocks</source>
-        <translation type="unfinished"/>
+        <translation>現在のブロック数</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <source>Estimated total blocks</source>
-        <translation type="unfinished"/>
+        <source>Memory Pool</source>
+        <translation>メモリ プール</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <source>Current number of transactions</source>
+        <translation>現在の取引数</translation>
+    </message>
+    <message>
+        <source>Memory usage</source>
+        <translation>メモリ使用量</translation>
+    </message>
+    <message>
+        <source>Wallet: </source>
+        <translation>ウォレット:</translation>
+    </message>
+    <message>
+        <source>(none)</source>
+        <translation>(なし)</translation>
+    </message>
+    <message>
+        <source>&amp;Reset</source>
+        <translation>リセット(&amp;R)</translation>
+    </message>
+    <message>
+        <source>Received</source>
+        <translation>受信</translation>
+    </message>
+    <message>
+        <source>Sent</source>
+        <translation>送信</translation>
+    </message>
+    <message>
+        <source>&amp;Peers</source>
+        <translation>ピア(&amp;P)</translation>
+    </message>
+    <message>
+        <source>Banned peers</source>
+        <translation>Banされたピア</translation>
+    </message>
+    <message>
+        <source>Select a peer to view detailed information.</source>
+        <translation>詳しい情報を見たいピアを選択してください。</translation>
+    </message>
+    <message>
+        <source>Whitelisted</source>
+        <translation>ホワイトリスト登録済み</translation>
+    </message>
+    <message>
+        <source>Direction</source>
+        <translation>方向</translation>
+    </message>
+    <message>
+        <source>Version</source>
+        <translation>バージョン</translation>
+    </message>
+    <message>
+        <source>Starting Block</source>
+        <translation>開始ブロック</translation>
+    </message>
+    <message>
+        <source>Synced Headers</source>
+        <translation>同期済みヘッダ</translation>
+    </message>
+    <message>
+        <source>Synced Blocks</source>
+        <translation>同期済みブロック</translation>
+    </message>
+    <message>
+        <source>User Agent</source>
+        <translation>ユーザーエージェント</translation>
+    </message>
+    <message>
+        <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>現在のデータディレクトリから %1 のデバッグ用ログファイルを開きます。ログファイルが巨大な場合、数秒かかることがあります。</translation>
+    </message>
+    <message>
+        <source>Decrease font size</source>
+        <translation>文字サイズを縮小</translation>
+    </message>
+    <message>
+        <source>Increase font size</source>
+        <translation>文字サイズを拡大</translation>
+    </message>
+    <message>
+        <source>Services</source>
+        <translation>サービス</translation>
+    </message>
+    <message>
+        <source>Ban Score</source>
+        <translation>Banスコア</translation>
+    </message>
+    <message>
+        <source>Connection Time</source>
+        <translation>接続時間</translation>
+    </message>
+    <message>
+        <source>Last Send</source>
+        <translation>最終送信</translation>
+    </message>
+    <message>
+        <source>Last Receive</source>
+        <translation>最終受信</translation>
+    </message>
+    <message>
+        <source>Ping Time</source>
+        <translation>Ping時間</translation>
+    </message>
+    <message>
+        <source>The duration of a currently outstanding ping.</source>
+        <translation>現在実行中の ping にかかっている時間。</translation>
+    </message>
+    <message>
+        <source>Ping Wait</source>
+        <translation>Ping待ち</translation>
+    </message>
+    <message>
+        <source>Min Ping</source>
+        <translation>最小 Ping</translation>
+    </message>
+    <message>
+        <source>Time Offset</source>
+        <translation>時間オフセット</translation>
+    </message>
+    <message>
         <source>Last block time</source>
-        <translation type="unfinished"/>
+        <translation>最終ブロックの日時</translation>
     </message>
     <message>
-        <location line="+52"/>
         <source>&amp;Open</source>
-        <translation type="unfinished"/>
+        <translation>開く(&amp;O)</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Command-line options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Show the Worldcoin-Qt help message to get a list with possible Worldcoin command-line options.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>&amp;Show</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+24"/>
         <source>&amp;Console</source>
-        <translation type="unfinished"/>
+        <translation>コンソール(&amp;C)</translation>
     </message>
     <message>
-        <location line="-260"/>
-        <source>Build date</source>
-        <translation type="unfinished"/>
+        <source>&amp;Network Traffic</source>
+        <translation>ネットワークトラフィック(&amp;N)</translation>
     </message>
     <message>
-        <location line="-104"/>
-        <source>Worldcoin - Debug window</source>
-        <translation type="unfinished"/>
+        <source>Totals</source>
+        <translation>合計</translation>
     </message>
     <message>
-        <location line="+25"/>
-        <source>Worldcoin Core</source>
-        <translation type="unfinished"/>
+        <source>In:</source>
+        <translation>入力:</translation>
     </message>
     <message>
-        <location line="+279"/>
+        <source>Out:</source>
+        <translation>出力:</translation>
+    </message>
+    <message>
         <source>Debug log file</source>
-        <translation type="unfinished"/>
+        <translation>デバッグ用ログファイル</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Open the Worldcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+102"/>
         <source>Clear console</source>
-        <translation type="unfinished"/>
+        <translation>コンソールをクリア</translation>
     </message>
     <message>
-        <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Worldcoin RPC console.</source>
-        <translation type="unfinished"/>
+        <source>1 &amp;hour</source>
+        <translation>1時間(&amp;H)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation type="unfinished"/>
+        <source>1 &amp;day</source>
+        <translation>1日(&amp;D)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation type="unfinished"/>
+        <source>1 &amp;week</source>
+        <translation>1週間(&amp;W)</translation>
+    </message>
+    <message>
+        <source>1 &amp;year</source>
+        <translation>1年(&amp;Y)</translation>
+    </message>
+    <message>
+        <source>&amp;Disconnect</source>
+        <translation>切断(&amp;D)</translation>
+    </message>
+    <message>
+        <source>Ban for</source>
+        <translation>Banする:</translation>
+    </message>
+    <message>
+        <source>&amp;Unban</source>
+        <translation>Banを解除する(&amp;U)</translation>
+    </message>
+    <message>
+        <source>Welcome to the %1 RPC console.</source>
+        <translation>%1 の RPC コンソールへようこそ。</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
+        <translation>上下の矢印で履歴をたどれます。%1 でスクリーンを消去できます。</translation>
+    </message>
+    <message>
+        <source>Type %1 for an overview of available commands.</source>
+        <translation>使用可能なコマンドを見るには %1 と入力します。</translation>
+    </message>
+    <message>
+        <source>For more information on using this console type %1.</source>
+        <translation>詳しくは、コンソールで %1 と入力してください。</translation>
+    </message>
+    <message>
+        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
+        <translation>警告: 以前から詐欺師が活発に活動しており、この画面でユーザーにコマンドを入力させてウォレットの中身を盗もうとしています。コマンドを実行した結果何が起こるかを完全に理解していない場合は、このコンソールを利用しないでください。</translation>
+    </message>
+    <message>
+        <source>Network activity disabled</source>
+        <translation>ネットワーク活動が無効になりました</translation>
+    </message>
+    <message>
+        <source>Executing command without any wallet</source>
+        <translation>どのウォレットも使わずにコマンドを実行します</translation>
+    </message>
+    <message>
+        <source>Executing command using "%1" wallet</source>
+        <translation>"%1" ウォレットを使ってコマンドを実行します</translation>
+    </message>
+    <message>
+        <source>(node id: %1)</source>
+        <translation>(ノードID: %1)</translation>
+    </message>
+    <message>
+        <source>via %1</source>
+        <translation>%1 経由</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>まだ無し</translation>
+    </message>
+    <message>
+        <source>Inbound</source>
+        <translation>内向き</translation>
+    </message>
+    <message>
+        <source>Outbound</source>
+        <translation>外向き</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>はい</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>いいえ</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>不明</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>金額:(&amp;A)</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>ラベル(&amp;L):</translation>
+    </message>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>メッセージ (&amp;M):</translation>
+    </message>
+    <message>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Worldcoin network.</source>
+        <translation>支払いリクエストに添付するメッセージ（任意）。支払リクエスト開始時に表示されます。注意: メッセージは Worldcoin ネットワーク上へ送信されません。</translation>
+    </message>
+    <message>
+        <source>An optional label to associate with the new receiving address.</source>
+        <translation>新規受取用アドレスに紐づけるラベル（任意）。</translation>
+    </message>
+    <message>
+        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
+        <translation>このフォームで支払いをリクエストしましょう。全ての入力欄は&lt;b&gt;任意入力&lt;/b&gt;です。</translation>
+    </message>
+    <message>
+        <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
+        <translation>リクエストする金額（任意）。特定の金額をリクエストしない場合は、この欄は空白のままかゼロにしてください。</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>全ての入力欄をクリア</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>クリア</translation>
+    </message>
+    <message>
+        <source>Native segwit addresses (aka Bech32 or BIP-173) reduce your transaction fees later on and offer better protection against typos, but old wallets don't support them. When unchecked, an address compatible with older wallets will be created instead.</source>
+        <translation>ネイティブ Segwit アドレス(別名: Bech32 アドレス・ BIP-173 アドレス)を利用することで、取引手数料が安くなり、誤入力防止機能も強化されますが、Segwit アドレスをサポートしない古いウォレットとは取引できません。チェックを外すと、古いウォレットとの互換性を保ったアドレスが代わりに生成されます。</translation>
+    </message>
+    <message>
+        <source>Generate native segwit (Bech32) address</source>
+        <translation>Segwit アドレス（Bech32 アドレス）を生成</translation>
+    </message>
+    <message>
+        <source>Requested payments history</source>
+        <translation>支払いリクエスト履歴</translation>
+    </message>
+    <message>
+        <source>&amp;Request payment</source>
+        <translation>支払いをリクエスト(&amp;R)</translation>
+    </message>
+    <message>
+        <source>Show the selected request (does the same as double clicking an entry)</source>
+        <translation>選択されたリクエストを表示（項目をダブルクリックすることでも表示できます）</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>表示</translation>
+    </message>
+    <message>
+        <source>Remove the selected entries from the list</source>
+        <translation>選択項目をリストから削除</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>Copy URI</source>
+        <translation>URIをコピー</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>ラベルをコピー</translation>
+    </message>
+    <message>
+        <source>Copy message</source>
+        <translation>メッセージをコピー</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>金額をコピー</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>QR Code</source>
+        <translation>QRコード</translation>
+    </message>
+    <message>
+        <source>Copy &amp;URI</source>
+        <translation>URIをコピーする(&amp;U)</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Address</source>
+        <translation>アドレスをコピー(&amp;A)</translation>
+    </message>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>画像を保存(&amp;S)...</translation>
+    </message>
+    <message>
+        <source>Request payment to %1</source>
+        <translation>%1 への支払いリクエスト</translation>
+    </message>
+    <message>
+        <source>Payment information</source>
+        <translation>支払い情報</translation>
+    </message>
+    <message>
+        <source>URI</source>
+        <translation>URI</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>金額</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ラベル</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>メッセージ</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>ウォレット</translation>
+    </message>
+    <message>
+        <source>Resulting URI too long, try to reduce the text for label / message.</source>
+        <translation>生成されたURIが長すぎです。ラベルやメッセージのテキストを短くしてください。</translation>
+    </message>
+    <message>
+        <source>Error encoding URI into QR Code.</source>
+        <translation>URIをQRコードへ変換している際にエラーが発生しました。</translation>
+    </message>
+</context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>日時</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ラベル</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>メッセージ</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(ラベル無し)</translation>
+    </message>
+    <message>
+        <source>(no message)</source>
+        <translation>(メッセージ無し)</translation>
+    </message>
+    <message>
+        <source>(no amount requested)</source>
+        <translation>(指定無し)</translation>
+    </message>
+    <message>
+        <source>Requested</source>
+        <translation>リクエストされた金額</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
-        <location filename="../forms/sendcoinsdialog.ui" line="+14"/>
-        <location filename="../sendcoinsdialog.cpp" line="+124"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+5"/>
-        <location line="+6"/>
-        <location line="+5"/>
-        <location line="+5"/>
         <source>Send Coins</source>
-        <translation>コインを送る</translation>
+        <translation>コインの送金</translation>
     </message>
     <message>
-        <location line="+50"/>
+        <source>Coin Control Features</source>
+        <translation>コインコントロール機能</translation>
+    </message>
+    <message>
+        <source>Inputs...</source>
+        <translation>インプット...</translation>
+    </message>
+    <message>
+        <source>automatically selected</source>
+        <translation>自動選択</translation>
+    </message>
+    <message>
+        <source>Insufficient funds!</source>
+        <translation>残高不足です！</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>選択数:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>バイト数:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>金額:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>手数料:</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>手数料差引後金額:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>お釣り:</translation>
+    </message>
+    <message>
+        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
+        <translation>チェックが付いているにもかかわらず、お釣りアドレスが空欄や無効である場合、お釣りは新しく生成されたアドレスへ送金されます。</translation>
+    </message>
+    <message>
+        <source>Custom change address</source>
+        <translation>カスタムお釣りアドレス</translation>
+    </message>
+    <message>
+        <source>Transaction Fee:</source>
+        <translation>トランザクション手数料：</translation>
+    </message>
+    <message>
+        <source>Choose...</source>
+        <translation>選択...</translation>
+    </message>
+    <message>
+        <source>Using the fallbackfee can result in sending a transaction that will take several hours or days (or never) to confirm. Consider choosing your fee manually or wait until you have validated the complete chain.</source>
+        <translation> 代替料金を利用することで、承認されるまでに数時間または数日 (ないし一生承認されない) トランザクションを送信してしまう可能性があります。手動にて手数料を選択するか、完全なブロックチェーンの検証が終わるまで待つことを検討しましょう</translation>
+    </message>
+    <message>
+        <source>Warning: Fee estimation is currently not possible.</source>
+        <translation>警告: 手数料推定機能は現在利用できません。</translation>
+    </message>
+    <message>
+        <source>collapse fee-settings</source>
+        <translation>手数料設定を折りたたむ</translation>
+    </message>
+    <message>
+        <source>Specify a custom fee per kB (1,000 bytes) of the transaction's virtual size.
+
+Note:  Since the fee is calculated on a per-byte basis, a fee of "100 satoshis per kB" for a transaction size of 500 bytes (half of 1 kB) would ultimately yield a fee of only 50 satoshis.</source>
+        <translation>トランザクションの仮想サイズの1 kB(1,000 バイト)あたりのカスタム手数料を指定する。
+
+注: 手数料はバイト単位で計算されるので、500 バイト(1 kBの半分)のトランザクションサイズに対する「1 kBあたり 100 satoshi」の手数料は、最終的にはわずか 50 satoshi となります。</translation>
+    </message>
+    <message>
+        <source>per kilobyte</source>
+        <translation>1キロバイトあたり</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>隠す</translation>
+    </message>
+    <message>
+        <source>Recommended:</source>
+        <translation>推奨:</translation>
+    </message>
+    <message>
+        <source>Custom:</source>
+        <translation>カスタム:</translation>
+    </message>
+    <message>
+        <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
+        <translation>（スマート手数料はまだ初期化されていません。これにはおおよそ数ブロックほどかかります...）</translation>
+    </message>
+    <message>
         <source>Send to multiple recipients at once</source>
-        <translation type="unfinished"/>
+        <translation>一度に複数の送金先に送る</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Add &amp;Recipient</source>
-        <translation type="unfinished"/>
+        <translation>送金先を追加(&amp;R)</translation>
     </message>
     <message>
-        <location line="+20"/>
-        <source>Remove all transaction fields</source>
-        <translation type="unfinished"/>
+        <source>Clear all fields of the form.</source>
+        <translation>全ての入力欄をクリア</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Dust:</source>
+        <translation>ダスト:</translation>
+    </message>
+    <message>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for worldcoin transactions than the network can process.</source>
+        <translation>ブロック内の空きよりトランザクション流量が少ない場合、マイナーや中継ノードは最低限の手数料でも処理することがあります。この最低限の手数料だけを支払っても問題ありませんが、一度トランザクションの需要がネットワークの処理能力を超えてしまった場合には、トランザクションが永久に承認されなくなってしまう可能性があることにご注意ください。</translation>
+    </message>
+    <message>
+        <source>A too low fee might result in a never confirming transaction (read the tooltip)</source>
+        <translation>手数料が低すぎるとトランザクションが永久に承認されなくなる可能性があります (ツールチップを参照)</translation>
+    </message>
+    <message>
+        <source>Confirmation time target:</source>
+        <translation>目標承認時間</translation>
+    </message>
+    <message>
+        <source>Enable Replace-By-Fee</source>
+        <translation>Replace-By-Fee を有効化する</translation>
+    </message>
+    <message>
+        <source>With Replace-By-Fee (BIP-125) you can increase a transaction's fee after it is sent. Without this, a higher fee may be recommended to compensate for increased transaction delay risk.</source>
+        <translation>Replace-By-Fee(手数料の上乗せ: BIP-125)機能を有効にすることで、トランザクション送信後でも手数料を上乗せすることができます。この機能を利用しない場合、予め手数料を多めに見積もっておかないと取引が遅れる可能性があります。</translation>
+    </message>
+    <message>
         <source>Clear &amp;All</source>
-        <translation type="unfinished"/>
+        <translation>全てクリア(&amp;A)</translation>
     </message>
     <message>
-        <location line="+22"/>
         <source>Balance:</source>
-        <translation>残高：</translation>
+        <translation>残高:</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>123.456 BTC</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+31"/>
         <source>Confirm the send action</source>
-        <translation type="unfinished"/>
+        <translation>送金内容を確認</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>S&amp;end</source>
-        <translation type="unfinished"/>
+        <translation>送金(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../sendcoinsdialog.cpp" line="-59"/>
-        <source>&lt;b&gt;%1&lt;/b&gt; to %2 (%3)</source>
-        <translation type="unfinished"/>
+        <source>Copy quantity</source>
+        <translation>選択数をコピー</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <source>Copy amount</source>
+        <translation>金額をコピー</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>手数料をコピー</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>手数料差引後金額をコピー</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>バイト数をコピーす</translation>
+    </message>
+    <message>
+        <source>Copy dust</source>
+        <translation>ダストをコピー</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>お釣りをコピー</translation>
+    </message>
+    <message>
+        <source>%1 (%2 blocks)</source>
+        <translation>%1 (%2 ブロック)</translation>
+    </message>
+    <message>
+        <source>%1 to %2</source>
+        <translation>%1 送金先: %2</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to send?</source>
+        <translation>送金してもよろしいですか？</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>または</translation>
+    </message>
+    <message>
+        <source>You can increase the fee later (signals Replace-By-Fee, BIP-125).</source>
+        <translation>手数料は後から上乗せ可能です(Replace-By-Fee(手数料の上乗せ: BIP-125)機能が有効)。</translation>
+    </message>
+    <message>
+        <source>from wallet %1</source>
+        <translation>%1 ウォレット から</translation>
+    </message>
+    <message>
+        <source>Please, review your transaction.</source>
+        <translation>取引内容の最終確認をしてください。</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>取引手数料</translation>
+    </message>
+    <message>
+        <source>Not signalling Replace-By-Fee, BIP-125.</source>
+        <translation>Replace-By-Fee(手数料の上乗せ: BIP-125)機能は有効になっていません。</translation>
+    </message>
+    <message>
+        <source>Total Amount</source>
+        <translation>合計</translation>
+    </message>
+    <message>
         <source>Confirm send coins</source>
-        <translation type="unfinished"/>
+        <translation>送金の確認</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Are you sure you want to send %1?</source>
-        <translation type="unfinished"/>
+        <source>The recipient address is not valid. Please recheck.</source>
+        <translation>送金先アドレスが不正です。再確認してください。</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source> and </source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>The recipient address is not valid, please recheck.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
         <source>The amount to pay must be larger than 0.</source>
-        <translation type="unfinished"/>
+        <translation>支払い総額は0より大きい必要があります。</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>The amount exceeds your balance.</source>
-        <translation type="unfinished"/>
+        <translation>支払い総額が残高を超えています。</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation type="unfinished"/>
+        <translation>取引手数料 %1 を含めた総額が残高を超えています。</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation type="unfinished"/>
+        <source>Duplicate address found: addresses should only be used once each.</source>
+        <translation>重複したアドレスが見つかりました: アドレスはそれぞれ一度のみ使用することができます。</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Error: Transaction creation failed!</source>
-        <translation type="unfinished"/>
+        <source>Transaction creation failed!</source>
+        <translation>取引の作成に失敗しました！</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Error: The transaction was rejected. This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"/>
+        <source>The transaction was rejected with the following reason: %1</source>
+        <translation>取引は次の理由により拒否されました: %1</translation>
+    </message>
+    <message>
+        <source>A fee higher than %1 is considered an absurdly high fee.</source>
+        <translation>%1 よりも高い手数料は、異常に高すぎです。</translation>
+    </message>
+    <message>
+        <source>Payment request expired.</source>
+        <translation>支払いリクエストが期限切れです。</translation>
+    </message>
+    <message numerus="yes">
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation><numerusform>予想される承認開始ブロック: %n ブロック以内</numerusform></translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Worldcoin address</source>
+        <translation>警告: 無効な Worldcoin アドレス</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown change address</source>
+        <translation>警告：正体不明のお釣りアドレスです</translation>
+    </message>
+    <message>
+        <source>Confirm custom change address</source>
+        <translation>カスタムお釣りアドレスの確認</translation>
+    </message>
+    <message>
+        <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
+        <translation>お釣り用として指定されたアドレスはこのウォレットのものではありません。このウォレットの一部又は全部の資産がこのアドレスへ送金されます。よろしいですか？</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(ラベル無し)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
-        <location filename="../forms/sendcoinsentry.ui" line="+14"/>
-        <source>Form</source>
-        <translation>フォーム</translation>
-    </message>
-    <message>
-        <location line="+15"/>
         <source>A&amp;mount:</source>
-        <translation type="unfinished"/>
+        <translation>金額(&amp;A):</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Pay &amp;To:</source>
-        <translation type="unfinished"/>
+        <translation>送金先(&amp;T):</translation>
     </message>
     <message>
-        <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+60"/>
-        <location filename="../sendcoinsentry.cpp" line="+26"/>
-        <source>Enter a label for this address to add it to your address book</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-78"/>
         <source>&amp;Label:</source>
-        <translation type="unfinished"/>
+        <translation>ラベル(&amp;L):</translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>Choose address from address book</source>
-        <translation type="unfinished"/>
+        <source>Choose previously used address</source>
+        <translation>これまでに送金したことがあるアドレスから選択</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <source>This is a normal payment.</source>
+        <translation>これは通常の支払いです。</translation>
+    </message>
+    <message>
+        <source>The Worldcoin address to send the payment to</source>
+        <translation>支払い先 Worldcoin アドレス</translation>
+    </message>
+    <message>
         <source>Alt+A</source>
-        <translation type="unfinished"/>
+        <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished"/>
+        <translation>クリップボードからアドレスを貼り付け</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
-        <translation type="unfinished"/>
+        <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Remove this recipient</source>
-        <translation type="unfinished"/>
+        <source>Remove this entry</source>
+        <translation>この項目を削除</translation>
     </message>
     <message>
-        <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Worldcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation type="unfinished"/>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less worldcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>手数料は送金する金額から差し引かれます。送金先には金額欄で指定した額よりも少ない Worldcoin が送られます。送金先が複数ある場合は、手数料は均等に分けられます。</translation>
+    </message>
+    <message>
+        <source>S&amp;ubtract fee from amount</source>
+        <translation>送金額から手数料を差し引く(&amp;U)</translation>
+    </message>
+    <message>
+        <source>Use available balance</source>
+        <translation>利用可能な残額を使用</translation>
+    </message>
+    <message>
+        <source>Message:</source>
+        <translation>メッセージ:</translation>
+    </message>
+    <message>
+        <source>This is an unauthenticated payment request.</source>
+        <translation>これは未認証の支払いリクエストです。</translation>
+    </message>
+    <message>
+        <source>This is an authenticated payment request.</source>
+        <translation>これは認証済みの支払いリクエストです。</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to the list of used addresses</source>
+        <translation>このアドレスに対するラベルを入力することで、送金したことがあるアドレスの一覧に追加することができます</translation>
+    </message>
+    <message>
+        <source>A message that was attached to the worldcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Worldcoin network.</source>
+        <translation>worldcoin: URIに添付されていたメッセージです。これは参照用として取引とともに保存されます。注意: メッセージは Worldcoin ネットワーク上へ送信されません。</translation>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation>送金先:</translation>
+    </message>
+    <message>
+        <source>Memo:</source>
+        <translation>メモ:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>アドレス帳に追加するには、このアドレスのラベルを入力します</translation>
+    </message>
+</context>
+<context>
+    <name>SendConfirmationDialog</name>
+    <message>
+        <source>Yes</source>
+        <translation>はい</translation>
+    </message>
+</context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+        <source>%1 is shutting down...</source>
+        <translation>%1 をシャットダウンしています...</translation>
+    </message>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>このウィンドウが消えるまでコンピュータをシャットダウンしないでください。</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <location filename="../forms/signverifymessagedialog.ui" line="+14"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation type="unfinished"/>
+        <translation>署名 - メッセージの署名・検証</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>&amp;Sign Message</source>
-        <translation type="unfinished"/>
+        <translation>メッセージの署名(&amp;S)</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation type="unfinished"/>
+        <source>You can sign messages/agreements with your addresses to prove you can receive worldcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>あなたが所有しているアドレスでメッセージや契約書に署名をすることで、それらのアドレスへ送られた Worldcoin を受け取ることができることを証明できます。フィッシング攻撃者があなたを騙して、あなたの身分情報に署名させようとしている可能性があるため、よくわからないものやランダムな文字列に対して署名しないでください。あなたが同意した、よく詳細の記された文言にのみ署名するようにしてください。</translation>
     </message>
     <message>
-        <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation type="unfinished"/>
+        <source>The Worldcoin address to sign the message with</source>
+        <translation>メッセージの署名に使用する Worldcoin アドレス</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <location line="+213"/>
-        <source>Choose an address from the address book</source>
-        <translation type="unfinished"/>
+        <source>Choose previously used address</source>
+        <translation>これまでに使用したことがあるアドレスから選択</translation>
     </message>
     <message>
-        <location line="-203"/>
-        <location line="+213"/>
         <source>Alt+A</source>
-        <translation type="unfinished"/>
+        <translation>Alt+A</translation>
     </message>
     <message>
-        <location line="-203"/>
         <source>Paste address from clipboard</source>
-        <translation type="unfinished"/>
+        <translation>クリップボードからアドレスを貼り付け</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Alt+P</source>
-        <translation type="unfinished"/>
+        <translation>Alt+P</translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>Enter the message you want to sign here</source>
-        <translation type="unfinished"/>
+        <translation>署名するメッセージを入力</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Signature</source>
-        <translation type="unfinished"/>
+        <translation>署名</translation>
     </message>
     <message>
-        <location line="+27"/>
         <source>Copy the current signature to the system clipboard</source>
-        <translation type="unfinished"/>
+        <translation>この署名をシステムのクリップボードにコピー</translation>
     </message>
     <message>
-        <location line="+21"/>
         <source>Sign the message to prove you own this Worldcoin address</source>
-        <translation type="unfinished"/>
+        <translation>メッセージに署名してこの Worldcoin アドレスを所有していることを証明</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Sign &amp;Message</source>
-        <translation type="unfinished"/>
+        <translation>メッセージを署名(&amp;M)</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Reset all sign message fields</source>
-        <translation type="unfinished"/>
+        <translation>入力欄の内容を全て消去</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location line="+146"/>
         <source>Clear &amp;All</source>
-        <translation type="unfinished"/>
+        <translation>全てクリア(&amp;A)</translation>
     </message>
     <message>
-        <location line="-87"/>
         <source>&amp;Verify Message</source>
-        <translation type="unfinished"/>
+        <translation>メッセージの検証(&amp;V)</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation type="unfinished"/>
+        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
+        <translation>送金先のアドレスと、メッセージ（改行やスペース、タブなども完全に一致させること）および署名を以下に入力し、メッセージを検証します。中間者攻撃により騙されるのを防ぐため、署名対象のメッセージから書かれていること以上の意味を読み取ろうとしないでください。また、これは署名作成者がこのアドレスで受け取れることを証明するだけであり、取引の送信権限を証明するものではありません！</translation>
     </message>
     <message>
-        <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation type="unfinished"/>
+        <source>The Worldcoin address the message was signed with</source>
+        <translation>メッセージの署名に使われた Worldcoin アドレス</translation>
     </message>
     <message>
-        <location line="+40"/>
         <source>Verify the message to ensure it was signed with the specified Worldcoin address</source>
-        <translation type="unfinished"/>
+        <translation>メッセージを検証して指定された Worldcoin アドレスで署名されたことを確認</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Verify &amp;Message</source>
-        <translation type="unfinished"/>
+        <translation>メッセージを検証(&amp;M)</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Reset all verify message fields</source>
-        <translation type="unfinished"/>
+        <translation>入力欄の内容を全て消去</translation>
     </message>
     <message>
-        <location filename="../signverifymessagedialog.cpp" line="+27"/>
-        <location line="+3"/>
-        <source>Enter a Worldcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation type="unfinished"/>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>「メッセージを署名」をクリックして署名を生成</translation>
     </message>
     <message>
-        <location line="-2"/>
-        <source>Click &quot;Sign Message&quot; to generate signature</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Enter Worldcoin signature</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+82"/>
-        <location line="+81"/>
         <source>The entered address is invalid.</source>
-        <translation type="unfinished"/>
+        <translation>不正なアドレスが入力されました。</translation>
     </message>
     <message>
-        <location line="-81"/>
-        <location line="+8"/>
-        <location line="+73"/>
-        <location line="+8"/>
         <source>Please check the address and try again.</source>
-        <translation type="unfinished"/>
+        <translation>アドレスが正しいか確かめてから、もう一度試してください。</translation>
     </message>
     <message>
-        <location line="-81"/>
-        <location line="+81"/>
         <source>The entered address does not refer to a key.</source>
-        <translation type="unfinished"/>
+        <translation>入力されたアドレスに紐づく鍵がありません。</translation>
     </message>
     <message>
-        <location line="-73"/>
         <source>Wallet unlock was cancelled.</source>
-        <translation type="unfinished"/>
+        <translation>ウォレットのアンロックはキャンセルされました。</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Private key for the entered address is not available.</source>
-        <translation type="unfinished"/>
+        <translation>入力されたアドレスの秘密鍵は利用できません。</translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>Message signing failed.</source>
-        <translation type="unfinished"/>
+        <translation>メッセージの署名に失敗しました。</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Message signed.</source>
-        <translation type="unfinished"/>
+        <translation>メッセージに署名しました。</translation>
     </message>
     <message>
-        <location line="+59"/>
         <source>The signature could not be decoded.</source>
-        <translation type="unfinished"/>
+        <translation>署名が復号できませんでした。</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <location line="+13"/>
         <source>Please check the signature and try again.</source>
-        <translation type="unfinished"/>
+        <translation>署名が正しいか確認してから、もう一度試してください。</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>The signature did not match the message digest.</source>
-        <translation type="unfinished"/>
+        <translation>署名がメッセージダイジェストと一致しませんでした。</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Message verification failed.</source>
-        <translation type="unfinished"/>
+        <translation>メッセージの検証に失敗しました。</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Message verified.</source>
-        <translation type="unfinished"/>
+        <translation>メッセージは検証されました。</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
-        <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Worldcoin developers</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
 </context>
 <context>
+    <name>TrafficGraphWidget</name>
+    <message>
+        <source>KB/s</source>
+        <translation>KB/秒</translation>
+    </message>
+</context>
+<context>
     <name>TransactionDesc</name>
-    <message>
-        <location filename="../transactiondesc.cpp" line="+20"/>
-        <source>Open until %1</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>%1/offline</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1/unconfirmed</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>%1 confirmations</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+18"/>
-        <source>Status</source>
-        <translation type="unfinished"/>
-    </message>
     <message numerus="yes">
-        <location line="+7"/>
-        <source>, broadcast through %n node(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Date</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Source</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Generated</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <location line="+17"/>
-        <source>From</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <location line="+22"/>
-        <location line="+58"/>
-        <source>To</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-77"/>
-        <location line="+2"/>
-        <source>own address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-2"/>
-        <source>label</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+37"/>
-        <location line="+12"/>
-        <location line="+45"/>
-        <location line="+17"/>
-        <location line="+30"/>
-        <source>Credit</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="-102"/>
-        <source>matures in %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>not accepted</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+44"/>
-        <location line="+8"/>
-        <location line="+15"/>
-        <location line="+30"/>
-        <source>Debit</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-39"/>
-        <source>Transaction fee</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Net amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Message</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Comment</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Transaction ID</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Generated coins must mature 120 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Debug information</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Transaction</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Inputs</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>true</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>false</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-209"/>
-        <source>, has not been successfully broadcast yet</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="-35"/>
         <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
+        <translation><numerusform>あと %n ブロックは未承認の予定</numerusform></translation>
     </message>
     <message>
-        <location line="+70"/>
+        <source>Open until %1</source>
+        <translation>%1 まで未承認の予定</translation>
+    </message>
+    <message>
+        <source>conflicted with a transaction with %1 confirmations</source>
+        <translation>%1 承認の取引と衝突</translation>
+    </message>
+    <message>
+        <source>0/unconfirmed, %1</source>
+        <translation>0/未承認, %1</translation>
+    </message>
+    <message>
+        <source>in memory pool</source>
+        <translation>メモリプール内</translation>
+    </message>
+    <message>
+        <source>not in memory pool</source>
+        <translation>メモリプール外</translation>
+    </message>
+    <message>
+        <source>abandoned</source>
+        <translation>送信中止</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/未承認</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 承認</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>状態</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>日付</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>ソース</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>生成</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>送金元</translation>
+    </message>
+    <message>
         <source>unknown</source>
-        <translation type="unfinished"/>
+        <translation>不明</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>送金先</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>自分のアドレス</translation>
+    </message>
+    <message>
+        <source>watch-only</source>
+        <translation>ウォッチ限定</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>ラベル</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>貸方</translation>
+    </message>
+    <message numerus="yes">
+        <source>matures in %n more block(s)</source>
+        <translation><numerusform>あと %n ブロックで成熟</numerusform></translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>承認されていない</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>借方</translation>
+    </message>
+    <message>
+        <source>Total debit</source>
+        <translation>借方総計</translation>
+    </message>
+    <message>
+        <source>Total credit</source>
+        <translation>貸方総計</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>取引手数料</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>正味金額</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>メッセージ</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>コメント</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>取引ID</translation>
+    </message>
+    <message>
+        <source>Transaction total size</source>
+        <translation>トランザクションの全体サイズ</translation>
+    </message>
+    <message>
+        <source>Transaction virtual size</source>
+        <translation>トランザクションの仮想サイズ</translation>
+    </message>
+    <message>
+        <source>Output index</source>
+        <translation>アウトプット インデックス数</translation>
+    </message>
+    <message>
+        <source>Merchant</source>
+        <translation>リクエスト元</translation>
+    </message>
+    <message>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>生成されたコインは、%1 ブロックの間成熟させたあとに使用可能になります。このブロックは生成された際、ブロックチェーンに取り込まれるためにネットワークに放流されました。ブロックチェーンに取り込まれられなかった場合、取引状態が「承認されていない」に変更され、コインは使用不能になります。これは、別のノードがあなたの数秒前にブロックを生成した場合に時々起こる場合があります。</translation>
+    </message>
+    <message>
+        <source>Debug information</source>
+        <translation>デバッグ情報</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>トランザクション</translation>
+    </message>
+    <message>
+        <source>Inputs</source>
+        <translation>インプット</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>金額</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>はい</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>いいえ</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
-        <location filename="../forms/transactiondescdialog.ui" line="+14"/>
-        <source>Transaction details</source>
-        <translation type="unfinished"/>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>取引の詳細</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>This pane shows a detailed description of the transaction</source>
-        <translation type="unfinished"/>
+        <source>Details for %1</source>
+        <translation>%1 の詳細</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
-        <location filename="../transactiontablemodel.cpp" line="+225"/>
         <source>Date</source>
-        <translation type="unfinished"/>
+        <translation>日時</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Type</source>
-        <translation type="unfinished"/>
+        <translation>種別</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Address</source>
-        <translation>Helbidea</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Amount</source>
-        <translation type="unfinished"/>
+        <source>Label</source>
+        <translation>ラベル</translation>
     </message>
     <message numerus="yes">
-        <location line="+57"/>
         <source>Open for %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
+        <translation><numerusform>あと %n ブロックは未承認の予定</numerusform></translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Open until %1</source>
-        <translation type="unfinished"/>
+        <translation>%1 まで未承認の予定</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Offline (%1 confirmations)</source>
-        <translation type="unfinished"/>
+        <source>Unconfirmed</source>
+        <translation>未承認</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Unconfirmed (%1 of %2 confirmations)</source>
-        <translation type="unfinished"/>
+        <source>Abandoned</source>
+        <translation>送信中止</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Confirming (%1 of %2 recommended confirmations)</source>
+        <translation>承認中（推奨承認数 %2 のうち %1 承認が完了）</translation>
+    </message>
+    <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message numerus="yes">
-        <location line="+8"/>
-        <source>Mined balance will be available when it matures in %n more block(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
+        <translation>承認されました（%1 承認）</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation type="unfinished"/>
+        <source>Conflicted</source>
+        <translation>衝突</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>未成熟（%1 承認。%2 承認完了後に使用可能）</translation>
+    </message>
+    <message>
         <source>Generated but not accepted</source>
-        <translation type="unfinished"/>
+        <translation>生成されましたが承認されませんでした</translation>
     </message>
     <message>
-        <location line="+43"/>
         <source>Received with</source>
-        <translation type="unfinished"/>
+        <translation>受取(通常)</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Received from</source>
-        <translation type="unfinished"/>
+        <translation>受取(その他)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Sent to</source>
-        <translation type="unfinished"/>
+        <translation>送金</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Payment to yourself</source>
-        <translation type="unfinished"/>
+        <translation>自分への送金</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Mined</source>
-        <translation type="unfinished"/>
+        <translation>発掘</translation>
     </message>
     <message>
-        <location line="+38"/>
+        <source>watch-only</source>
+        <translation>ウォッチ限定</translation>
+    </message>
+    <message>
         <source>(n/a)</source>
-        <translation type="unfinished"/>
+        <translation>(n/a)</translation>
     </message>
     <message>
-        <location line="+199"/>
+        <source>(no label)</source>
+        <translation>(ラベル無し)</translation>
+    </message>
+    <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation type="unfinished"/>
+        <translation>取引の状況。このフィールドの上にカーソルを置くと承認数が表示されます。</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Date and time that the transaction was received.</source>
-        <translation type="unfinished"/>
+        <translation>取引を受信した日時。</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Type of transaction.</source>
-        <translation type="unfinished"/>
+        <translation>取引の種類。</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Destination address of transaction.</source>
-        <translation type="unfinished"/>
+        <source>Whether or not a watch-only address is involved in this transaction.</source>
+        <translation>ウォッチ限定アドレスがこの取引に含まれているかどうか。</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <source>User-defined intent/purpose of the transaction.</source>
+        <translation>ユーザー定義の取引の目的や用途。</translation>
+    </message>
+    <message>
         <source>Amount removed from or added to balance.</source>
-        <translation type="unfinished"/>
+        <translation>残高から増えた又は減った総額。</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
-        <location filename="../transactionview.cpp" line="+52"/>
-        <location line="+16"/>
         <source>All</source>
-        <translation type="unfinished"/>
+        <translation>すべて</translation>
     </message>
     <message>
-        <location line="-15"/>
         <source>Today</source>
-        <translation type="unfinished"/>
+        <translation>今日</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This week</source>
-        <translation type="unfinished"/>
+        <translation>今週</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This month</source>
-        <translation type="unfinished"/>
+        <translation>今月</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Last month</source>
-        <translation type="unfinished"/>
+        <translation>先月</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>This year</source>
-        <translation type="unfinished"/>
+        <translation>今年</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Range...</source>
-        <translation type="unfinished"/>
+        <translation>期間指定...</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Received with</source>
-        <translation type="unfinished"/>
+        <translation>受取</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Sent to</source>
-        <translation type="unfinished"/>
+        <translation>送金</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>To yourself</source>
-        <translation type="unfinished"/>
+        <translation>自己送金</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Mined</source>
-        <translation type="unfinished"/>
+        <translation>発掘</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Other</source>
-        <translation type="unfinished"/>
+        <translation>その他</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Enter address or label to search</source>
-        <translation type="unfinished"/>
+        <source>Enter address, transaction id, or label to search</source>
+        <translation>検索したいアドレスや取引ID、ラベルを入力</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Min amount</source>
-        <translation type="unfinished"/>
+        <translation>表示最小金額</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <source>Abandon transaction</source>
+        <translation>取引の送信を中止</translation>
+    </message>
+    <message>
+        <source>Increase transaction fee</source>
+        <translation>取引手数料を上乗せ</translation>
+    </message>
+    <message>
         <source>Copy address</source>
-        <translation type="unfinished"/>
+        <translation>アドレスをコピー</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy label</source>
-        <translation type="unfinished"/>
+        <translation>ラベルをコピー</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy amount</source>
-        <translation type="unfinished"/>
+        <translation>金額をコピー</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Copy transaction ID</source>
-        <translation type="unfinished"/>
+        <translation>取引IDをコピー</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Copy raw transaction</source>
+        <translation>生トランザクションをコピー</translation>
+    </message>
+    <message>
+        <source>Copy full transaction details</source>
+        <translation>取引の詳細すべてをコピー</translation>
+    </message>
+    <message>
         <source>Edit label</source>
-        <translation type="unfinished"/>
+        <translation>ラベルを編集</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Show transaction details</source>
-        <translation type="unfinished"/>
+        <translation>取引の詳細を表示</translation>
     </message>
     <message>
-        <location line="+139"/>
-        <source>Export Transaction Data</source>
-        <translation type="unfinished"/>
+        <source>Export Transaction History</source>
+        <translation>取引履歴をエクスポート</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Comma separated file (*.csv)</source>
         <translation>テキスト CSV (*.csv)</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Confirmed</source>
-        <translation type="unfinished"/>
+        <translation>承認済み</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Watch-only</source>
+        <translation>ウォッチ限定</translation>
+    </message>
+    <message>
         <source>Date</source>
-        <translation type="unfinished"/>
+        <translation>日時</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Type</source>
-        <translation type="unfinished"/>
+        <translation>種別</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Label</source>
-        <translation>レーベル</translation>
+        <translation>ラベル</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Address</source>
-        <translation>Helbidea</translation>
+        <translation>アドレス</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>ID</source>
-        <translation type="unfinished"/>
+        <translation>ID</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Error exporting</source>
-        <translation>エラー輸出</translation>
+        <source>Exporting Failed</source>
+        <translation>エクスポートに失敗しました</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>Could not write to file %1.</source>
-        <translation>%1のファイルに書き込めませんでした。</translation>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation>取引履歴を %1 に保存する際にエラーが発生しました。</translation>
     </message>
     <message>
-        <location line="+100"/>
+        <source>Exporting Successful</source>
+        <translation>エクスポートに成功しました</translation>
+    </message>
+    <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation>取引履歴は正常に %1 に保存されました。</translation>
+    </message>
+    <message>
         <source>Range:</source>
-        <translation type="unfinished"/>
+        <translation>期間:</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>to</source>
-        <translation type="unfinished"/>
+        <translation>〜</translation>
+    </message>
+</context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    <message>
+        <source>Unit to show amounts in. Click to select another unit.</source>
+        <translation>金額を表示する際の単位。クリックすると他の単位を選択できます。</translation>
+    </message>
+</context>
+<context>
+    <name>WalletController</name>
+    <message>
+        <source>Close wallet</source>
+        <translation>ウォレットを閉じる</translation>
+    </message>
+    <message>
+        <source>Are you sure you wish to close wallet &lt;i&gt;%1&lt;/i&gt;?</source>
+        <translation>本当にウォレット&lt;i&gt;%1&lt;/i&gt;を閉じますか？</translation>
+    </message>
+    <message>
+        <source>Closing the wallet for too long can result in having to resync the entire chain if pruning is enabled.</source>
+        <translation>ブロックファイル剪定が有効の場合、長期間ウォレットを起動しないと全チェーンを再度同期させる必要があるかもしれません。</translation>
+    </message>
+</context>
+<context>
+    <name>WalletFrame</name>
+    <message>
+        <source>No wallet has been loaded.</source>
+        <translation>ウォレットが読み込まれていません。</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
-        <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation type="unfinished"/>
+        <translation>コインの送金</translation>
+    </message>
+    <message>
+        <source>Fee bump error</source>
+        <translation>手数料上乗せエラー</translation>
+    </message>
+    <message>
+        <source>Increasing transaction fee failed</source>
+        <translation>取引手数料の上乗せに失敗しました</translation>
+    </message>
+    <message>
+        <source>Do you want to increase the fee?</source>
+        <translation>手数料を上乗せしてもよろしいですか？</translation>
+    </message>
+    <message>
+        <source>Current fee:</source>
+        <translation>現在の手数料:</translation>
+    </message>
+    <message>
+        <source>Increase:</source>
+        <translation>上乗せ額:</translation>
+    </message>
+    <message>
+        <source>New fee:</source>
+        <translation>新しい手数料:</translation>
+    </message>
+    <message>
+        <source>Confirm fee bump</source>
+        <translation>手数料上乗せの確認</translation>
+    </message>
+    <message>
+        <source>Can't sign transaction.</source>
+        <translation>トランザクションを署名できませんでした。</translation>
+    </message>
+    <message>
+        <source>Could not commit transaction</source>
+        <translation>トランザクションのコミットに失敗しました</translation>
+    </message>
+    <message>
+        <source>default wallet</source>
+        <translation>デフォルトウォレット</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
-        <location filename="../walletview.cpp" line="+42"/>
         <source>&amp;Export</source>
-        <translation type="unfinished"/>
+        <translation>エクスポート(&amp;E)</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Export the data in the current tab to a file</source>
-        <translation type="unfinished"/>
+        <translation>現在のタブのデータをファイルにエクスポート</translation>
     </message>
     <message>
-        <location line="+193"/>
         <source>Backup Wallet</source>
-        <translation type="unfinished"/>
+        <translation>ウォレットのバックアップ</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Wallet Data (*.dat)</source>
-        <translation type="unfinished"/>
+        <translation>ウォレット データ (*.dat)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Backup Failed</source>
-        <translation type="unfinished"/>
+        <translation>バックアップ失敗</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>There was an error trying to save the wallet data to the new location.</source>
-        <translation type="unfinished"/>
+        <source>There was an error trying to save the wallet data to %1.</source>
+        <translation>ウォレットデータを %1 へ保存する際にエラーが発生しました。</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Backup Successful</source>
-        <translation type="unfinished"/>
+        <translation>バックアップ成功</translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>The wallet data was successfully saved to the new location.</source>
-        <translation type="unfinished"/>
+        <source>The wallet data was successfully saved to %1.</source>
+        <translation>ウォレット データは正常に %1 に保存されました。</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>キャンセル</translation>
     </message>
 </context>
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Worldcoin version</source>
-        <translation>Worldcoin Bertsio</translation>
+        <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
+        <translation>MIT ソフトウェアライセンスのもとで配布されています。付属の %s ファイルか、 %s を参照してください</translation>
     </message>
     <message>
-        <location line="+102"/>
-        <source>Usage:</source>
-        <translation type="unfinished"/>
+        <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
+        <translation>剪定設定が、設定可能最小値の %d MiBより低く設定されています。より大きい値を使用してください。</translation>
     </message>
     <message>
-        <location line="-29"/>
-        <source>Send command to -server or worldcoind</source>
-        <translation type="unfinished"/>
+        <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
+        <translation>剪定: 最後のウォレット同期ポイントが、剪定されたデータを越えています。-reindex を実行する必要があります (剪定されたノードの場合、ブロックチェーン全体を再ダウンロードします)</translation>
     </message>
     <message>
-        <location line="-23"/>
-        <source>List commands</source>
-        <translation type="unfinished"/>
+        <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
+        <translation>剪定モードでは再スキャンを行うことはできません。-reindex オプションを指定し、ブロックチェーン全体を再ダウンロードする必要があります。</translation>
     </message>
     <message>
-        <location line="-12"/>
-        <source>Get help for a command</source>
-        <translation type="unfinished"/>
+        <source>Error: A fatal internal error occurred, see debug.log for details</source>
+        <translation>エラー: 致命的な内部エラーが発生しました。詳細は debug.log を参照してください</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>Options:</source>
-        <translation type="unfinished"/>
+        <source>Pruning blockstore...</source>
+        <translation>ブロック保存容量を剪定中...</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>Specify configuration file (default: worldcoin.conf)</source>
-        <translation type="unfinished"/>
+        <source>Unable to start HTTP server. See debug log for details.</source>
+        <translation>HTTPサーバを開始できませんでした。詳細は debug.log を参照してください。</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Specify pid file (default: worldcoind.pid)</source>
-        <translation type="unfinished"/>
+        <source>Worldcoin Core</source>
+        <translation>Worldcoin コア</translation>
     </message>
     <message>
-        <location line="-1"/>
-        <source>Specify data directory</source>
-        <translation type="unfinished"/>
+        <source>The %s developers</source>
+        <translation>%s の開発者</translation>
     </message>
     <message>
-        <location line="-9"/>
-        <source>Set database cache size in megabytes (default: 25)</source>
-        <translation type="unfinished"/>
+        <source>Can't generate a change-address key. No keys in the internal keypool and can't generate any keys.</source>
+        <translation>おつりアドレスの鍵を作成することができません。内部のキープールに鍵が存在しないため、鍵を生成することができません。</translation>
     </message>
     <message>
-        <location line="-28"/>
-        <source>Listen for connections on &lt;port&gt; (default: 9333 or testnet: 19333)</source>
-        <translation type="unfinished"/>
+        <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
+        <translation>データ ディレクトリ %s のロックを取得することができません。%s がおそらく既に実行中です。</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
-        <translation type="unfinished"/>
+        <source>Cannot provide specific connections and have addrman find outgoing connections at the same.</source>
+        <translation>指定された接続が利用できず、また addrman は外向き接続を見つけられませんでした。</translation>
     </message>
     <message>
-        <location line="-48"/>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation type="unfinished"/>
+        <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation>%s の読み込み中にエラーが発生しました！ 全ての鍵は正しく読み込めましたが、取引データやアドレス帳の項目が失われたか、正しくない可能性があります。</translation>
     </message>
     <message>
-        <location line="+82"/>
-        <source>Specify your own public address</source>
-        <translation type="unfinished"/>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
+        <translation>お使いのコンピューターの日付と時刻が正しいことを確認してください！ PCの時計が正しくない場合 %s は正確に動作しません。</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
-        <translation type="unfinished"/>
+        <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
+        <translation>%s が有用だと感じられた方はぜひプロジェクトへの貢献をお願いします。ソフトウェアのより詳細な情報については %s をご覧ください。</translation>
     </message>
     <message>
-        <location line="-134"/>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
-        <translation type="unfinished"/>
+        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
+        <translation>ブロックデータベースに未来の時刻のブロックが含まれています。お使いのコンピューターの日付と時刻が間違っている可能性があります。コンピュータの日付と時刻が本当に正しい場合にのみ、ブロックデータベースの再構築を実行してください。</translation>
     </message>
     <message>
-        <location line="-29"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+27"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 9332 or testnet: 19332)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+37"/>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+76"/>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+37"/>
-        <source>Use the test network</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-112"/>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-80"/>
-        <source>%s, you must set a rpcpassword in the configuration file:
-%s
-It is recommended you use the following random password:
-rpcuser=worldcoinrpc
-rpcpassword=%s
-(you do not need to remember this password)
-The username and password MUST NOT be the same.
-If the file does not exist, create it with owner-readable-only file permissions.
-It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Worldcoin Alert&quot; admin@foo.com
-</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Worldcoin is probably already running.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Execute command when a relevant alert is received (%s in cmd is replaced by message)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: 27000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+6"/>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation type="unfinished"/>
+        <translation>これはリリース前のテストビルドです - 自己責任で使用してください - 採掘や商取引に使用しないでください</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation type="unfinished"/>
+        <source>This is the transaction fee you may discard if change is smaller than dust at this level</source>
+        <translation>これは、このレベルでダストよりもお釣りが小さい場合に破棄されるトランザクション手数料です。</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: Displayed transactions may not be correct! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation type="unfinished"/>
+        <source>Unable to replay blocks. You will need to rebuild the database using -reindex-chainstate.</source>
+        <translation>ブロックのリプレイができませんでした。-reindex-chainstate オプションを指定してデータベースを再構築する必要があります。</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Worldcoin will not work properly.</source>
-        <translation type="unfinished"/>
+        <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
+        <translation>データベースをフォーク前の状態に巻き戻せませんでした。ブロックチェーンを再ダウンロードする必要があります</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation type="unfinished"/>
+        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
+        <translation>警告: ネットワークは完全に合意が取れていないようです。問題が発生しているマイナーがいる可能性があります。</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation type="unfinished"/>
+        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
+        <translation>警告: ピアと完全に合意が取れていないようです！ このノードもしくは他のノードのアップグレードが必要な可能性があります。</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation type="unfinished"/>
+        <source>%d of last 100 blocks have unexpected version</source>
+        <translation>直近の100ブロックの内、%d ブロックが予期しないバージョンを含んでいます</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Block creation options:</source>
-        <translation type="unfinished"/>
+        <source>%s corrupt, salvage failed</source>
+        <translation>%s が壊れています。復旧にも失敗しました</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Connect only to the specified node(s)</source>
-        <translation type="unfinished"/>
+        <source>-maxmempool must be at least %d MB</source>
+        <translation>-maxmempoolは最低でも %d MB必要です</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <source>Cannot resolve -%s address: '%s'</source>
+        <translation>-%s アドレス '%s' を解決できません</translation>
+    </message>
+    <message>
+        <source>Change index out of range</source>
+        <translation>お釣りのインデックスが範囲外です</translation>
+    </message>
+    <message>
+        <source>Config setting for %s only applied on %s network when in [%s] section.</source>
+        <translation>%s の設定は、 [%s] セクションに書かれた場合のみ %s ネットワークへ適用されます。</translation>
+    </message>
+    <message>
+        <source>Copyright (C) %i-%i</source>
+        <translation>Copyright (C) %i-%i</translation>
+    </message>
+    <message>
         <source>Corrupted block database detected</source>
-        <translation type="unfinished"/>
+        <translation>破損したブロック データベースが見つかりました</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Do you want to rebuild the block database now?</source>
-        <translation type="unfinished"/>
+        <translation>ブロック データベースを今すぐ再構築しますか？</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Error initializing block database</source>
-        <translation type="unfinished"/>
+        <translation>ブロックデータベースの初期化時にエラーが発生しました</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Error initializing wallet database environment %s!</source>
-        <translation type="unfinished"/>
+        <translation>ウォレットデータベース環境 %s の初期化時にエラーが発生しました！</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <source>Error loading %s</source>
+        <translation>%s の読み込みエラー</translation>
+    </message>
+    <message>
+        <source>Error loading %s: Private keys can only be disabled during creation</source>
+        <translation>%s の読み込みエラー: 秘密鍵の無効化はウォレットの生成時のみ可能です</translation>
+    </message>
+    <message>
+        <source>Error loading %s: Wallet corrupted</source>
+        <translation>%s の読み込みエラー: ウォレットが壊れています</translation>
+    </message>
+    <message>
+        <source>Error loading %s: Wallet requires newer version of %s</source>
+        <translation>%s の読み込みエラー: より新しいバージョンの %s が必要です</translation>
+    </message>
+    <message>
         <source>Error loading block database</source>
-        <translation type="unfinished"/>
+        <translation>ブロックデータベースの読み込み時にエラーが発生しました</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Error opening block database</source>
-        <translation type="unfinished"/>
+        <translation>ブロックデータベースのオープン時にエラーが発生しました</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Error: Disk space is low!</source>
-        <translation type="unfinished"/>
+        <translation>エラー: ディスク容量が不足しています！</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error: system error: </source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation type="unfinished"/>
+        <translation>ポートのリッスンに失敗しました。必要であれば -listen=0 を指定してください。</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to read block info</source>
-        <translation type="unfinished"/>
+        <source>Failed to rescan the wallet during initialization</source>
+        <translation>初期化中にウォレットの再スキャンに失敗しました</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to read block</source>
-        <translation type="unfinished"/>
+        <source>Importing...</source>
+        <translation>インポート中...</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to sync block index</source>
-        <translation type="unfinished"/>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation>ジェネシスブロックが不正であるか、見つかりません。ネットワークの datadir が間違っていませんか？</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block index</source>
-        <translation type="unfinished"/>
+        <source>Initialization sanity check failed. %s is shutting down.</source>
+        <translation>初期化時の健全性検査に失敗しました。%s を終了します。</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block info</source>
-        <translation type="unfinished"/>
+        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
+        <translation>-%s=&lt;amount&gt; オプションに対する不正な amount: '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write block</source>
-        <translation type="unfinished"/>
+        <source>Invalid amount for -discardfee=&lt;amount&gt;: '%s'</source>
+        <translation>-discardfee=&lt;amount&gt; オプションに対する不正な amount: '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write file info</source>
-        <translation type="unfinished"/>
+        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
+        <translation>-fallbackfee=&lt;amount&gt; オプションに対する不正な amount: '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write to coin database</source>
-        <translation type="unfinished"/>
+        <source>Specified blocks directory "%s" does not exist.</source>
+        <translation>指定されたブロックディレクトリ "%s" は存在しません｡</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write transaction index</source>
-        <translation type="unfinished"/>
+        <source>Unable to create the PID file '%s': %s</source>
+        <translation>PIDファイルの作成に失敗しました ('%s': %s)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Failed to write undo data</source>
-        <translation type="unfinished"/>
+        <source>Upgrading txindex database</source>
+        <translation>txindex データベースの更新中</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
-        <translation type="unfinished"/>
+        <source>Loading P2P addresses...</source>
+        <translation>P2Pアドレスの読み込み中...</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Generate coins (default: 0)</source>
-        <translation type="unfinished"/>
+        <source>Loading banlist...</source>
+        <translation>banリストの読み込み中...</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>How thorough the block verification is (0-4, default: 3)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+19"/>
         <source>Not enough file descriptors available.</source>
-        <translation type="unfinished"/>
+        <translation>使用可能なファイルディスクリプタが不足しています。</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation type="unfinished"/>
+        <source>Prune cannot be configured with a negative value.</source>
+        <translation>剪定モードの設定値は負の値にはできません。</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Set the number of threads to service RPC calls (default: 4)</source>
-        <translation type="unfinished"/>
+        <source>Prune mode is incompatible with -txindex.</source>
+        <translation>剪定モードは -txindex オプションと互換性がありません。</translation>
     </message>
     <message>
-        <location line="+26"/>
+        <source>Replaying blocks...</source>
+        <translation>ブロックのリプレイ中...</translation>
+    </message>
+    <message>
+        <source>Rewinding blocks...</source>
+        <translation>ブロックの巻き戻し中...</translation>
+    </message>
+    <message>
+        <source>The source code is available from %s.</source>
+        <translation>ソースコードは %s から入手できます。</translation>
+    </message>
+    <message>
+        <source>Transaction fee and change calculation failed</source>
+        <translation>トランザクション手数料およびお釣りの計算に失敗しました</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer. %s is probably already running.</source>
+        <translation>このコンピュータの %s にバインドすることができません。%s がおそらく既に実行中です。</translation>
+    </message>
+    <message>
+        <source>Unable to generate keys</source>
+        <translation>鍵を生成できません</translation>
+    </message>
+    <message>
+        <source>Unsupported logging category %s=%s.</source>
+        <translation>サポートされていないログカテゴリ %s=%s 。</translation>
+    </message>
+    <message>
+        <source>Upgrading UTXO database</source>
+        <translation>UTXOデータベースの更新中</translation>
+    </message>
+    <message>
+        <source>User Agent comment (%s) contains unsafe characters.</source>
+        <translation>ユーザエージェントのコメント ( %s ) に安全でない文字が含まれています。</translation>
+    </message>
+    <message>
         <source>Verifying blocks...</source>
-        <translation type="unfinished"/>
+        <translation>ブロックの検証中...</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Verifying wallet...</source>
-        <translation type="unfinished"/>
+        <source>Wallet needed to be rewritten: restart %s to complete</source>
+        <translation>ウォレットの書き直しが必要です: 完了するために %s を再起動します</translation>
     </message>
     <message>
-        <location line="-69"/>
-        <source>Imports blocks from external blk000??.dat file</source>
-        <translation type="unfinished"/>
+        <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
+        <translation>エラー: 内向きの接続をリッスンするのに失敗しました（%s エラーが返却されました）</translation>
     </message>
     <message>
-        <location line="-76"/>
-        <source>Set the number of script verification threads (up to 16, 0 = auto, &lt;0 = leave that many cores free, default: 0)</source>
-        <translation type="unfinished"/>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>-maxtxfee=&lt;amount&gt; オプションに対する不正な amount: '%s'（トランザクション詰まり防止のため、最小中継手数料の %s より大きくする必要があります）</translation>
     </message>
     <message>
-        <location line="+77"/>
+        <source>The transaction amount is too small to send after the fee has been deducted</source>
+        <translation>取引の手数料差引後金額が小さすぎるため、送金できません。</translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
+        <translation>非剪定モードに戻るためには -reindex オプションを指定してデータベースを再構築する必要があります。 ブロックチェーン全体の再ダウンロードが必要となります。</translation>
+    </message>
+    <message>
+        <source>Error reading from database, shutting down.</source>
+        <translation>データベースの読み込みエラー。シャットダウンします。</translation>
+    </message>
+    <message>
+        <source>Error upgrading chainstate database</source>
+        <translation>chainstate データベースの更新時にエラーが発生しました</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low for %s</source>
+        <translation>エラー: %s 用のディスク容量が不足しています</translation>
+    </message>
+    <message>
         <source>Information</source>
-        <translation type="unfinished"/>
+        <translation>情報</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Invalid -tor address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Invalid -onion address or hostname: '%s'</source>
+        <translation>-onion オプションに対する不正なアドレスまたはホスト名: '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Invalid -proxy address or hostname: '%s'</source>
+        <translation>-proxy オプションに対する不正なアドレスまたはホスト名: '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
+        <translation>-paytxfee=&lt;amount&gt; オプションにに対する不正な amount: '%s'（最低でも %s である必要があります）</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Maintain a full transaction index (default: 0)</source>
-        <translation type="unfinished"/>
+        <source>Invalid netmask specified in -whitelist: '%s'</source>
+        <translation>-whitelist オプションに対する不正なネットマスク: '%s'</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
-        <translation type="unfinished"/>
+        <source>Need to specify a port with -whitebind: '%s'</source>
+        <translation>-whitebind オプションでポートを指定する必要があります: '%s'</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
-        <translation type="unfinished"/>
+        <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
+        <translation>システム上の制約から、-maxconnections を %d から %d に削減しました。</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
-        <translation type="unfinished"/>
+        <source>Section [%s] is not recognized.</source>
+        <translation>セクション名 [%s] は認識されません。</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Output extra debugging information. Implies all other -debug* options</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Output extra network debugging information</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Prepend debug output with timestamp</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>SSL options: (see the Worldcoin Wiki for SSL setup instructions)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Select the version of socks proxy to use (4-5, default: 5)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Send trace/debug info to debugger</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Set maximum block size in bytes (default: 250000)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Set minimum block size in bytes (default: 0)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
         <source>Signing transaction failed</source>
-        <translation type="unfinished"/>
+        <translation>取引の署名に失敗しました</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Specify connection timeout in milliseconds (default: 5000)</source>
-        <translation type="unfinished"/>
+        <source>The specified config file %s does not exist
+</source>
+        <translation>指定された設定ファイル %s が存在しません｡
+</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>System error: </source>
-        <translation type="unfinished"/>
+        <source>The transaction amount is too small to pay the fee</source>
+        <translation>取引の手数料差引後金額が小さすぎるため、送金できません。</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <source>This is experimental software.</source>
+        <translation>これは実験用のソフトウェアです。</translation>
+    </message>
+    <message>
         <source>Transaction amount too small</source>
-        <translation type="unfinished"/>
+        <translation>取引の金額が小さすぎます</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Transaction amounts must be positive</source>
-        <translation type="unfinished"/>
+        <source>Transaction too large for fee policy</source>
+        <translation>手数料ポリシーに対してトランザクションが大きすぎます</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Transaction too large</source>
-        <translation type="unfinished"/>
+        <translation>トランザクションが大きすぎます</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>Use UPnP to map the listening port (default: 0)</source>
-        <translation type="unfinished"/>
+        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
+        <translation>このコンピュータの %s にバインドすることができません（%s エラーが返却されました）</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation type="unfinished"/>
+        <source>Unable to generate initial keys</source>
+        <translation>イニシャル鍵を生成できません</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Use proxy to reach tor hidden services (default: same as -proxy)</source>
-        <translation type="unfinished"/>
+        <source>Verifying wallet(s)...</source>
+        <translation>ウォレットの確認中...</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Username for JSON-RPC connections</source>
-        <translation type="unfinished"/>
+        <source>Wallet %s resides outside wallet directory %s</source>
+        <translation>ウォレット「%s」がウォレットフォルダ「%s」の外に存在します</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Warning</source>
-        <translation type="unfinished"/>
+        <translation>警告</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation type="unfinished"/>
+        <source>Warning: unknown new rules activated (versionbit %i)</source>
+        <translation>警告: 未知の新しいルールが有効化されました (バージョンビット %i)</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>You need to rebuild the databases using -reindex to change -txindex</source>
-        <translation type="unfinished"/>
+        <source>Zapping all transactions from wallet...</source>
+        <translation>ウォレットから全取引を消去中...</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>wallet.dat corrupt, salvage failed</source>
-        <translation type="unfinished"/>
+        <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
+        <translation>-maxtxfee が非常に高く設定されています！ ひとつの取引でこの金額の手数料が支払われてしまうことがあります。</translation>
     </message>
     <message>
-        <location line="-50"/>
-        <source>Password for JSON-RPC connections</source>
-        <translation type="unfinished"/>
+        <source>This is the transaction fee you may pay when fee estimates are not available.</source>
+        <translation>これは、手数料推定機能が利用できない場合に支払う取引手数料です。</translation>
     </message>
     <message>
-        <location line="-67"/>
-        <source>Allow JSON-RPC connections from specified IP address</source>
-        <translation type="unfinished"/>
+        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
+        <translation>この製品は、OpenSSLツールキット %s で使用するためにOpenSSLプロジェクトにより開発されたソフトウェアと、Eric Young氏により開発された暗号ソフトウェア、Thomas Bernard氏により開発されたUPnPソフトウェアを使用しています。</translation>
     </message>
     <message>
-        <location line="+76"/>
-        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
-        <translation type="unfinished"/>
+        <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
+        <translation>ネットワークバージョン文字列の長さ（%i）が、最大の長さ（%i） を超えています。UAコメントの数や長さを削減してください。</translation>
     </message>
     <message>
-        <location line="-120"/>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation type="unfinished"/>
+        <source>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
+        <translation>警告: ウォレットファイルが破損していたため、データを復旧しました！ 復旧前の %s は %s として %s に保存されました。残高や取引が正しくない場合にはバックアップから復元してください。</translation>
     </message>
     <message>
-        <location line="+147"/>
-        <source>Upgrade wallet to latest format</source>
-        <translation type="unfinished"/>
+        <source>%s is set very high!</source>
+        <translation>%s の設定値が高すぎです！</translation>
     </message>
     <message>
-        <location line="-21"/>
-        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
-        <translation type="unfinished"/>
+        <source>Error loading wallet %s. Duplicate -wallet filename specified.</source>
+        <translation>ウォレット %s の読み込み時にエラーが発生しました。重複する -wallet ファイル名が指定されました。</translation>
     </message>
     <message>
-        <location line="-12"/>
-        <source>Rescan the block chain for missing wallet transactions</source>
-        <translation type="unfinished"/>
+        <source>Keypool ran out, please call keypoolrefill first</source>
+        <translation>キープールが枯渇しました。まずはじめに keypoolrefill を呼び出してください</translation>
     </message>
     <message>
-        <location line="+35"/>
-        <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation type="unfinished"/>
+        <source>Starting network threads...</source>
+        <translation>ネットワークスレッドの起動中...</translation>
     </message>
     <message>
-        <location line="-26"/>
-        <source>Server certificate file (default: server.cert)</source>
-        <translation type="unfinished"/>
+        <source>The wallet will avoid paying less than the minimum relay fee.</source>
+        <translation>ウォレットは最小中継手数料を下回る金額は支払いません。</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Server private key (default: server.pem)</source>
-        <translation type="unfinished"/>
+        <source>This is the minimum transaction fee you pay on every transaction.</source>
+        <translation>これは、全ての取引に対して最低限支払うべき手数料です。</translation>
     </message>
     <message>
-        <location line="-151"/>
-        <source>Acceptable ciphers (default: TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!AH:!3DES:@STRENGTH)</source>
-        <translation type="unfinished"/>
+        <source>This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>これは、取引を送信する場合に支払う取引手数料です。</translation>
     </message>
     <message>
-        <location line="+165"/>
-        <source>This help message</source>
-        <translation type="unfinished"/>
+        <source>Transaction amounts must not be negative</source>
+        <translation>取引の金額は負の値にはできません</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Unable to bind to %s on this computer (bind returned error %d, %s)</source>
-        <translation type="unfinished"/>
+        <source>Transaction has too long of a mempool chain</source>
+        <translation>トランザクションのmempoolチェーンが長すぎます</translation>
     </message>
     <message>
-        <location line="-91"/>
-        <source>Connect through socks proxy</source>
-        <translation type="unfinished"/>
+        <source>Transaction must have at least one recipient</source>
+        <translation>トランザクションは最低ひとつの受取先が必要です</translation>
     </message>
     <message>
-        <location line="-10"/>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation type="unfinished"/>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>-onlynet オプションに対する不明なネットワーク: '%s'</translation>
     </message>
     <message>
-        <location line="+55"/>
-        <source>Loading addresses...</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-35"/>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Worldcoin</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Worldcoin to complete</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-95"/>
-        <source>Error loading wallet.dat</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+28"/>
-        <source>Invalid -proxy address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+56"/>
-        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-1"/>
-        <source>Unknown -socks proxy version requested: %i</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-96"/>
-        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+44"/>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Invalid amount</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-6"/>
         <source>Insufficient funds</source>
-        <translation type="unfinished"/>
+        <translation>残高不足</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <source>Cannot upgrade a non HD split wallet without upgrading to support pre split keypool. Please use -upgradewallet=169900 or -upgradewallet with no version specified.</source>
+        <translation>分割済みキープールをサポートするようにアップグレードしないと、非HD分割ウォレットをアップグレードすることはできません。 -upgradewallet=169900 オプションか、バージョン指定無しで -upgradewallet オプションを指定してください。</translation>
+    </message>
+    <message>
+        <source>Fee estimation failed. Fallbackfee is disabled. Wait a few blocks or enable -fallbackfee.</source>
+        <translation>手数料推定に失敗しました。代替手数料が無効です。数ブロック待つか、-fallbackfee オプションを有効にしてください。</translation>
+    </message>
+    <message>
+        <source>Warning: Private keys detected in wallet {%s} with disabled private keys</source>
+        <translation>警告: 秘密鍵が無効なウォレット {%s} で秘密鍵を検出しました。</translation>
+    </message>
+    <message>
+        <source>Cannot write to data directory '%s'; check permissions.</source>
+        <translation>データディレクトリ '%s' に書き込むことができません。アクセス権を確認してください。</translation>
+    </message>
+    <message>
         <source>Loading block index...</source>
-        <translation type="unfinished"/>
+        <translation>ブロックインデックスの読み込み中...</translation>
     </message>
     <message>
-        <location line="-57"/>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Worldcoin is probably already running.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+64"/>
-        <source>Fee per KB to add to transactions you send</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+19"/>
         <source>Loading wallet...</source>
-        <translation type="unfinished"/>
+        <translation>ウォレットの読み込み中...</translation>
     </message>
     <message>
-        <location line="-52"/>
         <source>Cannot downgrade wallet</source>
-        <translation type="unfinished"/>
+        <translation>ウォレットのダウングレードはできません</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>Cannot write default address</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="+64"/>
         <source>Rescanning...</source>
-        <translation type="unfinished"/>
+        <translation>再スキャン中...</translation>
     </message>
     <message>
-        <location line="-57"/>
         <source>Done loading</source>
-        <translation type="unfinished"/>
+        <translation>読み込み完了</translation>
     </message>
     <message>
-        <location line="+82"/>
-        <source>To use the %s option</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-74"/>
         <source>Error</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
-%s
-If the file does not exist, create it with owner-readable-only file permissions.</source>
-        <translation type="unfinished"/>
+        <translation>エラー</translation>
     </message>
 </context>
 </TS>
