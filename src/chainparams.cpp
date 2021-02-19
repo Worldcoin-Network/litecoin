@@ -126,17 +126,11 @@ public:
         // This is fine at runtime as we'll fall back to using them as a oneshot if they don't support the
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
-        vSeeds.emplace_back("162.201.128.229");
-        vSeeds.emplace_back("176.25.30.245");
-        vSeeds.emplace_back("185.183.98.164");
-        vSeeds.emplace_back("47.200.107.94");
-        vSeeds.emplace_back("62.245.108.228");
-        vSeeds.emplace_back("69.126.57.21");
-        vSeeds.emplace_back("82.10.210.5");
-        vSeeds.emplace_back("82.64.185.60");
-        vSeeds.emplace_back("85.249.42.164");
-        vSeeds.emplace_back("86.100.49.209");     
-        vSeeds.emplace_back("91.206.16.214");
+        vSeeds.emplace_back("seednode1.worldcoin.global");
+        vSeeds.emplace_back("seednode2.worldcoin.global");
+        vSeeds.emplace_back("seednode3.worldcoin.global");
+        vSeeds.emplace_back("seednode4.worldcoin.global");
+        vSeeds.emplace_back("seednode5.worldcoin.global");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,73);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
