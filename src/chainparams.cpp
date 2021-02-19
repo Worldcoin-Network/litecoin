@@ -64,11 +64,11 @@ public:
     CMainParams() {
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 840000;
-        consensus.BIP16Height = 218579; // 87afb798a3ad9378fcd56123c81fb31cfd9a8df4719b9774d71730c16315a092 - October 1, 2012
+        consensus.BIP16Height = 6200000; // 
         consensus.BIP34Height = 6200000;
         consensus.BIP34Hash = uint256S("fa09d204a83a768ed5a7c8d441fa62f2043abf420cff1226c7b4329aeb9d51cf");
-        consensus.BIP65Height = 6200000; // bab3041e8977e0dc3eeff63fe707b92bde1dd449d8efafb248c27c8264cc311a
-        consensus.BIP66Height = 6200000; // 7aceee012833fa8952f8835d8b1b3ae233cd6ab08fdb27a771d2bd7bdc491894
+        consensus.BIP65Height = 6200000; // 
+        consensus.BIP66Height = 6200000; // 
         consensus.nDiffChangeTarget = 600000;
         consensus.patchBlockRewardDuration = 20160;
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
@@ -131,6 +131,11 @@ public:
         vSeeds.emplace_back("seednode3.worldcoin.global");
         vSeeds.emplace_back("seednode4.worldcoin.global");
         vSeeds.emplace_back("seednode5.worldcoin.global");
+        vSeeds.emplace_back("seednode6.worldcoin.global");
+        vSeeds.emplace_back("seednode7.worldcoin.global");
+        vSeeds.emplace_back("seednode8.worldcoin.global");
+        vSeeds.emplace_back("seednode9.worldcoin.global");
+        vSeeds.emplace_back("seednode10.worldcoin.global");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,73);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -150,15 +155,15 @@ public:
         checkpointData = {
             {
                 {  0, uint256S("0x7231b064d3e620c55960abce2963ea19e1c3ffb6f5ff70e975114835a7024107")},
-                {  210000, uint256S("0x962384ddb536c54b2328277739d623fe2e0924cbb7d63a20d22d14c0ea478dce")},
+                {  6120000, uint256S("oxccf16a2e8b20edae90aa78fa26c4f8b9b048deef708ea3fd5b2e6d596909eef9")},
             }
         };
 
         chainTxData = ChainTxData{
             // Data from rpc: getchaintxstats 4096 2cdba8c47858d34cf0e02dfb8733263a3ed8705b1663ec7c158783d77b93e7ee
-            /* nTime    */ 1565379143,
-            /* nTxCount */ 36299075,
-            /* dTxRate  */ 0.388813310286546
+            /* nTime    */ 1613726683,
+            /* nTxCount */ 8296601,
+            /* dTxRate  */ 0.02991589890928619
         };
 
         /* disable fallback fee on mainnet */
@@ -244,7 +249,7 @@ public:
 
         checkpointData = {
             {
-                {2056, uint256S("17748a31ba97afdc9a4f86837a39d287e3e7c7290a08a1d816c5969c78a83289")},
+                {0, uint256S("0xdf83d8ce31005c88ee7e27aaf802a96dd6042800300c35d3045fe013a105ac39")},
             }
         };
 
@@ -321,7 +326,7 @@ public:
 
         checkpointData = {
             {
-                {0, uint256S("530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9")},
+                {0, uint256S("0xdf83d8ce31005c88ee7e27aaf802a96dd6042800300c35d3045fe013a105ac39")},
             }
         };
 
