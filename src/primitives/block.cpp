@@ -12,15 +12,15 @@
 
 uint256 CBlockHeader::GetHash() const
 {
-    if (nVersion == 1)  {
-        return Hash(BEGIN(nVersion), END(nNonce));
-    } else {
-        uint256 thash;
-        scrypt_1024_1_1_256(BEGIN(nVersion), BEGIN(thash));
-        return thash;
-    }    
+    return Hash(BEGIN(nVersion), END(nNonce));
 }
 
+uint256 CBlockHeader::GetPoWHash() const
+{
+    uint256 thash;
+    scrypt_1024_1_1_256(BEGIN(nVersion), BEGIN(thash));
+    return thash;
+}
 
 uint256 CBlock::BuildMerkleTree(bool* fMutated) const
 {

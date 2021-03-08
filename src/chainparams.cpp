@@ -105,7 +105,7 @@ public:
         nDefaultPort = 11081;
         nDiffChangeTarget = 600000;        
         bnProofOfWorkLimit = ~uint256(0) >> 20;
-        nSubsidyHalvingInterval = 840000;
+        nSubsidyHalvingInterval = 4147200;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
@@ -145,12 +145,16 @@ public:
         assert(hashGenesisBlock == uint256("0x7231b064d3e620c55960abce2963ea19e1c3ffb6f5ff70e975114835a7024107"));
         assert(genesis.hashMerkleRoot == uint256("0x4fe8c1ba0a102fea0643287bb22ce7469ecb9b690362013f269a423fefa77b6e"));
 
-        vSeeds.push_back(CDNSSeedData("worldcointools.com", "dnsseed.worldcointools.com"));
-        vSeeds.push_back(CDNSSeedData("worldcoinpool.org", "dnsseed.worldcoinpool.org"));
-        vSeeds.push_back(CDNSSeedData("xurious.com", "dnsseed.wdc.xurious.com"));
-        vSeeds.push_back(CDNSSeedData("koin-project.com", "dnsseed.koin-project.com"));
-        vSeeds.push_back(CDNSSeedData("weminemnc.com", "dnsseed.weminemnc.com"));
-        vSeeds.push_back(CDNSSeedData("loshan.co.uk", "seed-a.worldcoin.loshan.co.uk"));
+        vSeeds.push_back(CDNSSeedData("seednode1.worldcoin.global", "seednode1.worldcoin.global"));
+        vSeeds.push_back(CDNSSeedData("seednode2.worldcoin.global", "seednode2.worldcoin.global"));
+        vSeeds.push_back(CDNSSeedData("seednode3.worldcoin.global", "seednode3.worldcoin.global"));
+        vSeeds.push_back(CDNSSeedData("seednode4.worldcoin.global", "seednode4.worldcoin.global"));
+        vSeeds.push_back(CDNSSeedData("seednode5.worldcoin.global", "seednode5.worldcoin.global"));
+        vSeeds.push_back(CDNSSeedData("seednode6.worldcoin.global", "seednode6.worldcoin.global"));
+        vSeeds.push_back(CDNSSeedData("seednode7.worldcoin.global", "seednode7.worldcoin.global"));
+        vSeeds.push_back(CDNSSeedData("seednode8.worldcoin.global", "seednode8.worldcoin.global"));
+        vSeeds.push_back(CDNSSeedData("seednode9.worldcoin.global", "seednode9.worldcoin.global"));
+        vSeeds.push_back(CDNSSeedData("seednode10.worldcoin.global", "seednode10.worldcoin.global"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,73);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -203,10 +207,10 @@ public:
         nMaxTipAge = 0x7fffffff;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1396382110;
-        genesis.nNonce = 1529337473;
+        genesis.nTime = 1317798646;
+        genesis.nNonce = 385270584;
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0xdf83d8ce31005c88ee7e27aaf802a96dd6042800300c35d3045fe013a105ac39"));
+        // assert(hashGenesisBlock == uint256("0xf5ae71e26c74beacc88382716aced69cddf3dffff24f384e1808905e0188f68f"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -231,7 +235,7 @@ public:
         fTestnetToBeDeprecatedFieldRPC = true;
 
         // Worldcoin: v2 enforced using Bitcoin's supermajority rule
-        nEnforceV2AfterHeight = -1;
+        nEnforceV2AfterHeight = 400000;
     }
     const Checkpoints::CCheckpointData& Checkpoints() const 
     {
@@ -261,12 +265,12 @@ public:
         nTargetSpacing = 2.5 * 60; // 2.5 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         nMaxTipAge = 24 * 60 * 60;
-        genesis.nTime = 1396382110;
-        genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 1529337473;
+        genesis.nTime = 1296688602;
+        genesis.nBits = 0x207fffff;
+        genesis.nNonce = 0;
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 19444;
-        assert(hashGenesisBlock == uint256("0xdf83d8ce31005c88ee7e27aaf802a96dd6042800300c35d3045fe013a105ac39"));
+        // assert(hashGenesisBlock == uint256("0x530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();  //! Regtest mode doesn't have any DNS seeds.

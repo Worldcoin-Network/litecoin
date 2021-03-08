@@ -1225,7 +1225,7 @@ bool ReadBlockFromDisk(CBlock& block, const CDiskBlockPos& pos)
     }
 
     // Check the header
-    if (!CheckProofOfWork(block.GetHash(), block.nBits))
+    if (!CheckProofOfWork(block.GetPoWHash(), block.nBits))
         return error("ReadBlockFromDisk : Errors in block header");
 
     return true;
@@ -1240,17 +1240,32 @@ bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex)
     return true;
 }
 
+CAmount GetWDCSubsidy(int nHeight) {
+    // thanks to RealSolid for helping out with this code
+    CAmount qSubsidy = 64*COIN;
+    int blocks = nHeight - nDiffChangeTarget;
+    int weeks = (blocks / patchBlockRewardDuration)+1;
+    //for each week that has passed, decrease reward by 1%
+    for(int i = 0; i < weeks; i++)  qSubsidy -= (qSubsidy/100);
+    return qSubsidy;
+}
+
 CAmount GetBlockValue(int nHeight, const CAmount& nFees)
 {
-    CAmount nSubsidy = 50 * COIN;
-    int halvings = nHeight / Params().SubsidyHalvingInterval();
+    CAmount nSubsidy = COIN;
 
-    // Force block reward to zero when right shift is undefined.
-    if (halvings >= 64)
-        return nFees;
+    if(nHeight < nDiffChangeTarget) {
+        //this is pre-patch, reward is 32.
+        nSubsidy = 32 * COIN;
+    } else {
+        //patch takes effect after 600,000 blocks solved
+        nSubsidy = GetWDCSubsidy(nHeight);
+    }
 
-    // Subsidy is cut in half every 210,000 blocks which will occur approximately every 4 years.
-    nSubsidy >>= halvings;
+    //make sure the reward is at least 1 WDC
+    if(nSubsidy < COIN) {
+        nSubsidy = COIN;
+    }
 
     return nSubsidy + nFees;
 }
@@ -2449,7 +2464,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 bool CheckBlockHeader(const CBlockHeader& block, CValidationState& state, bool fCheckPOW)
 {
     // Check proof of work matches claimed amount
-    if (fCheckPOW && !CheckProofOfWork(block.GetHash(), block.nBits))
+    if (fCheckPOW && !CheckProofOfWork(block.GetPoWHash(), block.nBits))
         return state.DoS(50, error("CheckBlockHeader() : proof of work failed"),
                          REJECT_INVALID, "high-hash");
 
@@ -3907,7 +3922,11 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
                     // not a direct successor.
                     pfrom->PushMessage("getheaders", chainActive.GetLocator(pindexBestHeader), inv.hash);
                     CNodeState *nodestate = State(pfrom->GetId());
-                    if (chainActive.Tip()->GetBlockTime() > GetAdjustedTime() - Params().TargetSpacing() * 20 &&
+                    int nHeight = chainActive.Tip()->nHeight + 1;
+                    int64_t retargetSpacing = nHeight >= nDiffChangeTarget ?
+                                Params().TargetSpacing() : Params().TargetSpacing2();
+
+                    if (chainActive.Tip()->GetBlockTime() > GetAdjustedTime() - retargetSpacing * 20 &&
                         nodestate->nBlocksInFlight < MAX_BLOCKS_IN_TRANSIT_PER_PEER) {
                         vToFetch.push_back(inv);
                         // Mark block as in flight already, even though the actual "getdata" message only goes out
@@ -4758,7 +4777,10 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
         // timeout. We compensate for in-flight blocks to prevent killing off peers due to our own downstream link
         // being saturated. We only count validated in-flight blocks so peers can't advertize nonexisting block hashes
         // to unreasonably increase our timeout.
-        if (!pto->fDisconnect && state.vBlocksInFlight.size() > 0 && state.vBlocksInFlight.front().nTime < nNow - 500000 * Params().TargetSpacing() * (4 + state.vBlocksInFlight.front().nValidatedQueuedBefore)) {
+        int nHeight = chainActive.Tip()->nHeight + 1;
+        int64_t retargetSpacing = nHeight >= nDiffChangeTarget ?
+                    Params().TargetSpacing() : Params().TargetSpacing2();
+        if (!pto->fDisconnect && state.vBlocksInFlight.size() > 0 && state.vBlocksInFlight.front().nTime < nNow - 500000 * retargetSpacing * (4 + state.vBlocksInFlight.front().nValidatedQueuedBefore)) {
             LogPrintf("Timeout downloading block %s from peer=%d, disconnecting\n", state.vBlocksInFlight.front().hash.ToString(), pto->id);
             pto->fDisconnect = true;
         }

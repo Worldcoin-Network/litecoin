@@ -16,6 +16,9 @@
 
 typedef unsigned char MessageStartChars[MESSAGE_START_SIZE];
 
+static const int64_t nDiffChangeTarget = 600000;
+static const int64_t patchBlockRewardDuration = 20160;
+static const int nSoftFork = 1316550;
 struct CDNSSeedData {
     std::string name, host;
     CDNSSeedData(const std::string &strName, const std::string &strHost) : name(strName), host(strHost) {}
