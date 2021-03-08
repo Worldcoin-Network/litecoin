@@ -66,12 +66,12 @@
         <translation>استقبال العناوين</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>هذه هي عناوين Litecoin التابعة لك من أجل إرسال الدفعات. تحقق دائما من المبلغ و عنوان المرسل المستقبل قبل إرسال العملات</translation>
+        <source>These are your Worldcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>هذه هي عناوين Worldcoin التابعة لك من أجل إرسال الدفعات. تحقق دائما من المبلغ و عنوان المرسل المستقبل قبل إرسال العملات</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>هذه هي عناوين Litecoin التابعة لك من أجل إستقبال الدفعات. ينصح استخدام عنوان جديد من أجل كل صفقة</translation>
+        <source>These are your Worldcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>هذه هي عناوين Worldcoin التابعة لك من أجل إستقبال الدفعات. ينصح استخدام عنوان جديد من أجل كل صفقة</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -160,8 +160,8 @@
         <translation>تأكيد تشفير المحفظة</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>تحذير: إذا قمت بتشفير محفظتك وفقدت كلمة المرور الخاص بك, ستفقد كل عملات LITECOINS الخاصة بك.</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR WORLDCOINS&lt;/b&gt;!</source>
+        <translation>تحذير: إذا قمت بتشفير محفظتك وفقدت كلمة المرور الخاص بك, ستفقد كل عملات WORLDCOINS الخاصة بك.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -184,7 +184,7 @@
         <translation>أدخل عبارة مرور جديدة إلى المحفظة. الرجاء استخدام عبارة مرور تتكون من10 حروف عشوائية على الاقل, أو أكثر من 7 كلمات</translation>
     </message>
     <message>
-        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+        <source>Worldcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your worldcoins from being stolen by malware infecting your computer.</source>
         <translation>بتكوين سوف يغلق الآن لإنهاء عملية التشفير. تذكر أن التشفير لا يستطيع حماية محفظتك تمامًا من السرقة من خلال البرمجيات الخبيثة التي تصيب جهازك </translation>
     </message>
     <message>
@@ -291,8 +291,8 @@
         <translation>افتح &amp;URI...</translation>
     </message>
     <message>
-        <source>Litecoin Core client</source>
-        <translation>عميل litecoin core</translation>
+        <source>Worldcoin Core client</source>
+        <translation>عميل worldcoin core</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -303,12 +303,12 @@
         <translation>إعادة فهرسة الكتل على القرص</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>ارسل عملات الى عنوان Litecoin</translation>
+        <source>Send coins to a Worldcoin address</source>
+        <translation>ارسل عملات الى عنوان Worldcoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Litecoin</source>
-        <translation>تعديل إعدادات litecoin</translation>
+        <source>Modify configuration options for Worldcoin</source>
+        <translation>تعديل إعدادات worldcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -327,7 +327,7 @@
         <translation>&amp;التحقق من الرسالة...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
+        <source>Worldcoin</source>
         <translation>بت كوين</translation>
     </message>
     <message>
@@ -339,8 +339,8 @@
         <translation>&amp;استقبل</translation>
     </message>
     <message>
-        <source>Show information about Litecoin Core</source>
-        <translation>  اظهار معلومات حول Litecoin core</translation>
+        <source>Show information about Worldcoin Core</source>
+        <translation>  اظهار معلومات حول Worldcoin core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -371,12 +371,12 @@
         <translation>شريط أدوات علامات التبويب</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
+        <source>Worldcoin Core</source>
         <translation>جوهر البيت كوين</translation>
     </message>
     <message>
-        <source>&amp;About Litecoin Core</source>
-        <translation>حول litecoin core</translation>
+        <source>&amp;About Worldcoin Core</source>
+        <translation>حول worldcoin core</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -626,7 +626,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Litecoin Core</source>
+        <source>Worldcoin Core</source>
         <translation>جوهر البيت كوين</translation>
     </message>
     <message>
@@ -634,7 +634,7 @@
         <translation>النسخة</translation>
     </message>
     <message>
-        <source>About Litecoin Core</source>
+        <source>About Worldcoin Core</source>
         <translation>عن جوهر البيت كوين</translation>
     </message>
     <message>
@@ -661,7 +661,7 @@
         <translation>استخدام دليل بيانات مخصص:</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
+        <source>Worldcoin Core</source>
         <translation>جوهر البيت كوين</translation>
     </message>
     <message>
@@ -1234,7 +1234,7 @@
         <translation>التوقيع</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Litecoin address</source>
+        <source>Sign the message to prove you own this Worldcoin address</source>
         <translation>وقع الرسالة لتثبت انك تمتلك عنوان البت كوين هذا</translation>
     </message>
     <message>
@@ -1301,7 +1301,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Litecoin Core</source>
+        <source>Worldcoin Core</source>
         <translation>جوهر البيت كوين</translation>
     </message>
     <message>

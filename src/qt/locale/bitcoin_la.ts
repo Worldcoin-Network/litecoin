@@ -30,7 +30,7 @@
         <translation>&amp;Dele</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Worldcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Hae sunt inscriptiones mittendi pensitationes.  Semper inspice quantitatem et inscriptionem accipiendi antequam nummos mittis.</translation>
     </message>
     <message>
@@ -112,8 +112,8 @@
         <translation>Confirma cifrationem cassidilis</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Monitio: Si cassidile tuum cifras et tesseram amittis, tu &lt;b&gt;AMITTES OMNES TUOS NUMMOS LITECOINS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR WORLDCOINS&lt;/b&gt;!</source>
+        <translation>Monitio: Si cassidile tuum cifras et tesseram amittis, tu &lt;b&gt;AMITTES OMNES TUOS NUMMOS WORLDCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -132,8 +132,8 @@
         <translation>Cassidile cifratum</translation>
     </message>
     <message>
-        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>Litecoin iam desinet ut finiat actionem cifrandi.  Memento cassidile cifrare non posse cuncte curare ne tui nummi clepantur ab malis programatibus in tuo computatro.</translation>
+        <source>Worldcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your worldcoins from being stolen by malware infecting your computer.</source>
+        <translation>Worldcoin iam desinet ut finiat actionem cifrandi.  Memento cassidile cifrare non posse cuncte curare ne tui nummi clepantur ab malis programatibus in tuo computatro.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -231,12 +231,12 @@
         <translation>Recreans indicem frustorum in disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Mitte nummos ad inscriptionem Litecoin</translation>
+        <source>Send coins to a Worldcoin address</source>
+        <translation>Mitte nummos ad inscriptionem Worldcoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Litecoin</source>
-        <translation>Muta configurationis optiones pro Litecoin</translation>
+        <source>Modify configuration options for Worldcoin</source>
+        <translation>Muta configurationis optiones pro Worldcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -259,8 +259,8 @@
         <translation>&amp;Verifica nuntium...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Worldcoin</source>
+        <translation>Worldcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -287,12 +287,12 @@
         <translation>Cifra claves privatas quae cassidili tui sunt</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Signa nuntios cum tuis inscriptionibus Litecoin ut demonstres te eas possidere</translation>
+        <source>Sign messages with your Worldcoin addresses to prove you own them</source>
+        <translation>Signa nuntios cum tuis inscriptionibus Worldcoin ut demonstres te eas possidere</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Litecoin</translation>
+        <source>Verify messages to ensure they were signed with specified Worldcoin addresses</source>
+        <translation>Verifica nuntios ut certus sis eos signatos esse cum specificatis inscriptionibus Worldcoin</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -311,12 +311,12 @@
         <translation>Tabella instrumentorum "Tabs"</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Nucleus</translation>
+        <source>Worldcoin Core</source>
+        <translation>Worldcoin Nucleus</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n activa conexio ad rete Litecoin</numerusform><numerusform>%n activae conexiones ad rete Litecoin</numerusform></translation>
+        <source>%n active connection(s) to Worldcoin network</source>
+        <translation><numerusform>%n activa conexio ad rete Worldcoin</numerusform><numerusform>%n activae conexiones ad rete Worldcoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -476,8 +476,8 @@ Inscriptio: %4
         <translation>Inserta inscriptio "%1" iam in libro inscriptionum est.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Litecoin address.</source>
-        <translation>Inscriptio inserta "%1" non valida inscriptio Litecoin est.</translation>
+        <source>The entered address "%1" is not a valid Worldcoin address.</source>
+        <translation>Inscriptio inserta "%1" non valida inscriptio Worldcoin est.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -494,8 +494,8 @@ Inscriptio: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Nucleus</translation>
+        <source>Worldcoin Core</source>
+        <translation>Worldcoin Nucleus</translation>
     </message>
     <message>
         <source>version</source>
@@ -533,8 +533,8 @@ Inscriptio: %4
 <context>
     <name>Intro</name>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Nucleus</translation>
+        <source>Worldcoin Core</source>
+        <translation>Worldcoin Nucleus</translation>
     </message>
     <message>
         <source>Error</source>
@@ -555,12 +555,12 @@ Inscriptio: %4
         <translation>&amp;Princeps</translation>
     </message>
     <message>
-        <source>Automatically start Litecoin after logging in to the system.</source>
-        <translation>Pelle Litecoin per se postquam in systema inire.</translation>
+        <source>Automatically start Worldcoin after logging in to the system.</source>
+        <translation>Pelle Worldcoin per se postquam in systema inire.</translation>
     </message>
     <message>
-        <source>&amp;Start Litecoin on system login</source>
-        <translation>&amp;Pelle Litecoin cum inire systema</translation>
+        <source>&amp;Start Worldcoin on system login</source>
+        <translation>&amp;Pelle Worldcoin cum inire systema</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -575,8 +575,8 @@ Inscriptio: %4
         <translation>&amp;Rete</translation>
     </message>
     <message>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aperi per se portam clientis Litecoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
+        <source>Automatically open the Worldcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aperi per se portam clientis Worldcoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -623,8 +623,8 @@ Inscriptio: %4
         <translation>&amp;Lingua monstranda utenti:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
-        <translation>Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam Litecoin iterum initiatum erit.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Worldcoin.</source>
+        <translation>Lingua monstranda utenti hic constitui potest.  Haec configuratio effectiva erit postquam Worldcoin iterum initiatum erit.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -662,8 +662,8 @@ Inscriptio: %4
         <translation>Schema</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Litecoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Worldcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Worldcoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -685,8 +685,8 @@ Inscriptio: %4
         <translation>Tractatio URI</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Litecoin incipere non potest: cliccare-ad-pensandum handler</translation>
+        <source>Cannot start worldcoin: click-to-pay handler</source>
+        <translation>Worldcoin incipere non potest: cliccare-ad-pensandum handler</translation>
     </message>
     </context>
 <context>
@@ -773,16 +773,16 @@ Inscriptio: %4
         <translation>Debug catalogi plica</translation>
     </message>
     <message>
-        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Aperi plicam catalogi de Litecoin debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
+        <source>Open the Worldcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Aperi plicam catalogi de Worldcoin debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Vacuefac terminale</translation>
     </message>
     <message>
-        <source>Welcome to the Litecoin RPC console.</source>
-        <translation>Bene ventio in terminale RPC de Litecoin.</translation>
+        <source>Welcome to the Worldcoin RPC console.</source>
+        <translation>Bene ventio in terminale RPC de Worldcoin.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1002,8 +1002,8 @@ Inscriptio: %4
         <translation>Copia signationem in latibulum systematis</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Signa nuntium ut demonstres hanc inscriptionem Litecoin a te possessa esse</translation>
+        <source>Sign the message to prove you own this Worldcoin address</source>
+        <translation>Signa nuntium ut demonstres hanc inscriptionem Worldcoin a te possessa esse</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1026,8 +1026,8 @@ Inscriptio: %4
         <translation>Insere inscriptionem signantem, nuntium (cura ut copias intermissiones linearum, spatia, tabs, et cetera exacte) et signationem infra ut nuntium verifices.  Cautus esto ne magis legas in signationem quam in nuntio signato ipso est, ut vites falli ab impetu homo-in-medio.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Litecoin</translation>
+        <source>Verify the message to ensure it was signed with the specified Worldcoin address</source>
+        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Worldcoin</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1093,8 +1093,8 @@ Inscriptio: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Nucleus</translation>
+        <source>Worldcoin Core</source>
+        <translation>Worldcoin Nucleus</translation>
     </message>
     <message>
         <source>[testnet]</source>

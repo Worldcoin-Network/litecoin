@@ -66,12 +66,12 @@
         <translation>Recebendo endereços</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os seus endereços Litecoin para receber pagamentos. Você pode querer enviar um endereço diferente para cada remetente, para acompanhar quem está pagando.</translation>
+        <source>These are your Worldcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes são os seus endereços Worldcoin para receber pagamentos. Você pode querer enviar um endereço diferente para cada remetente, para acompanhar quem está pagando.</translation>
     </message>
     <message>
-        <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estes são os seus endereços Litecoin para receber pagamentos. Recomenda-se a utilização de um novo endereço de recebimento para cada transação.</translation>
+        <source>These are your Worldcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estes são os seus endereços Worldcoin para receber pagamentos. Recomenda-se a utilização de um novo endereço de recebimento para cada transação.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -164,8 +164,8 @@
         <translation>Confirmar criptografia da carteira</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR LITECOINS&lt;/b&gt;!</source>
-        <translation>Atenção: Se você criptografar sua carteira e perder sua senha, você vai &lt;b&gt;perder todos os seus LITECOINS!&lt;/b&gt;</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR WORLDCOINS&lt;/b&gt;!</source>
+        <translation>Atenção: Se você criptografar sua carteira e perder sua senha, você vai &lt;b&gt;perder todos os seus WORLDCOINS!&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -188,8 +188,8 @@
         <translation>Digite a nova senha da carteira. &lt;br/&gt;Por favor utilize uma senha com &lt;b&gt;dez ou mais caracteres aleartórios&lt;/b&gt;, ou &lt;b&gt;oito ou mais palavras&lt;/b&gt;.</translation>
     </message>
     <message>
-        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>O Litecoin irá fechar agora para finalizar o processo de encriptação. Lembre-se de que encriptar sua carteira não protege totalmente suas litecoins de serem roubadas por malwares que tenham infectado o seu computador.</translation>
+        <source>Worldcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your worldcoins from being stolen by malware infecting your computer.</source>
+        <translation>O Worldcoin irá fechar agora para finalizar o processo de encriptação. Lembre-se de que encriptar sua carteira não protege totalmente suas worldcoins de serem roubadas por malwares que tenham infectado o seu computador.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -295,8 +295,8 @@
         <translation>Abrir URI...</translation>
     </message>
     <message>
-        <source>Litecoin Core client</source>
-        <translation>Cliente Litecoin</translation>
+        <source>Worldcoin Core client</source>
+        <translation>Cliente Worldcoin</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -307,12 +307,12 @@
         <translation>Reindexando blocos no disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Litecoin address</source>
-        <translation>Enviar moedas para um endereço litecoin</translation>
+        <source>Send coins to a Worldcoin address</source>
+        <translation>Enviar moedas para um endereço worldcoin</translation>
     </message>
     <message>
-        <source>Modify configuration options for Litecoin</source>
-        <translation>Modificar opções de configuração para litecoin</translation>
+        <source>Modify configuration options for Worldcoin</source>
+        <translation>Modificar opções de configuração para worldcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -335,8 +335,8 @@
         <translation>Verificar mensagem...</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Worldcoin</source>
+        <translation>Worldcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -351,8 +351,8 @@
         <translation>Receber</translation>
     </message>
     <message>
-        <source>Show information about Litecoin Core</source>
-        <translation>Mostrar informações sobre Litecoin</translation>
+        <source>Show information about Worldcoin Core</source>
+        <translation>Mostrar informações sobre Worldcoin</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -367,12 +367,12 @@
         <translation>Criptografar as chaves privadas que pertencem à sua carteira</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços Litecoin para provar que você é dono delas</translation>
+        <source>Sign messages with your Worldcoin addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços Worldcoin para provar que você é dono delas</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Verificar mensagens para se assegurar que elas foram assinadas pelo dono de Endereços Litecoin específicos</translation>
+        <source>Verify messages to ensure they were signed with specified Worldcoin addresses</source>
+        <translation>Verificar mensagens para se assegurar que elas foram assinadas pelo dono de Endereços Worldcoin específicos</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -391,16 +391,16 @@
         <translation>Barra de ferramentas</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin</translation>
+        <source>Worldcoin Core</source>
+        <translation>Worldcoin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Solicitações de pagamentos (gera códigos QR e litecoin: URIs)</translation>
+        <source>Request payments (generates QR codes and worldcoin: URIs)</source>
+        <translation>Solicitações de pagamentos (gera códigos QR e worldcoin: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About Litecoin Core</source>
-        <translation>&amp;Sobre Litecoin</translation>
+        <source>&amp;About Worldcoin Core</source>
+        <translation>&amp;Sobre Worldcoin</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +411,20 @@
         <translation>Mostrar a lista de endereços de recebimento usados ​​e rótulos</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Abrir um litecoin: URI ou cobrança</translation>
+        <source>Open a worldcoin: URI or payment request</source>
+        <translation>Abrir um worldcoin: URI ou cobrança</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opções de linha de &amp;comando</translation>
     </message>
     <message>
-        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
-        <translation>Mostra a mensagem de ajuda do Litecoin para pegar a lista com os comandos possíveis</translation>
+        <source>Show the Worldcoin Core help message to get a list with possible Worldcoin command-line options</source>
+        <translation>Mostra a mensagem de ajuda do Worldcoin para pegar a lista com os comandos possíveis</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n conexão ativa na rede Litecoin</numerusform><numerusform>%n conexões ativas na rede Litecoin</numerusform></translation>
+        <source>%n active connection(s) to Worldcoin network</source>
+        <translation><numerusform>%n conexão ativa na rede Worldcoin</numerusform><numerusform>%n conexões ativas na rede Worldcoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -783,8 +783,8 @@ Endereço: %4</translation>
         <translation>O endereço digitado "%1" já se encontra no catálogo de endereços.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Litecoin address.</source>
-        <translation>O endereço digitado "%1" não é um endereço Litecoin válido.</translation>
+        <source>The entered address "%1" is not a valid Worldcoin address.</source>
+        <translation>O endereço digitado "%1" não é um endereço Worldcoin válido.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -821,8 +821,8 @@ Endereço: %4</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin</translation>
+        <source>Worldcoin Core</source>
+        <translation>Worldcoin</translation>
     </message>
     <message>
         <source>version</source>
@@ -833,8 +833,8 @@ Endereço: %4</translation>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Litecoin Core</source>
-        <translation>Sobre o Litecoin</translation>
+        <source>About Worldcoin Core</source>
+        <translation>Sobre o Worldcoin</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -880,16 +880,16 @@ Endereço: %4</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to Litecoin Core.</source>
-        <translation>Bem vindo ao Litecoin.</translation>
+        <source>Welcome to Worldcoin Core.</source>
+        <translation>Bem vindo ao Worldcoin.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Litecoin Core will store its data.</source>
-        <translation>A primeira vez que o programa é aberto você pode escolher onde o Litecoin vai guardar os dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where Worldcoin Core will store its data.</source>
+        <translation>A primeira vez que o programa é aberto você pode escolher onde o Worldcoin vai guardar os dados.</translation>
     </message>
     <message>
-        <source>Litecoin Core will download and store a copy of the Litecoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>O Litecoin vai fazer download e salvar uma cópia da cadeia de blocos do Litecoin: Blockchain. Pelo menos %1 GB de dados serão armazenados nesse diretório e isso aumentará ao longo do tempo. Sua carteira também será armazenada nesse diretório.</translation>
+        <source>Worldcoin Core will download and store a copy of the Worldcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O Worldcoin vai fazer download e salvar uma cópia da cadeia de blocos do Worldcoin: Blockchain. Pelo menos %1 GB de dados serão armazenados nesse diretório e isso aumentará ao longo do tempo. Sua carteira também será armazenada nesse diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -900,8 +900,8 @@ Endereço: %4</translation>
         <translation>Use um diretório de dados personalizado:</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin</translation>
+        <source>Worldcoin Core</source>
+        <translation>Worldcoin</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -954,12 +954,12 @@ Endereço: %4</translation>
         <translation>Principal</translation>
     </message>
     <message>
-        <source>Automatically start Litecoin after logging in to the system.</source>
-        <translation>Iniciar Litecoin automaticamente após se logar no sistema.</translation>
+        <source>Automatically start Worldcoin after logging in to the system.</source>
+        <translation>Iniciar Worldcoin automaticamente após se logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start Litecoin on system login</source>
-        <translation>Iniciar Litecoin no login do sistema</translation>
+        <source>&amp;Start Worldcoin on system login</source>
+        <translation>Iniciar Worldcoin no login do sistema</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1034,16 +1034,16 @@ Endereço: %4</translation>
         <translation>Ga&amp;star mudança não confirmada</translation>
     </message>
     <message>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir as portas do cliente Litecoin automaticamente no roteador. Isto só funcionará se seu roteador suportar UPnP e esta função estiver habilitada.</translation>
+        <source>Automatically open the Worldcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir as portas do cliente Worldcoin automaticamente no roteador. Isto só funcionará se seu roteador suportar UPnP e esta função estiver habilitada.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapear porta usando &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
-        <translation>Conectar na rede Litecoin através de um proxy SOCKS5.</translation>
+        <source>Connect to the Worldcoin network through a SOCKS5 proxy.</source>
+        <translation>Conectar na rede Worldcoin através de um proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1090,8 +1090,8 @@ Endereço: %4</translation>
         <translation>&amp;Linguagem da interface:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
-        <translation>A língua da interface com usuário pode ser escolhida aqui. Esta configuração só surtirá efeito após reiniciar o Litecoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Worldcoin.</source>
+        <translation>A língua da interface com usuário pode ser escolhida aqui. Esta configuração só surtirá efeito após reiniciar o Worldcoin.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1099,7 +1099,7 @@ Endereço: %4</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Escolha a unidade padrão de subdivisão para interface mostrar quando enviar litecoins.</translation>
+        <translation>Escolha a unidade padrão de subdivisão para interface mostrar quando enviar worldcoins.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1149,8 +1149,8 @@ Endereço: %4</translation>
         <translation>Formulário</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. Sua carteira sincroniza automaticamente com a rede Litecoin depois que a conexão é estabelecida, mas este processo pode não estar completo ainda.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Worldcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. Sua carteira sincroniza automaticamente com a rede Worldcoin depois que a conexão é estabelecida, mas este processo pode não estar completo ainda.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1256,16 +1256,16 @@ Endereço: %4</translation>
         <translation>Erro no pedido de pagamento</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Não foi possível iniciar litecoin: manipulador clique-para-pagar</translation>
+        <source>Cannot start worldcoin: click-to-pay handler</source>
+        <translation>Não foi possível iniciar worldcoin: manipulador clique-para-pagar</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>URL de cobrança é inválida: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
-        <translation>URI não pode ser analisado ! Isto pode ser causado por um endereço Litecoin inválido ou parâmetros URI informados incorretamente.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Worldcoin address or malformed URI parameters.</source>
+        <translation>URI não pode ser analisado ! Isto pode ser causado por um endereço Worldcoin inválido ou parâmetros URI informados incorretamente.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1334,8 +1334,8 @@ Endereço: %4</translation>
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a Litecoin address (e.g. %1)</source>
-        <translation>Informe um endereço Litecoin (ex: %1)</translation>
+        <source>Enter a Worldcoin address (e.g. %1)</source>
+        <translation>Informe um endereço Worldcoin (ex: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1560,16 +1560,16 @@ Endereço: %4</translation>
         <translation>Arquivo de log de Depuração</translation>
     </message>
     <message>
-        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir o arquivo de log de depuração do Litecoin do diretório atual de dados. Isso pode levar alguns segundos para arquivos de log grandes.</translation>
+        <source>Open the Worldcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir o arquivo de log de depuração do Worldcoin do diretório atual de dados. Isso pode levar alguns segundos para arquivos de log grandes.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Limpar console</translation>
     </message>
     <message>
-        <source>Welcome to the Litecoin RPC console.</source>
-        <translation>Bem-vindo ao console Litecoin RPC.</translation>
+        <source>Welcome to the Worldcoin RPC console.</source>
+        <translation>Bem-vindo ao console Worldcoin RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1643,8 +1643,8 @@ Endereço: %4</translation>
         <translation>R&amp;eutilize um endereço de recebimento (não recomendado)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
-        <translation>Uma mensagem opcional que será anexada na cobrança e será mostrada quando ela for aberta. Nota: A mensagem não será enviada com o pagamento pela rede Litecoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Worldcoin network.</source>
+        <translation>Uma mensagem opcional que será anexada na cobrança e será mostrada quando ela for aberta. Nota: A mensagem não será enviada com o pagamento pela rede Worldcoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1880,7 +1880,7 @@ Endereço: %4</translation>
         <translation>pelo menos</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for worldcoin transactions than the network can process.</source>
         <translation>Pagando apenas a taxa mínima é bom, desde que haja pouco volume de transações. Mas esteja ciente de que isso pode acabar em uma transação nunca confirmanda uma vez que há mais demanda por transações do que a rede pode processar.</translation>
     </message>
     <message>
@@ -2017,7 +2017,7 @@ Endereço: %4</translation>
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>A transação foi rejeitada! Isso pode acontecer se alguns litecoins na sua carteira já foram gastos em outro local, por exemplo se você tiver uma cópia do wallet.dat e os litecoins tiverem sido gastos na cópia mas não marcados como gastos aqui ainda.</translation>
+        <translation>A transação foi rejeitada! Isso pode acontecer se alguns worldcoins na sua carteira já foram gastos em outro local, por exemplo se você tiver uma cópia do wallet.dat e os worldcoins tiverem sido gastos na cópia mas não marcados como gastos aqui ainda.</translation>
     </message>
     <message>
         <source>A fee higher than %1 is considered an insanely high fee.</source>
@@ -2032,8 +2032,8 @@ Endereço: %4</translation>
         <translation>Confirmação estimada em %1 bloco(s)</translation>
     </message>
     <message>
-        <source>Warning: Invalid Litecoin address</source>
-        <translation>Atenção: endereço de Litecoin inválido</translation>
+        <source>Warning: Invalid Worldcoin address</source>
+        <translation>Atenção: endereço de Worldcoin inválido</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2083,7 +2083,7 @@ Endereço: %4</translation>
         <translation>Este é um pagamento normal.</translation>
     </message>
     <message>
-        <source>The Litecoin address to send the payment to</source>
+        <source>The Worldcoin address to send the payment to</source>
         <translation>Endereço que enviará o pagamento</translation>
     </message>
     <message>
@@ -2115,8 +2115,8 @@ Endereço: %4</translation>
         <translation>Digite um rótulo para este endereço para adicioná-lo no catálogo</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
-        <translation>A mensagem que foi anexada ao litecoin: URI na qual será gravada na transação para sua referência. Nota: Essa mensagem não será gravada publicamente na rede Litecoin.</translation>
+        <source>A message that was attached to the worldcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Worldcoin network.</source>
+        <translation>A mensagem que foi anexada ao worldcoin: URI na qual será gravada na transação para sua referência. Nota: Essa mensagem não será gravada publicamente na rede Worldcoin.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2134,8 +2134,8 @@ Endereço: %4</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Litecoin Core is shutting down...</source>
-        <translation>Litecoin está desligando...</translation>
+        <source>Worldcoin Core is shutting down...</source>
+        <translation>Worldcoin está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2157,8 +2157,8 @@ Endereço: %4</translation>
         <translation>Você pode assinar mensagens com seus endereços para provar que você é o dono delas. Seja cuidadoso para não assinar algo vago, pois ataques de phishing podem tentar te enganar para dar sua assinatura de identidade para eles. Apenas assine afirmações completamente detalhadas com as quais você concorda.</translation>
     </message>
     <message>
-        <source>The Litecoin address to sign the message with</source>
-        <translation>O enderesso Litecoin que assinará a mensagem</translation>
+        <source>The Worldcoin address to sign the message with</source>
+        <translation>O enderesso Worldcoin que assinará a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2189,8 +2189,8 @@ Endereço: %4</translation>
         <translation>Copiar a assinatura para a área de transferência do sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Assinar mensagem para provar que você é dono deste endereço Litecoin</translation>
+        <source>Sign the message to prove you own this Worldcoin address</source>
+        <translation>Assinar mensagem para provar que você é dono deste endereço Worldcoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2213,12 +2213,12 @@ Endereço: %4</translation>
         <translation>Forneça o endereço da assinatura, a mensagem (se assegure que você copiou quebras de linha, espaços, tabs, etc. exatamente) e a assinatura abaixo para verificar a mensagem. Cuidado para não ler mais na assinatura do que está escrito na mensagem propriamente, para evitar ser vítima de uma ataque do tipo "man-in-the-middle".</translation>
     </message>
     <message>
-        <source>The Litecoin address the message was signed with</source>
-        <translation>O enderesso Litecoin que assionou a mesnagem</translation>
+        <source>The Worldcoin address the message was signed with</source>
+        <translation>O enderesso Worldcoin que assionou a mesnagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Verificar mensagem para se assegurar que ela foi assinada pelo dono de um endereço Litecoin específico.</translation>
+        <source>Verify the message to ensure it was signed with the specified Worldcoin address</source>
+        <translation>Verificar mensagem para se assegurar que ela foi assinada pelo dono de um endereço Worldcoin específico.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2284,8 +2284,8 @@ Endereço: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin</translation>
+        <source>Worldcoin Core</source>
+        <translation>Worldcoin</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
@@ -2415,7 +2415,7 @@ Endereço: %4</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Litecoins recém minerados precisam aguardar %1 blocos antes de serem gastos. Quando o bloco foi gerado, ele foi disseminado pela rede para ser adicionado à blockchain. Se ele falhar em ser inserido na cadeia, seu estado será modificado para "não aceito" e ele não poderá ser gasto. Isso pode acontecer eventualmente quando blocos são gerados quase que simultaneamente.</translation>
+        <translation>Worldcoins recém minerados precisam aguardar %1 blocos antes de serem gastos. Quando o bloco foi gerado, ele foi disseminado pela rede para ser adicionado à blockchain. Se ele falhar em ser inserido na cadeia, seu estado será modificado para "não aceito" e ele não poderá ser gasto. Isso pode acontecer eventualmente quando blocos são gerados quase que simultaneamente.</translation>
     </message>
     <message>
         <source>Debug information</source>
@@ -2561,7 +2561,7 @@ Endereço: %4</translation>
     </message>
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Mostrar ou não endereços Litecoin na lista de transações.</translation>
+        <translation>Mostrar ou não endereços Worldcoin na lista de transações.</translation>
     </message>
     <message>
         <source>Destination address of transaction.</source>
@@ -2838,8 +2838,8 @@ Endereço: %4</translation>
         <translation>Este pode ser um build de teste pré-lançamento - use por sua conta e risco - não use para mineração ou aplicações de comércio.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Litecoin Core is probably already running.</source>
-        <translation>Impossível ouvir em %s neste computador. Provavelmente o Litecoin já está sendo executado.</translation>
+        <source>Unable to bind to %s on this computer. Worldcoin Core is probably already running.</source>
+        <translation>Impossível ouvir em %s neste computador. Provavelmente o Worldcoin já está sendo executado.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
@@ -3018,8 +3018,8 @@ Endereço: %4</translation>
         <translation>Vincular ao endereço fornecido e sempre escutar nele. Use a notação [host]:port para IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Litecoin Core is probably already running.</source>
-        <translation>Não foi possível obter acesso exclusivo ao diretório de dados %s. Provavelmente Litecoin já está sendo executado.</translation>
+        <source>Cannot obtain a lock on data directory %s. Worldcoin Core is probably already running.</source>
+        <translation>Não foi possível obter acesso exclusivo ao diretório de dados %s. Provavelmente Worldcoin já está sendo executado.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3030,39 +3030,39 @@ Endereço: %4</translation>
         <translation>Executa o comando quando um alerta relevante é recebido ou vemos uma longa segregação (%s em cmd é substituído pela mensagem)</translation>
     </message>
     <message>
-        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em LTC/Kb) menores do que este valor são consideradas inexistentes para divulgação (padrão: %s)</translation>
+        <source>Fees (in WDC/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em WDC/Kb) menores do que este valor são consideradas inexistentes para divulgação (padrão: %s)</translation>
     </message>
     <message>
-        <source>Fees (in LTC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Taxas (em LTC/Kb) menores do que este valor são consideradas inexistentes para a criação da transação (padrão: %s)</translation>
+        <source>Fees (in WDC/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em WDC/Kb) menores do que este valor são consideradas inexistentes para a criação da transação (padrão: %s)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
         <translation>Define o tamanho máximo de alta-prioridade por taxa baixa nas transações em bytes (padrão: %d)</translation>
     </message>
     <message>
-        <source>To use litecoind, or the -server option to litecoin-qt, you must set an rpcpassword in the configuration file:
+        <source>To use worldcoind, or the -server option to worldcoin-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=litecoinrpc
+rpcuser=worldcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "Litecoin Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "Worldcoin Alert" admin@foo.com
 </source>
-        <translation>Para usar o litecoind, ou a opção -server do litecoin-qt, você deve definir rpcpassword no arquivo de configuração:
+        <translation>Para usar o worldcoind, ou a opção -server do worldcoin-qt, você deve definir rpcpassword no arquivo de configuração:
 %s
 É recomendado que use a seguinte senha randômica:
-rpcuser=litecoinrpc
+rpcuser=worldcoinrpc
 rpcpassword=%s
 (você não precisa lembrar esta senha)
 O usuário e senha NÃO DEVEM ser os mesmos.
 Se o arquivo não existir, crie com permissão de proprietário criador somente.
 É também recomendado definir a opção alertnotify se deseja ser notificado de problemas;
-por exemplo: alertnotify=echo %%s | mail -s "Alerta do Litecoin" admin@foo.com.br
+por exemplo: alertnotify=echo %%s | mail -s "Alerta do Worldcoin" admin@foo.com.br
 </translation>
     </message>
     <message>
@@ -3082,8 +3082,8 @@ por exemplo: alertnotify=echo %%s | mail -s "Alerta do Litecoin" admin@foo.com.b
         <translation>Impossível interpretar o valor -rpcbind %s como um endereço da rede</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Litecoin Core</source>
-        <translation>Erro ao carregar wallet.dat: A carteira requer a nova versão do Litecoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Worldcoin Core</source>
+        <translation>Erro ao carregar wallet.dat: A carteira requer a nova versão do Worldcoin</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3094,8 +3094,8 @@ por exemplo: alertnotify=echo %%s | mail -s "Alerta do Litecoin" admin@foo.com.b
         <translation>Erro: Argumento não suportado -tor, use -onion.</translation>
     </message>
     <message>
-        <source>Fee (in LTC/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (em LTC/kB) a adicionar nas transações que você envia (padrão: %s)</translation>
+        <source>Fee (in WDC/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em WDC/kB) a adicionar nas transações que você envia (padrão: %s)</translation>
     </message>
     <message>
         <source>Information</source>
@@ -3130,8 +3130,8 @@ por exemplo: alertnotify=echo %%s | mail -s "Alerta do Litecoin" admin@foo.com.b
         <translation>Opções de relé nó :</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the Litecoin Wiki for SSL setup instructions)</source>
-        <translation>Opções RPC SSL: (veja o Litecoin Wiki para instruções de configuração SSL)</translation>
+        <source>RPC SSL options: (see the Worldcoin Wiki for SSL setup instructions)</source>
+        <translation>Opções RPC SSL: (veja o Worldcoin Wiki para instruções de configuração SSL)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3198,8 +3198,8 @@ por exemplo: alertnotify=echo %%s | mail -s "Alerta do Litecoin" admin@foo.com.b
         <translation>Nome de usuário para conexões JSON-RPC</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Litecoin Core to complete</source>
-        <translation>Sua carteira precisou ser reescrita: favor reiniciar o Litecoin para completar</translation>
+        <source>Wallet needed to be rewritten: restart Worldcoin Core to complete</source>
+        <translation>Sua carteira precisou ser reescrita: favor reiniciar o Worldcoin para completar</translation>
     </message>
     <message>
         <source>Warning</source>

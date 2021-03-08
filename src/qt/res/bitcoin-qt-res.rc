@@ -19,14 +19,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Litecoin"
-            VALUE "FileDescription",    "Litecoin Core (OSS GUI client for Litecoin)"
+            VALUE "CompanyName",        "Worldcoin"
+            VALUE "FileDescription",    "Worldcoin Core (OSS GUI client for Worldcoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "litecoin-qt"
+            VALUE "InternalName",       "worldcoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "litecoin-qt.exe"
-            VALUE "ProductName",        "Litecoin Core"
+            VALUE "OriginalFilename",   "worldcoin-qt.exe"
+            VALUE "ProductName",        "Worldcoin Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

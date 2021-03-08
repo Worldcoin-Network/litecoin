@@ -67,8 +67,12 @@ public:
     /** Make standard checks */
     bool RequireStandard() const { return fRequireStandard; }
     int64_t TargetTimespan() const { return nTargetTimespan; }
+    int64_t DiffChangeTarget() const { return nDiffChangeTarget; }
     int64_t TargetSpacing() const { return nTargetSpacing; }
+    int64_t TargetTimespan2() const { return nTargetTimespan2; }
+    int64_t TargetSpacing2() const { return nTargetSpacing2; }    
     int64_t Interval() const { return nTargetTimespan / nTargetSpacing; }
+    int64_t Interval2() const { return nTargetTimespan2 / nTargetSpacing2; }    
     int64_t MaxTipAge() const { return nMaxTipAge; }
     /** Make miner stop after a block is found. In RPC, don't return until nGenProcLimit blocks are generated */
     bool MineBlocksOnDemand() const { return fMineBlocksOnDemand; }
@@ -81,7 +85,7 @@ public:
     const std::vector<CAddress>& FixedSeeds() const { return vFixedSeeds; }
     virtual const Checkpoints::CCheckpointData& Checkpoints() const = 0;
 
-    // Litecoin: Height to enforce v2 block
+    // Worldcoin: Height to enforce v2 block
     int EnforceV2AfterHeight() const { return nEnforceV2AfterHeight; }
 protected:
     CChainParams() {}
@@ -91,6 +95,7 @@ protected:
     //! Raw pub key bytes for the broadcast alert signing key.
     std::vector<unsigned char> vAlertPubKey;
     int nDefaultPort;
+    int nDiffChangeTarget;
     uint256 bnProofOfWorkLimit;
     int nSubsidyHalvingInterval;
     int nEnforceBlockUpgradeMajority;
@@ -98,6 +103,8 @@ protected:
     int nToCheckBlockUpgradeMajority;
     int64_t nTargetTimespan;
     int64_t nTargetSpacing;
+    int64_t nTargetTimespan2;
+    int64_t nTargetSpacing2;    
     int nMinerThreads;
     long nMaxTipAge;
     std::vector<CDNSSeedData> vSeeds;
@@ -115,7 +122,7 @@ protected:
     bool fSkipProofOfWorkCheck;
     bool fTestnetToBeDeprecatedFieldRPC;
 
-    // Litecoin: Height to enforce v2 blocks
+    // Worldcoin: Height to enforce v2 blocks
     int nEnforceV2AfterHeight;
 };
 

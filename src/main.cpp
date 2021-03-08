@@ -31,7 +31,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-# error "Litecoin cannot be compiled without assertions."
+# error "Worldcoin cannot be compiled without assertions."
 #endif
 
 /**
@@ -73,7 +73,7 @@ static void CheckBlockIndex();
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Litecoin Signed Message:\n";
+const string strMessageMagic = "Worldcoin Signed Message:\n";
 
 // Internal stuff
 namespace {
@@ -913,7 +913,7 @@ CAmount GetMinRelayFee(const CTransaction& tx, unsigned int nBytes, bool fAllowF
             return 0;
     }
 
-    // Litecoin
+    // Worldcoin
     // To limit dust spam, add 1000 byte penalty for each output smaller than DUST_THRESHOLD
     BOOST_FOREACH(const CTxOut& txout, tx.vout)
         if (txout.nValue < DUST_THRESHOLD)
@@ -1225,7 +1225,7 @@ bool ReadBlockFromDisk(CBlock& block, const CDiskBlockPos& pos)
     }
 
     // Check the header
-    if (!CheckProofOfWork(block.GetPoWHash(), block.nBits))
+    if (!CheckProofOfWork(block.GetHash(), block.nBits))
         return error("ReadBlockFromDisk : Errors in block header");
 
     return true;
@@ -1646,7 +1646,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck() {
-    RenameThread("litecoin-scriptch");
+    RenameThread("worldcoin-scriptch");
     scriptcheckqueue.Thread();
 }
 
@@ -2449,7 +2449,7 @@ bool FindUndoPos(CValidationState &state, int nFile, CDiskBlockPos &pos, unsigne
 bool CheckBlockHeader(const CBlockHeader& block, CValidationState& state, bool fCheckPOW)
 {
     // Check proof of work matches claimed amount
-    if (fCheckPOW && !CheckProofOfWork(block.GetPoWHash(), block.nBits))
+    if (fCheckPOW && !CheckProofOfWork(block.GetHash(), block.nBits))
         return state.DoS(50, error("CheckBlockHeader() : proof of work failed"),
                          REJECT_INVALID, "high-hash");
 
@@ -2552,41 +2552,41 @@ bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationState& sta
     if (pcheckpoint && nHeight < pcheckpoint->nHeight)
         return state.DoS(100, error("%s : forked chain older than last checkpoint (height %d)", __func__, nHeight));
 
-    // Litecoin: Reject block.nVersion=1 blocks (mainnet >= 710000, testnet & regtest uses supermajority)
+    // Worldcoin: Reject block.nVersion=1 blocks (mainnet >= 710000, testnet & regtest uses supermajority)
     bool enforceV2 = false;
     if (block.nVersion < 2)
     {
         if (Params().EnforceV2AfterHeight() != -1)
         {
             // Mainnet 710k
-            if (nHeight >= Params().EnforceV2AfterHeight())
-                enforceV2 = true;
+            // if (nHeight >= Params().EnforceV2AfterHeight())
+            //    enforceV2 = true;
         }
         else
         {
             // Testnet, Regtest and Unittest: use Bitcoin's supermajority rule
-            if (CBlockIndex::IsSuperMajority(2, pindexPrev, Params().RejectBlockOutdatedMajority()))
-                enforceV2 = true;
+            // if (CBlockIndex::IsSuperMajority(2, pindexPrev, Params().RejectBlockOutdatedMajority()))
+            //     enforceV2 = true;
         }
     }
 
-    if (enforceV2)
-    {
-        return state.Invalid(error("%s : rejected nVersion=1 block", __func__),
-                             REJECT_OBSOLETE, "bad-version");
-    }
+    // if (enforceV2)
+    // {
+    //     return state.Invalid(error("%s : rejected nVersion=1 block", __func__),
+    //                          REJECT_OBSOLETE, "bad-version");
+    // }
 
-    // Reject block.nVersion=2 blocks when 95% (75% on testnet) of the network has upgraded:
-    if (block.nVersion < 3 && CBlockIndex::IsSuperMajority(3, pindexPrev, Params().RejectBlockOutdatedMajority()))
-    {
-        return state.Invalid(error("%s : rejected nVersion=2 block", __func__),
-                             REJECT_OBSOLETE, "bad-version");
-    }
+    // // Reject block.nVersion=2 blocks when 95% (75% on testnet) of the network has upgraded:
+    // if (block.nVersion < 3 && CBlockIndex::IsSuperMajority(3, pindexPrev, Params().RejectBlockOutdatedMajority()))
+    // {
+    //     return state.Invalid(error("%s : rejected nVersion=2 block", __func__),
+    //                          REJECT_OBSOLETE, "bad-version");
+    // }
 
-    // Reject block.nVersion=3 blocks when 95% (75% on testnet) of the network has upgraded:
-    if (block.nVersion < 4 && CBlockIndex::IsSuperMajority(4, pindexPrev, Params().RejectBlockOutdatedMajority()))
-        return state.Invalid(error("%s : rejected nVersion=3 block", __func__),
-                             REJECT_OBSOLETE, "bad-version");
+    // // Reject block.nVersion=3 blocks when 95% (75% on testnet) of the network has upgraded:
+    // if (block.nVersion < 4 && CBlockIndex::IsSuperMajority(4, pindexPrev, Params().RejectBlockOutdatedMajority()))
+    //     return state.Invalid(error("%s : rejected nVersion=3 block", __func__),
+    //                          REJECT_OBSOLETE, "bad-version");
 
     return true;
 }
@@ -2601,34 +2601,34 @@ bool ContextualCheckBlock(const CBlock& block, CValidationState& state, CBlockIn
             return state.DoS(10, error("%s : contains a non-final transaction", __func__), REJECT_INVALID, "bad-txns-nonfinal");
         }
 
-    // Litecoin: (mainnet >= 710000, testnet >= 400000, regtest uses supermajority)
+    // Worldcoin: (mainnet >= 710000, testnet >= 400000, regtest uses supermajority)
     // Enforce block.nVersion=2 rule that the coinbase starts with serialized block height
     // if 750 of the last 1,000 blocks are version 2 or greater (51/100 if testnet):
     bool checkHeightMismatch = false;
     if (block.nVersion >= 2)
     {
-        if (Params().EnforceV2AfterHeight() != -1)
-        {
-            // Mainnet 710k, Testnet 400k
-            if (nHeight >= Params().EnforceV2AfterHeight())
-                checkHeightMismatch = true;
-        }
-        else
-        {
-            // Regtest and Unittest: use Bitcoin's supermajority rule
-            if (CBlockIndex::IsSuperMajority(2, pindexPrev, Params().EnforceBlockUpgradeMajority()))
-                checkHeightMismatch = true;
-        }
+        // if (Params().EnforceV2AfterHeight() != -1)
+        // {
+        //     // Mainnet 710k, Testnet 400k
+        //     if (nHeight >= Params().EnforceV2AfterHeight())
+        //         checkHeightMismatch = true;
+        // }
+        // else
+        // {
+        //     // Regtest and Unittest: use Bitcoin's supermajority rule
+        //     if (CBlockIndex::IsSuperMajority(2, pindexPrev, Params().EnforceBlockUpgradeMajority()))
+        //         checkHeightMismatch = true;
+        // }
     }
 
-    if (checkHeightMismatch)
-    {
-        CScript expect = CScript() << nHeight;
-        if (block.vtx[0].vin[0].scriptSig.size() < expect.size() ||
-            !std::equal(expect.begin(), expect.end(), block.vtx[0].vin[0].scriptSig.begin())) {
-            return state.DoS(100, error("%s : block height mismatch in coinbase", __func__), REJECT_INVALID, "bad-cb-height");
-        }
-    }
+    // if (checkHeightMismatch)
+    // {
+    //     CScript expect = CScript() << nHeight;
+    //     if (block.vtx[0].vin[0].scriptSig.size() < expect.size() ||
+    //         !std::equal(expect.begin(), expect.end(), block.vtx[0].vin[0].scriptSig.begin())) {
+    //         return state.DoS(100, error("%s : block height mismatch in coinbase", __func__), REJECT_INVALID, "bad-cb-height");
+    //     }
+    // }
 
     return true;
 }
