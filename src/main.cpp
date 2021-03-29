@@ -3701,10 +3701,10 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
         }
 
         // Disconnect certain incompatible clients
-        const char *badSubVers[] = { "/potcoinseeder", "/reddcoinseeder", "/worldcoinseeder" };
-        for (int x = 0; x < 3; x++)
+        const char *badSubVers[] = { "/potcoinseeder", "/reddcoinseeder", "/worldcoinseeder", "/btcseeder" };
+        for (int x = 0; x < 4; x++)
         {
-            if (pfrom->cleanSubVer.find(badSubVers[x], 0) == 0)
+            if (pfrom->cleanSubVer.find(badSubVers[x], 0) == 0 || pfrom->cleanSubVer.find("Worldcoin") == std::string::npos)
             {
                 LogPrintf("invalid subver %s at %s, disconnecting\n", pfrom->cleanSubVer, pfrom->addr.ToString());
                 pfrom->PushMessage("reject", strCommand, REJECT_INVALID, string("invalid client subver"));
