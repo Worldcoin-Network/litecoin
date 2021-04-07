@@ -145,7 +145,7 @@ public:
         assert(hashGenesisBlock == uint256("0x7231b064d3e620c55960abce2963ea19e1c3ffb6f5ff70e975114835a7024107"));
         assert(genesis.hashMerkleRoot == uint256("0x4fe8c1ba0a102fea0643287bb22ce7469ecb9b690362013f269a423fefa77b6e"));
 
-        vSeeds.push_back(CDNSSeedData("seednode1.worldcoin.global", "seednode1.worldcoin.global"));
+        vSeeds.push_back(CDNSSeedData("worldcoin.global", "seednode1.worldcoin.global"));
         vSeeds.push_back(CDNSSeedData("seednode2.worldcoin.global", "seednode2.worldcoin.global"));
         vSeeds.push_back(CDNSSeedData("seednode3.worldcoin.global", "seednode3.worldcoin.global"));
         vSeeds.push_back(CDNSSeedData("seednode4.worldcoin.global", "seednode4.worldcoin.global"));
@@ -161,7 +161,8 @@ public:
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,201);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
-
+        vSeeds.clear();
+        
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
         fRequireRPCPassword = true;
