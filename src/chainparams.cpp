@@ -155,6 +155,12 @@ public:
         vSeeds.push_back(CDNSSeedData("seednode8.worldcoin.global", "seednode8.worldcoin.global"));
         vSeeds.push_back(CDNSSeedData("seednode9.worldcoin.global", "seednode9.worldcoin.global"));
         vSeeds.push_back(CDNSSeedData("seednode10.worldcoin.global", "seednode10.worldcoin.global"));
+        vSeeds.push_back(CDNSSeedData("seednode11.worldcoin.global", "seednode11.worldcoin.global"));
+        vSeeds.push_back(CDNSSeedData("seednode12.worldcoin.global", "seednode12.worldcoin.global"));
+        vSeeds.push_back(CDNSSeedData("seednode13.worldcoin.global", "seednode13.worldcoin.global"));
+        vSeeds.push_back(CDNSSeedData("seednode14.worldcoin.global", "seednode14.worldcoin.global"));
+        vSeeds.push_back(CDNSSeedData("seednode15.worldcoin.global", "seednode15.worldcoin.global"));
+
         vSeeds.push_back(CDNSSeedData("103.125.234.117", "103.125.234.117"));
         vSeeds.push_back(CDNSSeedData("69.11.204.43", "69.11.204.43"));
         vSeeds.push_back(CDNSSeedData("72.18.200.11", "72.18.200.11"));
