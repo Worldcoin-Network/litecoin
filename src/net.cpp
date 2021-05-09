@@ -1180,7 +1180,7 @@ void ThreadDNSAddressSeed()
                     CAddress addr = CAddress(CService(ip, Params().GetDefaultPort()));
                     addr.nTime = GetTime() - 3*nOneDay - GetRand(4*nOneDay); // use a random age between 3 and 7 days old
                     vAdd.push_back(addr);
-                    LogPrintf("%d addresses found from DNS seeds\n", addr.ToStringIPPort());
+                    LogPrintf("get %d addresses found from DNS seeds, index is %d\n", addr.ToStringIPPort(), found);
                     found++;
                 }
             }

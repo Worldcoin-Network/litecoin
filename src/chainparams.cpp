@@ -155,7 +155,18 @@ public:
         vSeeds.push_back(CDNSSeedData("seednode8.worldcoin.global", "seednode8.worldcoin.global"));
         vSeeds.push_back(CDNSSeedData("seednode9.worldcoin.global", "seednode9.worldcoin.global"));
         vSeeds.push_back(CDNSSeedData("seednode10.worldcoin.global", "seednode10.worldcoin.global"));
-
+        vSeeds.push_back(CDNSSeedData("103.125.234.117", "103.125.234.117"));
+        vSeeds.push_back(CDNSSeedData("69.11.204.43", "69.11.204.43"));
+        vSeeds.push_back(CDNSSeedData("72.18.200.11", "72.18.200.11"));
+        vSeeds.push_back(CDNSSeedData("64.235.35.46", "64.235.35.46"));
+        vSeeds.push_back(CDNSSeedData("64.34.216.15", "64.34.216.15"));
+        vSeeds.push_back(CDNSSeedData("158.51.97.132", "158.51.97.132"));
+        vSeeds.push_back(CDNSSeedData("178.238.228.182", "178.238.228.182"));
+        vSeeds.push_back(CDNSSeedData("91.206.16.214", "91.206.16.214"));
+        vSeeds.push_back(CDNSSeedData("95.217.78.79", "95.217.78.79"));
+        vSeeds.push_back(CDNSSeedData("162.253.155.168", "162.253.155.168"));
+        vSeeds.push_back(CDNSSeedData("194.15.111.7", "194.15.111.7"));
+        
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,73);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,201);
