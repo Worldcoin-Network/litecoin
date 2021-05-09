@@ -154,8 +154,7 @@ bool static LookupIntern(const char *pszName, std::vector<CNetAddr>& vIP, unsign
             aiRes = query->ar_result;
     } while (nErr == EAI_INPROGRESS);
 #else
-    //int nErr = getaddrinfo(pszName, NULL, &aiHint, &aiRes);
-    int nErr = getaddrinfo(pszName, NULL, NULL, &aiRes);
+    int nErr = getaddrinfo(pszName, NULL, &aiHint, &aiRes);
 #endif
     if (nErr)
         return false;
