@@ -56,13 +56,14 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
         (  749526, uint256("0x27324520a2ecc22294018679426a12e9aed8b2ef09772b8523effccfae5523cc")) /* double spend attack */
         ( 1200001, uint256("0x7ff57e3d5390326cfd83f09feb04afb8fef1d55fb8796ef346456e3ce1e586f4"))
+        ( 6120000, uint256("0xccf16a2e8b20edae90aa78fa26c4f8b9b048deef708ea3fd5b2e6d596909eef9"))
         ;
 static const Checkpoints::CCheckpointData data = {
         &mapCheckpoints,
-        1397631338, // * UNIX timestamp of last checkpoint block
-        2536774,   // * total number of transactions between genesis and last checkpoint
+        1613624474, // * UNIX timestamp of last checkpoint block
+        8167480,   // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
-        5760.0     // * estimated number of transactions per day after checkpoint
+        30240.0     // * estimated number of transactions per day after checkpoint
     };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -155,13 +156,46 @@ public:
         vSeeds.push_back(CDNSSeedData("seednode8.worldcoin.global", "seednode8.worldcoin.global"));
         vSeeds.push_back(CDNSSeedData("seednode9.worldcoin.global", "seednode9.worldcoin.global"));
         vSeeds.push_back(CDNSSeedData("seednode10.worldcoin.global", "seednode10.worldcoin.global"));
+        vSeeds.push_back(CDNSSeedData("seednode11.worldcoin.global", "seednode11.worldcoin.global"));
+        vSeeds.push_back(CDNSSeedData("seednode12.worldcoin.global", "seednode12.worldcoin.global"));
+        vSeeds.push_back(CDNSSeedData("seednode13.worldcoin.global", "seednode13.worldcoin.global"));
+        vSeeds.push_back(CDNSSeedData("seednode14.worldcoin.global", "seednode14.worldcoin.global"));
+        vSeeds.push_back(CDNSSeedData("seednode15.worldcoin.global", "seednode15.worldcoin.global"));
+
+        vSeeds.push_back(CDNSSeedData("103.125.234.117", "103.125.234.117"));
+        vSeeds.push_back(CDNSSeedData("69.11.204.43", "69.11.204.43"));
+        vSeeds.push_back(CDNSSeedData("72.18.200.11", "72.18.200.11"));
+        vSeeds.push_back(CDNSSeedData("64.235.35.46", "64.235.35.46"));
+        vSeeds.push_back(CDNSSeedData("64.34.216.15", "64.34.216.15"));
+        vSeeds.push_back(CDNSSeedData("158.51.97.132", "158.51.97.132"));
+        vSeeds.push_back(CDNSSeedData("178.238.228.182", "178.238.228.182"));
+        vSeeds.push_back(CDNSSeedData("91.206.16.214", "91.206.16.214"));
+        vSeeds.push_back(CDNSSeedData("95.217.78.79", "95.217.78.79"));
+        vSeeds.push_back(CDNSSeedData("162.253.155.168", "162.253.155.168"));
+        vSeeds.push_back(CDNSSeedData("194.15.111.7", "194.15.111.7"));
+        vSeeds.push_back(CDNSSeedData("112.5.37.131", "112.5.37.131"));
+        vSeeds.push_back(CDNSSeedData("85.15.179.171", "85.15.179.171"));
+        vSeeds.push_back(CDNSSeedData("82.64.185.60", "82.64.185.60"));
+        vSeeds.push_back(CDNSSeedData("142.4.214.7", "142.4.214.7"));
+        vSeeds.push_back(CDNSSeedData("51.91.94.23", "51.91.94.23"));        
+        vSeeds.push_back(CDNSSeedData("51.79.74.142", "51.79.74.142")); 
+        vSeeds.push_back(CDNSSeedData("173.212.202.33", "173.212.202.33")); 
+        vSeeds.push_back(CDNSSeedData("43.243.168.104", "43.243.168.104"));
+        vSeeds.push_back(CDNSSeedData("47.93.8.237", "47.93.8.237"));
+        vSeeds.push_back(CDNSSeedData("120.27.61.99", "120.27.61.99"));
+        vSeeds.push_back(CDNSSeedData("154.216.1.222", "154.216.1.222"));
+        vSeeds.push_back(CDNSSeedData("101.1.31.233", "101.1.31.233"));
+        vSeeds.push_back(CDNSSeedData("47.95.194.175", "47.95.194.175"));
+        vSeeds.push_back(CDNSSeedData("154.209.1.96", "154.209.1.96"));
+        vSeeds.push_back(CDNSSeedData("47.94.14.246", "47.94.14.246"));
+        vSeeds.push_back(CDNSSeedData("47.90.213.64", "47.90.213.64"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,73);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,201);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
-        vSeeds.clear();
+        //vSeeds.clear();
         
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
