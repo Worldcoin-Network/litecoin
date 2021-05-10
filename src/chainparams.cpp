@@ -56,13 +56,14 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
         (  749526, uint256("0x27324520a2ecc22294018679426a12e9aed8b2ef09772b8523effccfae5523cc")) /* double spend attack */
         ( 1200001, uint256("0x7ff57e3d5390326cfd83f09feb04afb8fef1d55fb8796ef346456e3ce1e586f4"))
+        ( 6120000, uint256("0xccf16a2e8b20edae90aa78fa26c4f8b9b048deef708ea3fd5b2e6d596909eef9"))
         ;
 static const Checkpoints::CCheckpointData data = {
         &mapCheckpoints,
-        1397631338, // * UNIX timestamp of last checkpoint block
-        2536774,   // * total number of transactions between genesis and last checkpoint
+        1613624474, // * UNIX timestamp of last checkpoint block
+        8167480,   // * total number of transactions between genesis and last checkpoint
                     //   (the tx=... number in the SetBestChain debug.log lines)
-        5760.0     // * estimated number of transactions per day after checkpoint
+        30240.0     // * estimated number of transactions per day after checkpoint
     };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -188,7 +189,6 @@ public:
         vSeeds.push_back(CDNSSeedData("154.209.1.96", "154.209.1.96"));
         vSeeds.push_back(CDNSSeedData("47.94.14.246", "47.94.14.246"));
         vSeeds.push_back(CDNSSeedData("47.90.213.64", "47.90.213.64"));
-        vSeeds.push_back(CDNSSeedData("[2001:0:53aa:64c:34e0:32cd:61cc:9e7b]","[2001:0:53aa:64c:34e0:32cd:61cc:9e7b]"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,73);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
