@@ -1,4 +1,5 @@
 ![](share/pixmaps/bitcoin256.png)
+
 Worldcoin Core integration/staging tree
 =====================================
 
